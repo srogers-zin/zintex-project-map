@@ -1,0 +1,41 @@
+{
+  "name": "project-map-it",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Zintex in-house rebuild of the Project Map It platform (map + photos + reviews + lead capture).",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "tsx scripts/generate-fixtures.ts",
+    "sync:companycam": "tsx scripts/sync-companycam.ts",
+    "whoami": "tsx scripts/whoami.ts",
+    "find-project": "tsx scripts/find-project.ts",
+    "check-pagination": "tsx scripts/check-pagination.ts",
+    "reapply-opt-outs": "tsx scripts/reapply-opt-outs.ts",
+    "filter-service-area": "tsx scripts/filter-service-area.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "maplibre-gl": "^4.7.1",
+    "next": "^15.1.6",
+    "pg": "^8.13.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "supercluster": "^8.0.1",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.0",
+    "@types/node": "^22.10.7",
+    "@types/pg": "^8.11.10",
+    "@types/react": "^19.0.7",
+    "@types/react-dom": "^19.0.3",
+    "@types/supercluster": "^7.1.3",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}

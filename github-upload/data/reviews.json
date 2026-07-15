@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "rev-abilene-0",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-0",
+    "rating": 5,
+    "authorName": "David P.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-05-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-1",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-1",
+    "rating": 5,
+    "authorName": "Linda S.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-01-22T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-2",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-2",
+    "rating": 5,
+    "authorName": "Mike R.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-09-04T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-3",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-3",
+    "rating": 5,
+    "authorName": "Karen S.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-02-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-4",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-4",
+    "rating": 4,
+    "authorName": "Ashley B.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-02-27T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-5",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-5",
+    "rating": 5,
+    "authorName": "Chris W.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-02-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-6",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-6",
+    "rating": 5,
+    "authorName": "Karen G.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-08-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-7",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-7",
+    "rating": 5,
+    "authorName": "Ashley M.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-08-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-8",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-8",
+    "rating": 5,
+    "authorName": "David R.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-07-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-9",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-9",
+    "rating": 5,
+    "authorName": "Mike M.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-11-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-10",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-10",
+    "rating": 5,
+    "authorName": "Mike C.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-11-30T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-11",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-11",
+    "rating": 4,
+    "authorName": "John T.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-10-10T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-12",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-12",
+    "rating": 5,
+    "authorName": "Ashley B.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-09-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-13",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-13",
+    "rating": 5,
+    "authorName": "Chris H.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-06-21T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-14",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-14",
+    "rating": 3,
+    "authorName": "James R.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-09-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-15",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-15",
+    "rating": 5,
+    "authorName": "Karen T.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-05-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-16",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-16",
+    "rating": 5,
+    "authorName": "Mike S.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-06-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-17",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-17",
+    "rating": 5,
+    "authorName": "Ashley P.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2026-01-21T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-18",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-18",
+    "rating": 5,
+    "authorName": "John M.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-19",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-19",
+    "rating": 5,
+    "authorName": "Ashley P.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-03-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-20",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-20",
+    "rating": 5,
+    "authorName": "Mike B.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-10-29T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-21",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-21",
+    "rating": 5,
+    "authorName": "Robert C.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-10-11T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-22",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-22",
+    "rating": 4,
+    "authorName": "David G.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-03-14T00:00:00.000Z"
+  },
+  {
+    "id": "rev-abilene-23",
+    "locationId": "abilene",
+    "googleReviewId": "g-abilene-23",
+    "rating": 5,
+    "authorName": "Ashley T.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-01-10T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-0",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-0",
+    "rating": 5,
+    "authorName": "Ashley M.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-06-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-1",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-1",
+    "rating": 5,
+    "authorName": "Linda P.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-11-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-2",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-2",
+    "rating": 5,
+    "authorName": "Sarah T.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-12-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-3",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-3",
+    "rating": 5,
+    "authorName": "Linda R.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-4",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-4",
+    "rating": 5,
+    "authorName": "Sarah C.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-11-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-5",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-5",
+    "rating": 5,
+    "authorName": "John H.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-02-07T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-6",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-6",
+    "rating": 5,
+    "authorName": "Mike M.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2026-04-06T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-7",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-7",
+    "rating": 5,
+    "authorName": "Ashley T.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-05-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-8",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-8",
+    "rating": 5,
+    "authorName": "Karen P.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2026-05-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-9",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-9",
+    "rating": 4,
+    "authorName": "Chris G.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2024-08-14T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-10",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-10",
+    "rating": 5,
+    "authorName": "Sarah M.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-01-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-11",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-11",
+    "rating": 5,
+    "authorName": "David W.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-06-02T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-12",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-12",
+    "rating": 5,
+    "authorName": "John W.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-12-10T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-13",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-13",
+    "rating": 5,
+    "authorName": "Sarah P.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-14",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-14",
+    "rating": 3,
+    "authorName": "Sarah W.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-09-27T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-15",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-15",
+    "rating": 4,
+    "authorName": "Chris C.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2026-03-03T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-16",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-16",
+    "rating": 5,
+    "authorName": "Ashley S.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-17",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-17",
+    "rating": 5,
+    "authorName": "David R.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-18",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-18",
+    "rating": 5,
+    "authorName": "Maria P.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-04-06T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-19",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-19",
+    "rating": 5,
+    "authorName": "James W.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-02-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-20",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-20",
+    "rating": 5,
+    "authorName": "David S.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-11-02T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-21",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-21",
+    "rating": 5,
+    "authorName": "Mike B.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2026-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-22",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-22",
+    "rating": 5,
+    "authorName": "Chris C.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-amarillo-23",
+    "locationId": "amarillo",
+    "googleReviewId": "g-amarillo-23",
+    "rating": 5,
+    "authorName": "David P.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-0",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-0",
+    "rating": 5,
+    "authorName": "James R.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-03-23T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-1",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-1",
+    "rating": 5,
+    "authorName": "James C.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2026-06-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-2",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-2",
+    "rating": 5,
+    "authorName": "James B.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-02-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-3",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-3",
+    "rating": 5,
+    "authorName": "Maria M.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-11-17T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-4",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-4",
+    "rating": 5,
+    "authorName": "John P.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-04-17T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-5",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-5",
+    "rating": 5,
+    "authorName": "James G.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-02-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-6",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-6",
+    "rating": 5,
+    "authorName": "David S.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-04-23T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-7",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-7",
+    "rating": 5,
+    "authorName": "Karen P.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-06-14T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-8",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-8",
+    "rating": 5,
+    "authorName": "Jennifer M.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-06-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-9",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-9",
+    "rating": 5,
+    "authorName": "Jennifer W.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2026-03-20T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-10",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-10",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-07-24T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-11",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-11",
+    "rating": 5,
+    "authorName": "James H.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-01-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-12",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-12",
+    "rating": 5,
+    "authorName": "David P.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2026-04-03T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-13",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-13",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-14",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-14",
+    "rating": 3,
+    "authorName": "David T.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-09-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-15",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-15",
+    "rating": 5,
+    "authorName": "Maria G.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-07-12T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-16",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-16",
+    "rating": 5,
+    "authorName": "Maria S.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-09-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-17",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-17",
+    "rating": 5,
+    "authorName": "Karen G.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-05-26T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-18",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-18",
+    "rating": 5,
+    "authorName": "Jennifer C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-06-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-19",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-19",
+    "rating": 5,
+    "authorName": "John R.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-03-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-20",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-20",
+    "rating": 5,
+    "authorName": "John B.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-10-11T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-21",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-21",
+    "rating": 5,
+    "authorName": "Linda P.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-02-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-22",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-22",
+    "rating": 5,
+    "authorName": "Ashley C.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-09-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-dfw-23",
+    "locationId": "dfw",
+    "googleReviewId": "g-dfw-23",
+    "rating": 5,
+    "authorName": "Sarah B.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-07-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-0",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-0",
+    "rating": 5,
+    "authorName": "John T.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-09-06T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-1",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-1",
+    "rating": 5,
+    "authorName": "Mike C.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-07-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-2",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-2",
+    "rating": 5,
+    "authorName": "Mike B.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-08-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-3",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-3",
+    "rating": 5,
+    "authorName": "James W.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-12-19T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-4",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-4",
+    "rating": 5,
+    "authorName": "Ashley R.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-04-22T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-5",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-5",
+    "rating": 5,
+    "authorName": "Maria S.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-01-30T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-6",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-6",
+    "rating": 5,
+    "authorName": "Robert W.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-02-19T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-7",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-7",
+    "rating": 5,
+    "authorName": "James C.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-09-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-8",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-8",
+    "rating": 5,
+    "authorName": "Mike H.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-04-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-9",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-9",
+    "rating": 5,
+    "authorName": "Mike B.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2026-04-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-10",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-10",
+    "rating": 4,
+    "authorName": "David T.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-06-19T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-11",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-11",
+    "rating": 5,
+    "authorName": "David P.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-12-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-12",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-12",
+    "rating": 5,
+    "authorName": "John G.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-12-17T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-13",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-13",
+    "rating": 5,
+    "authorName": "Jennifer C.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-03-01T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-14",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-14",
+    "rating": 5,
+    "authorName": "Maria P.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-02-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-15",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-15",
+    "rating": 5,
+    "authorName": "Maria T.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-02-01T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-16",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-16",
+    "rating": 3,
+    "authorName": "Maria T.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-10-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-17",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-17",
+    "rating": 5,
+    "authorName": "Mike T.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-01-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-18",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-18",
+    "rating": 4,
+    "authorName": "Mike M.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-11-02T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-19",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-19",
+    "rating": 5,
+    "authorName": "James B.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-05-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-20",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-20",
+    "rating": 5,
+    "authorName": "James H.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-07-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-21",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-21",
+    "rating": 5,
+    "authorName": "John G.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-04-30T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-22",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-22",
+    "rating": 5,
+    "authorName": "Jennifer B.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-07-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-lubbock-23",
+    "locationId": "lubbock",
+    "googleReviewId": "g-lubbock-23",
+    "rating": 5,
+    "authorName": "Maria H.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-11-07T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-0",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-0",
+    "rating": 5,
+    "authorName": "Maria P.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2026-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-1",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-1",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-2",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-2",
+    "rating": 5,
+    "authorName": "Karen T.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-03-17T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-3",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-3",
+    "rating": 3,
+    "authorName": "David R.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-12-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-4",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-4",
+    "rating": 5,
+    "authorName": "Chris G.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-04-03T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-5",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-5",
+    "rating": 4,
+    "authorName": "Sarah B.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-06-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-6",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-6",
+    "rating": 5,
+    "authorName": "Karen G.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-08-12T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-7",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-7",
+    "rating": 5,
+    "authorName": "Jennifer P.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-05-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-8",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-8",
+    "rating": 5,
+    "authorName": "Chris M.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-09-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-9",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-9",
+    "rating": 5,
+    "authorName": "Chris G.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-01-20T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-10",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-10",
+    "rating": 5,
+    "authorName": "Maria G.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-11",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-11",
+    "rating": 3,
+    "authorName": "Maria P.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2026-01-24T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-12",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-12",
+    "rating": 5,
+    "authorName": "Chris W.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-10-06T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-13",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-13",
+    "rating": 5,
+    "authorName": "James H.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-02-06T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-14",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-14",
+    "rating": 5,
+    "authorName": "Jennifer B.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-05-14T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-15",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-15",
+    "rating": 3,
+    "authorName": "Jennifer G.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-09-03T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-16",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-16",
+    "rating": 5,
+    "authorName": "Ashley T.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-04-20T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-17",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-17",
+    "rating": 5,
+    "authorName": "Ashley C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-08-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-18",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-18",
+    "rating": 4,
+    "authorName": "Mike B.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2024-10-17T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-19",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-19",
+    "rating": 5,
+    "authorName": "Sarah C.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-03-14T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-20",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-20",
+    "rating": 4,
+    "authorName": "Ashley W.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-07-22T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-21",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-21",
+    "rating": 5,
+    "authorName": "Sarah C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-05-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-22",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-22",
+    "rating": 5,
+    "authorName": "Jennifer C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-03-04T00:00:00.000Z"
+  },
+  {
+    "id": "rev-midland-odessa-23",
+    "locationId": "midland-odessa",
+    "googleReviewId": "g-midland-odessa-23",
+    "rating": 5,
+    "authorName": "Sarah M.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2026-06-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-0",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-0",
+    "rating": 5,
+    "authorName": "Sarah C.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-03-07T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-1",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-1",
+    "rating": 5,
+    "authorName": "Chris R.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-2",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-2",
+    "rating": 5,
+    "authorName": "Ashley M.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2026-06-02T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-3",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-3",
+    "rating": 3,
+    "authorName": "John T.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-07-21T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-4",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-4",
+    "rating": 5,
+    "authorName": "Karen H.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-5",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-5",
+    "rating": 5,
+    "authorName": "Robert P.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-03-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-6",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-6",
+    "rating": 4,
+    "authorName": "Maria P.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-11-24T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-7",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-7",
+    "rating": 5,
+    "authorName": "Robert M.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-08-11T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-8",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-8",
+    "rating": 5,
+    "authorName": "Mike B.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-02-27T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-9",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-9",
+    "rating": 5,
+    "authorName": "Robert B.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-04-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-10",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-10",
+    "rating": 5,
+    "authorName": "Jennifer R.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-01-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-11",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-11",
+    "rating": 5,
+    "authorName": "Chris H.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-01-09T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-12",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-12",
+    "rating": 5,
+    "authorName": "Robert G.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2024-11-11T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-13",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-13",
+    "rating": 5,
+    "authorName": "Robert G.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-14",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-14",
+    "rating": 3,
+    "authorName": "John C.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-15",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-15",
+    "rating": 5,
+    "authorName": "Ashley H.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-08-30T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-16",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-16",
+    "rating": 5,
+    "authorName": "Ashley R.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-08-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-17",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-17",
+    "rating": 5,
+    "authorName": "Chris T.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2025-06-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-18",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-18",
+    "rating": 5,
+    "authorName": "John B.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-11-27T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-19",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-19",
+    "rating": 5,
+    "authorName": "James C.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-10-12T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-20",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-20",
+    "rating": 5,
+    "authorName": "Maria P.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-01-12T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-21",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-21",
+    "rating": 5,
+    "authorName": "Robert B.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-08-03T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-22",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-22",
+    "rating": 5,
+    "authorName": "Mike P.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-09-30T00:00:00.000Z"
+  },
+  {
+    "id": "rev-san-angelo-23",
+    "locationId": "san-angelo",
+    "googleReviewId": "g-san-angelo-23",
+    "rating": 5,
+    "authorName": "John P.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2026-06-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-0",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-0",
+    "rating": 5,
+    "authorName": "Ashley T.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2026-02-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-1",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-1",
+    "rating": 5,
+    "authorName": "Sarah C.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-12-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-2",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-2",
+    "rating": 5,
+    "authorName": "Linda H.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-12-20T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-3",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-3",
+    "rating": 4,
+    "authorName": "John C.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-12-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-4",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-4",
+    "rating": 3,
+    "authorName": "Linda C.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-5",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-5",
+    "rating": 5,
+    "authorName": "James B.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2026-01-14T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-6",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-6",
+    "rating": 5,
+    "authorName": "Jennifer R.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-10-05T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-7",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-7",
+    "rating": 5,
+    "authorName": "Ashley W.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-04-22T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-8",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-8",
+    "rating": 5,
+    "authorName": "Robert C.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-06-22T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-9",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-9",
+    "rating": 3,
+    "authorName": "Maria M.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-04-29T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-10",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-10",
+    "rating": 5,
+    "authorName": "Jennifer M.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-04-18T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-11",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-11",
+    "rating": 5,
+    "authorName": "Jennifer C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-11-12T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-12",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-12",
+    "rating": 5,
+    "authorName": "John R.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-11-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-13",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-13",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-03-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-14",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-14",
+    "rating": 5,
+    "authorName": "John G.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-11-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-15",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-15",
+    "rating": 5,
+    "authorName": "John H.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2024-11-19T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-16",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-16",
+    "rating": 5,
+    "authorName": "Mike R.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-02-10T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-17",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-17",
+    "rating": 5,
+    "authorName": "Maria H.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-11-01T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-18",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-18",
+    "rating": 5,
+    "authorName": "Sarah P.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-11-28T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-19",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-19",
+    "rating": 5,
+    "authorName": "Maria B.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2026-02-01T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-20",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-20",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2026-01-24T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-21",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-21",
+    "rating": 5,
+    "authorName": "Robert R.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2024-09-26T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-22",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-22",
+    "rating": 5,
+    "authorName": "James H.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-01-26T00:00:00.000Z"
+  },
+  {
+    "id": "rev-wichita-falls-23",
+    "locationId": "wichita-falls",
+    "googleReviewId": "g-wichita-falls-23",
+    "rating": 5,
+    "authorName": "Maria W.",
+    "authorPhotoUrl": null,
+    "text": "Responsive, honest, and the results speak for themselves.",
+    "postedAt": "2025-11-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-0",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-0",
+    "rating": 5,
+    "authorName": "Mike G.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2026-04-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-1",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-1",
+    "rating": 5,
+    "authorName": "Robert S.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-07-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-2",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-2",
+    "rating": 5,
+    "authorName": "Jennifer T.",
+    "authorPhotoUrl": null,
+    "text": "Quality workmanship and fair pricing. Would use again.",
+    "postedAt": "2025-02-13T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-3",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-3",
+    "rating": 5,
+    "authorName": "Linda M.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-03-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-4",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-4",
+    "rating": 5,
+    "authorName": "David B.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2025-02-06T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-5",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-5",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2024-10-23T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-6",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-6",
+    "rating": 5,
+    "authorName": "Jennifer C.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-07-10T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-7",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-7",
+    "rating": 5,
+    "authorName": "Mike T.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2026-04-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-8",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-8",
+    "rating": 5,
+    "authorName": "Karen P.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2025-05-15T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-9",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-9",
+    "rating": 5,
+    "authorName": "Sarah H.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2025-09-17T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-10",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-10",
+    "rating": 5,
+    "authorName": "Ashley S.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2024-12-31T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-11",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-11",
+    "rating": 5,
+    "authorName": "Jennifer B.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2024-03-02T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-12",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-12",
+    "rating": 5,
+    "authorName": "Jennifer R.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-04-27T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-13",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-13",
+    "rating": 5,
+    "authorName": "Mike M.",
+    "authorPhotoUrl": null,
+    "text": "From the quote to the install, everything was smooth.",
+    "postedAt": "2026-07-01T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-14",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-14",
+    "rating": 5,
+    "authorName": "James C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2025-01-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-15",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-15",
+    "rating": 4,
+    "authorName": "John G.",
+    "authorPhotoUrl": null,
+    "text": "Windows made a huge difference in our energy bill. Great team.",
+    "postedAt": "2024-04-07T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-16",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-16",
+    "rating": 5,
+    "authorName": "Mike H.",
+    "authorPhotoUrl": null,
+    "text": "Our new bathroom looks incredible. On time and on budget.",
+    "postedAt": "2026-05-25T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-17",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-17",
+    "rating": 5,
+    "authorName": "Mike T.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2024-09-10T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-18",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-18",
+    "rating": 5,
+    "authorName": "Mike R.",
+    "authorPhotoUrl": null,
+    "text": "Roof replacement done in two days. Zero complaints.",
+    "postedAt": "2025-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-19",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-19",
+    "rating": 3,
+    "authorName": "Sarah M.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-05-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-20",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-20",
+    "rating": 5,
+    "authorName": "John B.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-09-16T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-21",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-21",
+    "rating": 5,
+    "authorName": "Karen C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2026-06-01T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-22",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-22",
+    "rating": 4,
+    "authorName": "David C.",
+    "authorPhotoUrl": null,
+    "text": "They walked us through every step. Couldn't be happier.",
+    "postedAt": "2024-07-08T00:00:00.000Z"
+  },
+  {
+    "id": "rev-tyler-23",
+    "locationId": "tyler",
+    "googleReviewId": "g-tyler-23",
+    "rating": 5,
+    "authorName": "Karen T.",
+    "authorPhotoUrl": null,
+    "text": "Crew was professional and cleaned up every day. Highly recommend.",
+    "postedAt": "2024-02-03T00:00:00.000Z"
+  }
+]

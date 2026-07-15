@@ -1,0 +1,74 @@
+[
+  {
+    "id": "abilene",
+    "name": "Abilene",
+    "address": "Abilene, TX",
+    "phone": "(325) 000-0000",
+    "lat": 32.4487,
+    "lng": -99.7331,
+    "googlePlaceId": null
+  },
+  {
+    "id": "amarillo",
+    "name": "Amarillo",
+    "address": "Amarillo, TX",
+    "phone": "(806) 000-0000",
+    "lat": 35.222,
+    "lng": -101.8313,
+    "googlePlaceId": null
+  },
+  {
+    "id": "dfw",
+    "name": "Dallas–Fort Worth",
+    "address": "Dallas–Fort Worth, TX",
+    "phone": "(214) 000-0000",
+    "lat": 32.7555,
+    "lng": -97.3308,
+    "googlePlaceId": null
+  },
+  {
+    "id": "lubbock",
+    "name": "Lubbock",
+    "address": "Lubbock, TX",
+    "phone": "(806) 000-0000",
+    "lat": 33.5779,
+    "lng": -101.8552,
+    "googlePlaceId": null
+  },
+  {
+    "id": "midland-odessa",
+    "name": "Midland/Odessa",
+    "address": "Midland, TX",
+    "phone": "(432) 000-0000",
+    "lat": 31.9974,
+    "lng": -102.0779,
+    "googlePlaceId": null
+  },
+  {
+    "id": "san-angelo",
+    "name": "San Angelo",
+    "address": "San Angelo, TX",
+    "phone": "(325) 000-0000",
+    "lat": 31.4638,
+    "lng": -100.437,
+    "googlePlaceId": null
+  },
+  {
+    "id": "wichita-falls",
+    "name": "Wichita Falls",
+    "address": "Wichita Falls, TX",
+    "phone": "(940) 000-0000",
+    "lat": 33.9137,
+    "lng": -98.4934,
+    "googlePlaceId": null
+  },
+  {
+    "id": "tyler",
+    "name": "East Texas/Tyler",
+    "address": "Tyler, TX",
+    "phone": "(903) 000-0000",
+    "lat": 32.3513,
+    "lng": -95.3011,
+    "googlePlaceId": null
+  }
+]
