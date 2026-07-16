@@ -4,6 +4,13 @@
 // wrong match would misattribute a stranger's words to a real homeowner.
 // When in doubt, this returns no match and the review just stays
 // branch-level (the existing, safe behavior).
+//
+// Matching is done nationally (not scoped to a branch): Birdeye's
+// sub-location breakdown ("Hutto, TX", "Tulsa, OK", "Wichita, KS", ...)
+// doesn't line up cleanly with our 8 branch offices, so instead of trying to
+// map one to the other, this requires a confident first+last name match
+// across the whole customer base. A full-name match is specific enough on
+// its own; a bare last-name match would not be, so that's not accepted here.
 
 // Common suffixes/titles that show up in either CRM names or review-site
 // display names but shouldn't affect matching.
@@ -33,30 +40,22 @@ export function splitHouseholdNames(raw: string | null | undefined): string[][] 
 }
 
 // True if the review author's name plausibly refers to the same person as
-// one of a project's household name variants. Requires the last name to
-// match exactly, plus either the first name matching or first-initial
-// matching (reviews are sometimes posted as "Jane S." or just "Jane").
+// one of a project's household name variants. Requires a full first+last
+// match (or first-initial vs. first-name match, since reviews are sometimes
+// posted as "Jane S." — but always requires the last name to match too).
 export function namesLikelyMatch(authorName: string, householdVariant: string[]): boolean {
   const author = normalizeName(authorName);
-  if (author.length === 0 || householdVariant.length === 0) return false;
+  if (author.length < 2 || householdVariant.length < 2) return false; // need both first + last
 
   const authorLast = author[author.length - 1];
   const houseLast = householdVariant[householdVariant.length - 1];
   if (!authorLast || !houseLast) return false;
 
-  // Guard against single-letter "last names" (e.g. "Jane S.") matching a
-  // full surname by coincidence of the first letter only.
   const lastMatches =
     authorLast === houseLast ||
     (authorLast.length === 1 && houseLast.startsWith(authorLast)) ||
     (houseLast.length === 1 && authorLast.startsWith(houseLast));
   if (!lastMatches) return false;
-
-  if (author.length === 1 || householdVariant.length === 1) {
-    // Only a last name (or single-token name) on one side — last-name match
-    // within the same branch is our floor for confidence.
-    return true;
-  }
 
   const authorFirst = author[0];
   const houseFirst = householdVariant[0];
@@ -72,18 +71,17 @@ export interface MatchableProject {
   customerName?: string | null;
 }
 
-// Finds the best project match for a review within the same branch. Returns
-// null if nothing looks confident enough. When multiple projects share a
-// household name (e.g. two jobs for the same repeat customer), prefers the
-// most recently created one via the caller's input order — pass projects
-// already sorted newest-first.
+// Finds the best project match for a review across the whole customer base
+// (see file header for why this isn't scoped to a branch). Returns null if
+// nothing looks confident enough. When multiple projects share a household
+// name (e.g. a repeat customer, or a coincidental same name in a different
+// city), prefers whichever comes first — pass candidates already sorted
+// newest-first so a repeat customer's most recent job wins.
 export function matchReviewToProject(
   authorName: string,
-  locationId: string,
   candidates: MatchableProject[],
 ): string | null {
   for (const p of candidates) {
-    if (p.locationId !== locationId) continue;
     const variants = splitHouseholdNames(p.customerName);
     if (variants.some((v) => namesLikelyMatch(authorName, v))) {
       return p.id;
