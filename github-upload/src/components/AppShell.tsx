@@ -72,7 +72,7 @@ export function AppShell() {
     if (pin) setCommand({ kind: "flyTo", center: [pin.lng, pin.lat], zoom: 13, nonce: nonce.current++ });
   }
 
-  // Same as selectProject but skips the flyTo/recenter — used when a pin
+  // Same as selectProject but skips the flyTo/recenter - used when a pin
   // auto-opens itself just by scrolling into view. Recentering here would
   // shift the viewport, which could bring another has-photos pin into frame
   // and cause auto-opens to cascade/jump around the map.
@@ -95,7 +95,7 @@ export function AppShell() {
           zoom: 11,
           nonce: nonce.current++,
         }),
-      () => alert("Couldn’t get your location. Please allow location access."),
+      () => alert("Couldn't get your location. Please allow location access."),
     );
   }
 
@@ -112,7 +112,7 @@ export function AppShell() {
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && runSearch()}
-            placeholder="Search city or address…"
+            placeholder="Search city or address..."
             className="min-w-0 flex-1 rounded-md border border-slate-200 px-3 py-1.5 text-sm focus:border-brand-500 focus:outline-none"
           />
           <button
