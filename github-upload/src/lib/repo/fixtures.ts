@@ -50,9 +50,16 @@ async function load(): Promise<Dataset> {
     readJson<ProjectPhoto[]>(path.join(DATA_DIR, "photos.json"), []),
     readJson<Review[]>(path.join(DATA_DIR, "reviews.json"), []),
   ]);
-  if (locations.length === 0) {
+  if (locations.length === 0 || projects.length === 0) {
+    // Don't cache a partial/empty read (e.g. a transient disk hiccup right
+    // after a cold start) — caching it would permanently stick the app at
+    // "0 projects" until the process restarts. Leave `cache` unset so the
+    // next request retries the read from disk.
+    console.error(
+      `Fixture load returned locations=${locations.length}, projects=${projects.length} — not caching, will retry next request.`,
+    );
     throw new Error(
-      "No fixtures found. Run `npm run seed` to generate demo data in /data.",
+      "No fixtures found (or read returned empty). Run `npm run seed` to generate demo data in /data.",
     );
   }
   cache = { locations, projects, photos, reviews };
@@ -107,16 +114,23 @@ export class FixtureRepo implements Repo {
   }
 
   async getProjectDetail(id: string): Promise<ProjectDetail | null> {
-    const { projects, photos, locations } = await load();
+    const { projects, photos, reviews, locations } = await load();
     const project = projects.find((p) => p.id === id);
     if (!project || project.optedOut) return null; // opt-out enforcement
     const loc = locations.find((l) => l.id === project.locationId);
+    // customerName is homeowner PII used only for server-side review
+    // matching (see scripts/sync-birdeye-reviews.ts) — strip it before
+    // shipping the project to the client.
+    const { customerName: _customerName, ...publicProject } = project;
     return {
-      ...project,
+      ...publicProject,
       locationName: loc?.name ?? "Unknown",
       photos: photos
         .filter((ph) => ph.projectId === id)
         .sort((a, b) => a.sortOrder - b.sortOrder),
+      reviews: reviews
+        .filter((r) => r.projectId === id)
+        .sort((a, b) => (a.postedAt < b.postedAt ? 1 : -1)),
     };
   }
 
