@@ -22,6 +22,7 @@
     "pmi-explore-reviews": "tsx scripts/pmi-explore-reviews.ts",
     "pmi-upload-to-r2": "tsx scripts/pmi-upload-to-r2.ts",
     "birdeye-explore": "tsx scripts/birdeye-explore.ts",
+    "sync:birdeye-reviews": "tsx scripts/sync-birdeye-reviews.ts",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
