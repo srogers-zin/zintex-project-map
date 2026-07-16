@@ -104,16 +104,8 @@ export function AppShell() {
       {/* Header */}
       <header className="z-20 flex flex-wrap items-center gap-2 border-b border-slate-200 bg-white px-3 py-2 shadow-sm">
         <div className="flex items-center gap-2">
-          <div className="flex h-7 w-7 items-center justify-center rounded bg-brand-600 text-xs font-bold text-white">Z</div>
           <span className="text-sm font-semibold text-slate-800">Zintex Project Map</span>
         </div>
-
-        <button
-          onClick={() => setFiltersOpen(true)}
-          className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
-        >
-          View Services
-        </button>
 
         <div className="flex min-w-0 flex-1 items-center gap-1">
           <input
@@ -147,18 +139,15 @@ export function AppShell() {
         >
           Reviews
         </button>
-        <button
-          onClick={() => setContactOpen(true)}
-          className="rounded-md bg-brand-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-brand-700"
-        >
-          Click here to get in touch with us!
-        </button>
-        <a
+        
           href="/opt-out"
           className="rounded-md px-2 py-1.5 text-xs font-medium text-slate-400 underline-offset-2 hover:text-slate-600 hover:underline"
         >
           Opt-Out
         </a>
+
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo.png" alt="Zintex Remodeling Group" className="h-8 w-auto shrink-0 object-contain" />
       </header>
 
       {/* Body */}
