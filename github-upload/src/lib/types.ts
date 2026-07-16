@@ -29,12 +29,19 @@ export interface Project {
   photoCount: number;
   createdAt: string; // ISO
   optedOut: boolean;
+  // Homeowner name, from PMI's project `name` / `surveyNames` fields. Used
+  // only server-side to fuzzy-match Google/Birdeye reviews to a project —
+  // never sent to the client (see ProjectDetail, which omits it).
+  customerName?: string | null;
 }
 
-// A project plus its photos — returned by the detail endpoint.
-export interface ProjectDetail extends Project {
+// A project plus its photos — returned by the detail endpoint. Deliberately
+// omits `customerName` (homeowner privacy — it's only used server-side for
+// review matching, never shipped to the browser).
+export interface ProjectDetail extends Omit<Project, "customerName"> {
   photos: ProjectPhoto[];
   locationName: string;
+  reviews: Review[];
 }
 
 // Lightweight pin used to render the map. We never ship the full project list
@@ -57,6 +64,10 @@ export interface Review {
   authorPhotoUrl: string | null;
   text: string;
   postedAt: string; // ISO
+  // Set when scripts/sync-birdeye-reviews.ts fuzzy-matches the reviewer's
+  // name to a homeowner on a project in the same branch. Null/absent when no
+  // confident match was found — the review still displays branch-wide.
+  projectId?: string | null;
 }
 
 export interface LeadInput {
