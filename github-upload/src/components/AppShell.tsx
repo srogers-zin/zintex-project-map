@@ -104,6 +104,9 @@ export function AppShell() {
     <div className="flex h-dvh flex-col">
       {/* Header */}
       <header className="z-20 flex flex-wrap items-center gap-2 border-b border-slate-200 bg-white px-3 py-2 shadow-sm">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src="/logo.png" alt="Zintex Remodeling Group" className="h-8 w-auto shrink-0 object-contain" />
+
         <div className="flex items-center gap-2">
           <span className="text-sm font-semibold text-slate-800">Zintex Project Map</span>
         </div>
@@ -146,9 +149,6 @@ export function AppShell() {
         >
           Opt-Out
         </Link>
-
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/logo.png" alt="Zintex Remodeling Group" className="h-8 w-auto shrink-0 object-contain" />
       </header>
 
       {/* Body */}
