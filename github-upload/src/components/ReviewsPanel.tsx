@@ -10,6 +10,9 @@ interface ReviewsPanelProps {
   onClose: () => void;
   locations: Location[];
   activeLocationIds: string[];
+  // Present only for reviews the sync matched to a specific homeowner's
+  // project (see scripts/sync-birdeye-reviews.ts). Opens that project's modal.
+  onSelectProject: (projectId: string) => void;
 }
 
 function relativeTime(iso: string): string {
@@ -19,7 +22,7 @@ function relativeTime(iso: string): string {
   return `${Math.floor(days / 365)}y ago`;
 }
 
-export function ReviewsPanel({ open, onClose, locations, activeLocationIds }: ReviewsPanelProps) {
+export function ReviewsPanel({ open, onClose, locations, activeLocationIds, onSelectProject }: ReviewsPanelProps) {
   const [reviews, setReviews] = useState<Review[]>([]);
   const [avg, setAvg] = useState(0);
   const [count, setCount] = useState(0);
@@ -80,11 +83,19 @@ export function ReviewsPanel({ open, onClose, locations, activeLocationIds }: Re
                   <Stars rating={r.rating} size={12} />
                 </div>
                 <p className="mt-2 text-sm text-slate-600">{r.text}</p>
+                {r.projectId && (
+                  <button
+                    onClick={() => onSelectProject(r.projectId!)}
+                    className="mt-1 text-xs font-medium text-brand-600 hover:underline"
+                  >
+                    View this project's photos
+                  </button>
+                )}
               </div>
             ))}
           </div>
           <p className="mt-4 text-center text-[11px] text-slate-300">
-            Demo data. Production pulls from Google Business Profile per branch.
+            Synced from Birdeye. Reviews with a matching homeowner name link to that project.
           </p>
         </div>
       </div>

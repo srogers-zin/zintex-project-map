@@ -73,15 +73,6 @@ export function AppShell() {
     if (pin) setCommand({ kind: "flyTo", center: [pin.lng, pin.lat], zoom: 13, nonce: nonce.current++ });
   }
 
-  // Same as selectProject but skips the flyTo/recenter - used when a pin
-  // auto-opens itself just by scrolling into view. Recentering here would
-  // shift the viewport, which could bring another has-photos pin into frame
-  // and cause auto-opens to cascade/jump around the map.
-  function autoSelectProject(id: string) {
-    setSelectedId(id);
-    setModalId(id);
-  }
-
   function runSearch() {
     setFilters((f) => ({ ...f, search: searchInput }));
     setCommand({ kind: "fitPins", nonce: nonce.current++ });
@@ -172,8 +163,6 @@ export function AppShell() {
             selectedId={selectedId}
             command={command}
             onSelect={selectProject}
-            onAutoOpen={autoSelectProject}
-            suppressAutoOpen={!!modalId}
           />
         </main>
 
@@ -198,6 +187,10 @@ export function AppShell() {
         onClose={() => setReviewsOpen(false)}
         locations={locations}
         activeLocationIds={filters.locationIds}
+        onSelectProject={(id) => {
+          setReviewsOpen(false);
+          selectProject(id);
+        }}
       />
       {modalId && (
         <ProjectModal

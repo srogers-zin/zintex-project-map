@@ -11,36 +11,18 @@ interface MapViewProps {
   selectedId: string | null;
   command: MapCommand;
   onSelect: (id: string) => void;
-  // Fires (without recentering the map) the first time a has-photos pin comes
-  // into view at AUTO_OPEN_MIN_ZOOM or closer, so the modal pops without a
-  // click. Suppressed while a modal is already open, so it can't yank the
-  // user away from something they're already looking at.
-  onAutoOpen: (id: string) => void;
-  suppressAutoOpen: boolean;
 }
 
 // GeoJSON feature properties for each pin. Pins are always rendered
 // individually (no clustering), so there's no cluster/point_count property.
 type PinProps = { pinId: string; hasPhotos: boolean };
 
-// Zoom level at which "zoomed into a location" kicks in for auto-open.
-// Lower = triggers with less zooming in. MapLibre zoom levels roughly:
-// 10 = metro area, 12 = city/neighborhood, 14 = street/block, 16 = building.
-const AUTO_OPEN_MIN_ZOOM = 11;
-
-export function MapView({ pins, selectedId, command, onSelect, onAutoOpen, suppressAutoOpen }: MapViewProps) {
+export function MapView({ pins, selectedId, command, onSelect }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const readyRef = useRef(false);
   const onSelectRef = useRef(onSelect);
   onSelectRef.current = onSelect;
-  const onAutoOpenRef = useRef(onAutoOpen);
-  onAutoOpenRef.current = onAutoOpen;
-  const suppressAutoOpenRef = useRef(suppressAutoOpen);
-  suppressAutoOpenRef.current = suppressAutoOpen;
-  // Pins we've already auto-opened once this session, so scrolling back past
-  // the same project doesn't keep popping it again.
-  const autoOpenedRef = useRef<Set<string>>(new Set());
   // Always-current pins, so the map `load` handler (which is attached during the
   // first render, when pins is still []) rebuilds the index from live data.
   const pinsRef = useRef(pins);
@@ -106,10 +88,8 @@ export function MapView({ pins, selectedId, command, onSelect, onAutoOpen, suppr
       map.on("mouseenter", "unclustered", () => (map.getCanvas().style.cursor = "pointer"));
       map.on("mouseleave", "unclustered", () => (map.getCanvas().style.cursor = ""));
 
-      map.on("moveend", render);
       readyRef.current = true;
       updateSource();
-      render();
     });
 
     return () => {
@@ -138,34 +118,10 @@ export function MapView({ pins, selectedId, command, onSelect, onAutoOpen, suppr
     });
   }
 
-  // Auto-open check for the current viewport.
-  function render() {
-    const map = mapRef.current;
-    if (!map || !readyRef.current) return;
-
-    // Auto-open: once zoomed in past AUTO_OPEN_MIN_ZOOM, the first has-photos
-    // pin visible in the viewport that we haven't already shown pops its
-    // modal without needing a click. Only one at a time, and never while a
-    // modal is already up.
-    if (!suppressAutoOpenRef.current && map.getZoom() >= AUTO_OPEN_MIN_ZOOM) {
-      const features = map.queryRenderedFeatures({ layers: ["unclustered"] });
-      for (const f of features) {
-        const props = f.properties as Partial<PinProps> | null;
-        if (!props) continue;
-        if (props.hasPhotos && props.pinId && !autoOpenedRef.current.has(props.pinId)) {
-          autoOpenedRef.current.add(props.pinId);
-          onAutoOpenRef.current(props.pinId);
-          break;
-        }
-      }
-    }
-  }
-
-  // Re-push data + re-check auto-open when pins change.
+  // Re-push data when pins change.
   useEffect(() => {
     if (!readyRef.current) return;
     updateSource();
-    render();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pins]);
 

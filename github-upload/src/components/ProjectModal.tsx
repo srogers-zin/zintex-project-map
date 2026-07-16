@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import type { ProjectDetail } from "@/lib/types";
 import { fetchProjectDetail } from "@/lib/api-client";
+import { Stars } from "@/components/Stars";
 
 export function ProjectModal({ projectId, onClose }: { projectId: string; onClose: () => void }) {
   const [detail, setDetail] = useState<ProjectDetail | null>(null);
@@ -121,12 +122,32 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
               </div>
               <p className="mt-2 text-xs text-slate-400">Serviced by our {detail.locationName} branch</p>
             </div>
+
+            {/* Reviews from this homeowner, matched by name during the Birdeye sync. */}
+            {detail.reviews.length > 0 && (
+              <div className="mt-4 border-t border-slate-100 pt-4">
+                <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">
+                  Review{detail.reviews.length > 1 ? "s" : ""} from this homeowner
+                </h3>
+                <div className="mt-2 space-y-3">
+                  {detail.reviews.map((r) => (
+                    <div key={r.id}>
+                      <div className="flex items-center gap-2">
+                        <span className="text-sm font-medium text-slate-700">{r.authorName}</span>
+                        <Stars rating={r.rating} size={12} />
+                      </div>
+                      <p className="mt-1 text-sm text-slate-600">{r.text}</p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
 
         {!loading && !detail && (
           <div className="p-6 text-center text-sm text-slate-500">
-            This project isn't available. It may have been removed at the homeowner's request.
+            This project isn’t available. It may have been removed at the homeowner’s request.
           </div>
         )}
       </div>
