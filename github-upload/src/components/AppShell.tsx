@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { Location, Project, ProjectPin } from "@/lib/types";
 import { EMPTY_FILTERS, type Filters, type MapCommand } from "@/lib/filters";
@@ -123,91 +124,4 @@ export function AppShell() {
           </button>
           <button
             onClick={useMyLocation}
-            className="rounded-md border border-slate-200 p-1.5 text-slate-500 hover:bg-slate-50"
-            aria-label="Use my location"
-            title="Use my current location"
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <circle cx="12" cy="12" r="8" /><path d="M12 2v2M12 20v2M2 12h2M20 12h2" /><circle cx="12" cy="12" r="2" fill="currentColor" />
-            </svg>
-          </button>
-        </div>
-
-        <button
-          onClick={() => setReviewsOpen(true)}
-          className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
-        >
-          Reviews
-        </button>
-        
-          href="/opt-out"
-          className="rounded-md px-2 py-1.5 text-xs font-medium text-slate-400 underline-offset-2 hover:text-slate-600 hover:underline"
-        >
-          Opt-Out
-        </a>
-
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/logo.png" alt="Zintex Remodeling Group" className="h-8 w-auto shrink-0 object-contain" />
-      </header>
-
-      {/* Body */}
-      <div className="relative flex min-h-0 flex-1">
-        {/* Sidebar: always visible on md+, toggle on mobile */}
-        <div className={`${mobileList ? "block" : "hidden"} absolute inset-0 z-10 md:static md:z-0 md:block`}>
-          <Sidebar
-            items={items}
-            total={total}
-            loading={loading}
-            selectedId={selectedId}
-            onSelect={selectProject}
-            onLoadMore={loadMore}
-            hasMore={items.length < total}
-          />
-        </div>
-
-        <main className="min-w-0 flex-1">
-          <MapView
-            pins={pins}
-            selectedId={selectedId}
-            command={command}
-            onSelect={selectProject}
-            onAutoOpen={autoSelectProject}
-            suppressAutoOpen={!!modalId}
-          />
-        </main>
-
-        {/* Mobile list toggle */}
-        <button
-          onClick={() => setMobileList((v) => !v)}
-          className="absolute bottom-4 left-1/2 z-20 -translate-x-1/2 rounded-full bg-brand-600 px-4 py-2 text-xs font-semibold text-white shadow-lg md:hidden"
-        >
-          {mobileList ? "Show map" : `List (${total.toLocaleString()})`}
-        </button>
-      </div>
-
-      <FiltersPanel
-        open={filtersOpen}
-        onClose={() => setFiltersOpen(false)}
-        locations={locations}
-        filters={filters}
-        onChange={setFilters}
-      />
-      <ReviewsPanel
-        open={reviewsOpen}
-        onClose={() => setReviewsOpen(false)}
-        locations={locations}
-        activeLocationIds={filters.locationIds}
-      />
-      {modalId && (
-        <ProjectModal
-          projectId={modalId}
-          onClose={() => {
-            setModalId(null);
-            setSelectedId(null);
-          }}
-        />
-      )}
-      {contactOpen && <ContactModal onClose={() => setContactOpen(false)} />}
-    </div>
-  );
-}
+            className="rounded-md border
