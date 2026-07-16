@@ -75,7 +75,7 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
                 <img
                   src={current.url}
                   alt={detail.address}
-                  className="h-56 w-full rounded-lg object-cover"
+                  className="h-80 w-full rounded-lg bg-slate-100 object-contain"
                 />
                 {photos.length > 1 && (
                   <>
@@ -126,7 +126,7 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
 
         {!loading && !detail && (
           <div className="p-6 text-center text-sm text-slate-500">
-            This project isn’t available. It may have been removed at the homeowner’s request.
+            This project isn't available. It may have been removed at the homeowner's request.
           </div>
         )}
       </div>
