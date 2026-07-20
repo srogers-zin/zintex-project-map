@@ -60,7 +60,7 @@ export function MapView({ pins, selectedId, command, onSelect }: MapViewProps) {
         type: "circle",
         source: "pins",
         paint: {
-          "circle-color": ["case", ["get", "hasPhotos"], "#16a34a", "#94a3b8"],
+          "circle-color": ["case", ["get", "hasPhotos"], "#003366", "#94a3b8"],
           "circle-radius": 7,
           "circle-stroke-width": 2,
           "circle-stroke-color": "#ffffff",

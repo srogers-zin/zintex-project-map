@@ -129,6 +129,18 @@ export function AppShell() {
         </div>
 
         <button
+          onClick={() => setFilters((f) => ({ ...f, hasPhotos: !f.hasPhotos }))}
+          aria-pressed={filters.hasPhotos}
+          title="Only show pins with photos"
+          className={`rounded-md border px-3 py-1.5 text-xs font-medium ${
+            filters.hasPhotos
+              ? "border-[#003366] bg-[#003366] text-white hover:bg-[#002a52]"
+              : "border-slate-200 text-slate-600 hover:bg-slate-50"
+          }`}
+        >
+          Photos only
+        </button>
+        <button
           onClick={() => setReviewsOpen(true)}
           className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
         >
