@@ -25,26 +25,40 @@ import {
 import type { Project, ProjectPhoto } from "../src/lib/types";
 import { matchesOptOut } from "../src/lib/opt-out-match";
 
-// Only photos carrying one of these tags get pulled into the map — everything
-// else a field rep shot (rough progress shots, interior mess, etc.) stays out
-// of the public gallery. "PMI - Pin already on map" / "PMI Featured Photo" are
-// carried over from how the team already tags photos for the old Project Map
-// It tool; BATHS/WINDOWS are the service-type tags; "Before and After" and
-// "100% Satisfied" were added to widen coverage beyond the original 4 tags
-// (~1.7% of projects had a match). Edit this list directly if the tagging
-// convention changes again.
-// Note: matching against CompanyCam is case-insensitive (see resolveTagIds),
-// so exact casing here is just for readability, not functionality.
-const PHOTO_TAG_NAMES = [
-  "Baths",
-  "windows",
-  "PMI - Pin already on map",
-  "PMI Featured Photo",
-  "Before and After",
-  "100% Satisfied",
-  "GBP",
-  "Jacuzzi Deluxe Shower System",
-];
+// These two tags are how the team marks a CompanyCam photo for the public
+// map going forward (the ongoing replacement for tagging in the old Project
+// Map It tool now that PMI is being retired). Exact wording confirmed
+// against the real tags in CompanyCam — must match precisely (matching is
+// case-insensitive, per resolveTagIds, but not fuzzy otherwise):
+//   "PMI - Pin already on map" — the project this photo belongs to is
+//                                already on the map (from the historical PMI
+//                                import). Just add this newly tagged photo
+//                                to that existing project — don't create a
+//                                second pin for it.
+//   "PMI Featured Photo"       — feature this specific photo. The project
+//                                may or may not already be on the map;
+//                                create it (address, coordinates, etc.) if
+//                                it isn't yet.
+// Functionally these two behave identically in this script: whichever tag is
+// present, the tagged photo gets pulled in and its project gets upserted —
+// writeFixtures' existing companycamProjectId dedup (below) is what makes
+// "already on the map" reuse the existing pin instead of duplicating it,
+// and makes "not on the map yet" create a fresh one. No other project or
+// photo gets pulled in — a project with zero tagged photos does not appear
+// on the map at all, no matter how much other CompanyCam activity it has.
+const PHOTO_TAG_NAMES = ["PMI - Pin already on map", "PMI Featured Photo"];
+
+// Toggle between the two photo-selection strategies:
+//   "tags" — opt-in (current default). Only photos carrying one of
+//            PHOTO_TAG_NAMES get pulled, AND a project only appears on the
+//            map at all if it has at least one such tagged photo (see main()
+//            below — untagged/unmatched projects are dropped entirely, not
+//            just photo-less).
+//   "all"  — pulls every photo for every project CompanyCam returns,
+//            regardless of tags, and includes every project regardless of
+//            whether it has any photos. Not used currently, kept for
+//            reference / in case the tagging convention changes again.
+const PHOTO_FILTER_MODE: "tags" | "all" = "tags";
 
 // ===========================================================================
 // CompanyCam → Project Map It sync.
@@ -130,21 +144,49 @@ async function applyOptOuts(projects: Project[]): Promise<number> {
 
 // --- Sinks -----------------------------------------------------------------
 
-async function writeFixtures(projects: Project[], photos: ProjectPhoto[], incremental: boolean) {
+// ALWAYS upsert into the existing fixtures — never wholesale-replace them,
+// full backfill or not. This matters a lot now that data/projects.json also
+// holds ~23k historical projects pulled from the (soon to be canceled) legacy
+// Project Map It platform (see scripts/sync-pmi.ts): CompanyCam's /projects
+// endpoint has a hard 10,000-row offset cap, so a CompanyCam sync can never
+// rediscover those older projects on its own. A destructive overwrite here
+// would silently delete most of the map's history.
+//
+// Also dedupes CompanyCam projects against PMI-sourced ones that represent
+// the SAME physical project. PMI records carry a companycam_id cross-
+// reference (raw.companycam_id, stored here as companycamProjectId) — if an
+// incoming CompanyCam project matches an existing entry's
+// companycamProjectId, it updates that existing record in place (keeping its
+// original id) instead of inserting a second pin at the same address.
+async function writeFixtures(projects: Project[], photos: ProjectPhoto[]) {
   await fs.mkdir(DATA_DIR, { recursive: true });
-  if (incremental) {
-    // Upsert into existing fixtures by id.
-    const existingP = await readJson<Project[]>(path.join(DATA_DIR, "projects.json"), []);
-    const existingPh = await readJson<ProjectPhoto[]>(path.join(DATA_DIR, "photos.json"), []);
-    const pById = new Map(existingP.map((p) => [p.id, p]));
-    for (const p of projects) pById.set(p.id, p);
-    const syncedIds = new Set(projects.map((p) => p.id));
-    const mergedPhotos = existingPh.filter((ph) => !syncedIds.has(ph.projectId)).concat(photos);
-    projects = [...pById.values()];
-    photos = mergedPhotos;
+  const existingP = await readJson<Project[]>(path.join(DATA_DIR, "projects.json"), []);
+  const existingPh = await readJson<ProjectPhoto[]>(path.join(DATA_DIR, "photos.json"), []);
+
+  const pById = new Map(existingP.map((p) => [p.id, p]));
+  const idByCompanyCamId = new Map(
+    existingP.filter((p) => p.companycamProjectId).map((p) => [p.companycamProjectId, p.id]),
+  );
+
+  const resolvedIds: string[] = []; // ids actually touched by this sync, for the photo merge below
+  for (const incoming of projects) {
+    const existingIdForSameCcProject = idByCompanyCamId.get(incoming.companycamProjectId);
+    const targetId = existingIdForSameCcProject ?? incoming.id;
+    pById.set(targetId, { ...incoming, id: targetId });
+    idByCompanyCamId.set(incoming.companycamProjectId, targetId);
+    resolvedIds.push(targetId);
   }
-  await fs.writeFile(path.join(DATA_DIR, "projects.json"), JSON.stringify(projects, null, 2));
-  await fs.writeFile(path.join(DATA_DIR, "photos.json"), JSON.stringify(photos, null, 2));
+
+  // Photos need the same id remap when an incoming project collapsed onto an
+  // existing PMI-sourced id.
+  const idRemap = new Map(projects.map((p, i) => [p.id, resolvedIds[i]]));
+  const remappedPhotos = photos.map((ph) => ({ ...ph, projectId: idRemap.get(ph.projectId) ?? ph.projectId }));
+
+  const syncedIds = new Set(resolvedIds);
+  const mergedPhotos = existingPh.filter((ph) => !syncedIds.has(ph.projectId)).concat(remappedPhotos);
+
+  await fs.writeFile(path.join(DATA_DIR, "projects.json"), JSON.stringify([...pById.values()], null, 2));
+  await fs.writeFile(path.join(DATA_DIR, "photos.json"), JSON.stringify(mergedPhotos, null, 2));
 }
 
 async function writePostgres(projects: Project[], photos: ProjectPhoto[]) {
@@ -238,7 +280,7 @@ async function main() {
   const target = process.env.DATA_SOURCE === "postgres" ? "postgres" : "fixtures";
 
   let photoTagIds: string[] = [];
-  if (token) {
+  if (token && PHOTO_FILTER_MODE === "tags") {
     console.log(`Resolving photo tags: ${PHOTO_TAG_NAMES.join(", ")}`);
     const { found, missing } = await resolveTagIds(token, PHOTO_TAG_NAMES, process.env.COMPANYCAM_API_BASE);
     photoTagIds = [...found.values()];
@@ -254,6 +296,8 @@ async function main() {
     } else {
       console.log(`  resolved ${photoTagIds.length}/${PHOTO_TAG_NAMES.length} tag(s).`);
     }
+  } else if (token) {
+    console.log(`Photo filter: OFF — pulling every photo for every project (PHOTO_FILTER_MODE = "all").`);
   }
   const client = token
     ? createLiveClient(token, process.env.COMPANYCAM_API_BASE, photoTagIds)
@@ -273,6 +317,7 @@ async function main() {
   const projects: Project[] = [];
   let scanned = 0;
   let skipped = 0;
+  const candidates: Project[] = []; // transformed OK, but not yet confirmed to have a tagged photo
   for await (const raw of client.listProjectsUpdatedSince(sinceIso)) {
     scanned++;
     const { project, skippedReason } = transformProject(raw);
@@ -283,55 +328,74 @@ async function main() {
       if (skipped <= 10) console.warn(`  skip ${raw.id}: ${skippedReason}`);
       continue;
     }
-    projects.push(project);
-    if (projects.length % PROGRESS_EVERY === 0) console.log(`  …${projects.length} projects`);
-    if (args.limit && projects.length >= args.limit) break;
+    candidates.push(project);
+    if (candidates.length % PROGRESS_EVERY === 0) console.log(`  …${candidates.length} candidates`);
+    if (args.limit && candidates.length >= args.limit) break;
   }
-  console.log(`Projects: ${projects.length} kept, ${skipped} skipped (of ${scanned} scanned).`);
+  console.log(`Candidates: ${candidates.length} geocodable, ${skipped} skipped (of ${scanned} scanned).`);
 
-  // 2) Fetch photos (concurrency-limited, already tag-filtered server-side by
-  //    CompanyCam) for projects that have at least one photo at all. Note:
-  //    p.photoCount currently holds CompanyCam's raw total photo count, which
-  //    is only used here as a cheap pre-filter (0 photos total means 0 tagged
-  //    photos too, no point calling). It gets corrected below to the real,
-  //    tag-filtered count once we know it.
+  // 2) Fetch photos (concurrency-limited, tag-filtered server-side by
+  //    CompanyCam). In "tags" mode (the default — see PHOTO_FILTER_MODE
+  //    above) a candidate only makes it into `projects` (and therefore only
+  //    gets a pin) if this comes back with at least one tagged photo — a
+  //    project with zero qualifying photos is dropped here, not just left
+  //    photo-less. In "all" mode every candidate is kept regardless.
   const photos: ProjectPhoto[] = [];
-  if (!args.projectsOnly) {
-    if (token && !photoTagIds.length) {
-      console.warn(`Skipping photo fetch entirely — no photo tags resolved (see warning above).`);
-    } else {
-      const withPhotos = projects.filter((p) => p.photoCount > 0);
-      console.log(`Fetching photos for ${withPhotos.length} projects (concurrency ${PHOTO_CONCURRENCY})…`);
-      let done = 0;
-      await mapPool(withPhotos, PHOTO_CONCURRENCY, async (p) => {
-        try {
-          const raw = await client.listPhotos(p.companycamProjectId);
-          const transformed = transformPhotos(p.id, raw);
-          p.photoCount = transformed.length; // correct to the tag-filtered count
-          photos.push(...transformed);
-        } catch (e) {
-          console.warn(`  photo fetch failed for ${p.id}: ${(e as Error).message}`);
-        }
-        if (++done % PROGRESS_EVERY === 0) console.log(`  …${done}/${withPhotos.length} photo sets`);
-      });
-      console.log(`Photos: ${photos.length} total.`);
-    }
-  } else {
-    console.log(`Skipping photo fetch (--projects-only). photo_count still reflects CompanyCam's raw total.`);
+  if (args.projectsOnly && PHOTO_FILTER_MODE === "tags") {
+    console.warn(
+      `--projects-only has no effect in "tags" mode: inclusion on the map now depends on having a ` +
+        `tagged photo, so skipping the photo fetch would drop every candidate. Ignoring the flag.`,
+    );
   }
+  if (token && PHOTO_FILTER_MODE === "tags" && !photoTagIds.length) {
+    console.warn(`Skipping entirely — no photo tags resolved (see warning above). No pins will be added.`);
+  } else if (args.projectsOnly && PHOTO_FILTER_MODE !== "tags") {
+    console.log(`Skipping photo fetch (--projects-only). photo_count still reflects CompanyCam's raw total.`);
+    projects.push(...candidates);
+  } else {
+    const withPhotos = candidates.filter((p) => p.photoCount > 0);
+    console.log(`Fetching photos for ${withPhotos.length} candidates (concurrency ${PHOTO_CONCURRENCY})…`);
+    let done = 0;
+    let droppedNoTaggedPhoto = 0;
+    await mapPool(withPhotos, PHOTO_CONCURRENCY, async (p) => {
+      try {
+        const raw = await client.listPhotos(p.companycamProjectId);
+        const transformed = transformPhotos(p.id, raw);
+        p.photoCount = transformed.length; // correct to the tag-filtered count
+        if (PHOTO_FILTER_MODE === "tags" && transformed.length === 0) {
+          droppedNoTaggedPhoto++;
+          return; // no qualifying tagged photo — this project does not get a pin
+        }
+        projects.push(p);
+        photos.push(...transformed);
+      } catch (e) {
+        console.warn(`  photo fetch failed for ${p.id}: ${(e as Error).message}`);
+      }
+      if (++done % PROGRESS_EVERY === 0) console.log(`  …${done}/${withPhotos.length} photo sets`);
+    });
+    if (PHOTO_FILTER_MODE === "tags") {
+      // Candidates with photoCount === 0 to begin with never had a chance at
+      // a tagged photo either — count them too for an accurate total.
+      droppedNoTaggedPhoto += candidates.length - withPhotos.length;
+      console.log(`Dropped ${droppedNoTaggedPhoto} candidate(s) with no "${PHOTO_TAG_NAMES.join('" / "')}" photo.`);
+    }
+    console.log(`Photos: ${photos.length} total.`);
+  }
+  console.log(`Projects: ${projects.length} will get a pin.`);
 
   // 3) Enforce opt-outs.
   const suppressed = await applyOptOuts(projects);
   if (suppressed) console.log(`Opt-outs: suppressed ${suppressed} project(s).`);
 
-  // 4) Write to the active store.
-  const incremental = !!sinceIso;
+  // 4) Write to the active store. writeFixtures always merges/upserts (see
+  // its comment) — it never wholesale-replaces the historical PMI-sourced
+  // projects that also live in this file.
   if (target === "postgres") {
     await writePostgres(projects, photos);
     console.log(`Upserted ${projects.length} projects + ${photos.length} photos into Postgres.`);
   } else {
-    await writeFixtures(projects, photos, incremental);
-    console.log(`Wrote ${projects.length} projects + ${photos.length} photos to data/*.json.`);
+    await writeFixtures(projects, photos);
+    console.log(`Merged ${projects.length} synced projects (+ ${photos.length} photos) into data/*.json.`);
   }
 
   // 5) Persist sync state (skip on smoke tests so they don't advance the cursor).
