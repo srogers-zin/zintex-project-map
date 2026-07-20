@@ -81,6 +81,7 @@ function matchesFilters(p: Project, query: ProjectQuery): boolean {
     const needle = query.search.trim().toLowerCase();
     if (needle && !p.address.toLowerCase().includes(needle)) return false;
   }
+  if (query.hasPhotos && p.photoCount <= 0) return false;
   return true;
 }
 

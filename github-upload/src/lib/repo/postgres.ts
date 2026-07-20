@@ -61,6 +61,9 @@ function buildFilter(query: ProjectQuery): { where: string; params: unknown[] } 
     params.push(`%${query.search.trim()}%`);
     clauses.push(`address ILIKE $${params.length}`);
   }
+  if (query.hasPhotos) {
+    clauses.push(`photo_count > 0`);
+  }
   return { where: clauses.join(" AND "), params };
 }
 
@@ -128,7 +131,14 @@ export class PostgresRepo implements Repo {
        FROM project_photos WHERE project_id = $1 ORDER BY sort_order`,
       [id],
     );
-    return { ...(rows[0] as ProjectDetail), photos: photos.rows };
+    const reviews = await pool.query(
+      `SELECT id, location_id AS "locationId", google_review_id AS "googleReviewId",
+              rating, author_name AS "authorName", author_photo_url AS "authorPhotoUrl",
+              text, posted_at AS "postedAt", project_id AS "projectId"
+       FROM reviews WHERE project_id = $1 ORDER BY posted_at DESC`,
+      [id],
+    );
+    return { ...(rows[0] as ProjectDetail), photos: photos.rows, reviews: reviews.rows };
   }
 
   async getReviews(locationIds?: string[]): Promise<Review[]> {
