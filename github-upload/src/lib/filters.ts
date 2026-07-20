@@ -3,9 +3,10 @@ export interface Filters {
   tags: string[];
   locationIds: string[];
   search: string;
+  hasPhotos: boolean; // "Photos only" toggle
 }
 
-export const EMPTY_FILTERS: Filters = { tags: [], locationIds: [], search: "" };
+export const EMPTY_FILTERS: Filters = { tags: [], locationIds: [], search: "", hasPhotos: false };
 
 // Map command bus — AppShell issues these, MapView consumes them via effect.
 export type MapCommand =

@@ -22,6 +22,9 @@ export function parseProjectQuery(searchParams: URLSearchParams): ProjectQuery {
   const search = searchParams.get("search");
   if (search?.trim()) query.search = search.trim();
 
+  const hasPhotos = searchParams.get("hasPhotos");
+  if (hasPhotos === "1" || hasPhotos === "true") query.hasPhotos = true;
+
   return query;
 }
 

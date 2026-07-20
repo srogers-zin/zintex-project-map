@@ -98,4 +98,5 @@ export interface ProjectQuery {
   tags?: string[];
   locationIds?: string[];
   search?: string; // free-text address/city match
+  hasPhotos?: boolean; // "Photos only" toggle — restrict to photoCount > 0
 }

@@ -8,6 +8,7 @@ function toParams(filters: Filters): string {
   if (filters.tags.length) p.set("tags", filters.tags.join(","));
   if (filters.locationIds.length) p.set("locations", filters.locationIds.join(","));
   if (filters.search.trim()) p.set("search", filters.search.trim());
+  if (filters.hasPhotos) p.set("hasPhotos", "1");
   return p.toString();
 }
 
