@@ -336703,5 +336703,53 @@
     "photoCount": 1,
     "createdAt": "2026-05-27T15:17:20.000Z",
     "optedOut": false
+  },
+  {
+    "id": "107179907",
+    "companycamProjectId": "107179907",
+    "address": "420 N Spruce St, Bainbridge, Georgia, 39817",
+    "lat": 30.9089746,
+    "lng": -84.5622593,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 2,
+    "createdAt": "2026-06-09T01:24:17.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "97408404",
+    "companycamProjectId": "97408404",
+    "address": "228 Deer Run, Jackson, MS, 39209",
+    "lat": 32.4334004,
+    "lng": -90.3028459,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-01-18T06:13:55.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "103396100",
+    "companycamProjectId": "103396100",
+    "address": "10617 Joor Rd, Baton Rouge, La, 70818",
+    "lat": 30.64921511105654,
+    "lng": -91.10591821696211,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-04-18T04:01:02.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "107180069",
+    "companycamProjectId": "107180069",
+    "address": "2036 Martin Ave, Baton Rouge, Louisiana, 70802",
+    "lat": 30.4667998,
+    "lng": -91.14358539999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-09T01:32:23.000Z",
+    "optedOut": false
   }
 ]
