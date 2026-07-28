@@ -39,14 +39,17 @@ import { matchesOptOut } from "../src/lib/opt-out-match";
 //                                may or may not already be on the map;
 //                                create it (address, coordinates, etc.) if
 //                                it isn't yet.
-// Functionally these two behave identically in this script: whichever tag is
-// present, the tagged photo gets pulled in and its project gets upserted —
+//   "Baths"                    — service-type tag, added to widen coverage
+//                                to bathroom-remodel photos generally, not
+//                                just ones explicitly marked for PMI.
+// Functionally these three behave identically in this script: whichever tag
+// is present, the tagged photo gets pulled in and its project gets upserted —
 // writeFixtures' existing companycamProjectId dedup (below) is what makes
 // "already on the map" reuse the existing pin instead of duplicating it,
 // and makes "not on the map yet" create a fresh one. No other project or
 // photo gets pulled in — a project with zero tagged photos does not appear
 // on the map at all, no matter how much other CompanyCam activity it has.
-const PHOTO_TAG_NAMES = ["PMI - Pin already on map", "PMI Featured Photo"];
+const PHOTO_TAG_NAMES = ["PMI - Pin already on map", "PMI Featured Photo", "Baths"];
 
 // Toggle between the two photo-selection strategies:
 //   "tags" — opt-in (current default). Only photos carrying one of
@@ -303,6 +306,18 @@ async function main() {
     ? createLiveClient(token, process.env.COMPANYCAM_API_BASE, photoTagIds)
     : fixtureClient();
 
+  // CAUTION (confirmed against real data): incremental mode filters
+  // CompanyCam's project list by the PROJECT's own modified_since, but
+  // tagging a PHOTO inside an already-existing project does not appear to
+  // bump that timestamp. In "tags" mode (the default — see PHOTO_FILTER_MODE
+  // above), that means incremental syncs can silently miss newly tagged
+  // photos on projects CompanyCam last touched a while ago — a real run
+  // confirmed this (a project tagged after the prior sync never showed up
+  // in the incremental candidate list). The automated GitHub Actions
+  // workflow (.github/workflows/sync-companycam.yml) therefore always runs
+  // with --full for correctness. Incremental (no --full) is still fine for
+  // a fast manual smoke test, just don't rely on it to catch tag-only
+  // changes to previously-seen projects.
   const state = await readJson<{ lastSyncIso: string | null }>(STATE_FILE, { lastSyncIso: null });
   const sinceIso = args.full ? null : state.lastSyncIso;
   const startedAt = new Date().toISOString();
