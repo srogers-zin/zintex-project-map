@@ -969,17 +969,14 @@
   {
     "id": "6998930e1c373d4a33d9e589",
     "companycamProjectId": "92576338",
-    "address": "12811 Arthur Ln, Little Rock, AR 72211, USA",
+    "address": "12811 Arthur Ln, Little Rock, Arkansas, 72211",
     "lat": 34.7485231,
     "lng": -92.4166563,
     "locationId": "tyler",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2026-02-20T16:59:58.033Z",
-    "optedOut": false,
-    "customerName": "Jefferson"
+    "createdAt": "2025-10-16T00:36:09.000Z",
+    "optedOut": false
   },
   {
     "id": "6998924e1c373d4a33d9e579",
@@ -1389,17 +1386,14 @@
   {
     "id": "6995eae21c373d4a33d9de6c",
     "companycamProjectId": "93072017",
-    "address": "1721 Troop Ct, Jacksonville, AR 72076, USA",
+    "address": "1721 Troop Ct, Jacksonville, Arkansas, 72076",
     "lat": 34.8838849,
     "lng": -92.174432,
     "locationId": "tyler",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2026-02-18T16:37:54.112Z",
-    "optedOut": false,
-    "customerName": "Norsby"
+    "createdAt": "2025-10-24T00:49:49.000Z",
+    "optedOut": false
   },
   {
     "id": "6995ea901c373d4a33d9de67",
@@ -19213,17 +19207,14 @@
   {
     "id": "69822625dee5419f8f80d883",
     "companycamProjectId": "97378179",
-    "address": "6332 Tradition Cir, Brownsville, TX 78526, USA",
+    "address": "6332 Tradition Cir, Brownsville, Texas, 78526",
     "lat": 25.9933954,
     "lng": -97.4866065,
     "locationId": "san-angelo",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2026-02-03T16:45:25.860Z",
-    "optedOut": false,
-    "customerName": "Guillermo Martinez"
+    "createdAt": "2026-01-17T02:57:54.000Z",
+    "optedOut": false
   },
   {
     "id": "69822625dee5419f8f80d86e",
@@ -73456,17 +73447,14 @@
   {
     "id": "6839fc1f29c3ed2d9bea2ef9",
     "companycamProjectId": "80931054",
-    "address": "107 Nipper St, Springhill, LA 71075, USA",
+    "address": "107 Nipper St, Springhill, LA, 71075",
     "lat": 32.9766139,
     "lng": -93.44262979999999,
     "locationId": "tyler",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2025-05-30T18:42:39.092Z",
-    "optedOut": false,
-    "customerName": "Easter White"
+    "createdAt": "2025-04-08T21:05:24.000Z",
+    "optedOut": false
   },
   {
     "id": "6839fc1e29c3ed2d9bea2ec7",
@@ -106857,17 +106845,14 @@
   {
     "id": "678a87f0258cc340e3f716a1",
     "companycamProjectId": "75988921",
-    "address": "28 Sundance Ln, Brownsville, TX 78526, USA",
+    "address": "28 Sundance Ln, Brownsville, TX, 78526",
     "lat": 25.9618877,
     "lng": -97.46224509999999,
     "locationId": "san-angelo",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2025-01-17T16:40:16.969Z",
-    "optedOut": false,
-    "customerName": "Lipics, Joel"
+    "createdAt": "2025-01-06T19:29:37.000Z",
+    "optedOut": false
   },
   {
     "id": "678a87f0258cc3ab43f716a0",
@@ -109514,17 +109499,14 @@
   {
     "id": "678a8792258cc32688f715d1",
     "companycamProjectId": "75295930",
-    "address": "7619 Roundleaf Dr, Memphis, TN 38125, USA",
+    "address": "7619 roundleaf drive, Memphis, Tennessee, 38125",
     "lat": 35.0385336,
     "lng": -89.80973279999999,
     "locationId": "tyler",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2025-01-17T16:38:42.944Z",
-    "optedOut": false,
-    "customerName": "Miller, Frances"
+    "createdAt": "2024-12-14T22:48:07.000Z",
+    "optedOut": false
   },
   {
     "id": "678a8792258cc3ae31f715d0",
@@ -138167,17 +138149,14 @@
   {
     "id": "66c8a9801c55cb335989717b",
     "companycamProjectId": "68142334",
-    "address": "3213 63rd St, Lubbock, TX 79413, USA",
-    "lat": 33.5367479,
-    "lng": -101.8841374,
+    "address": "2828 65th St, Lubbock, TX, 79413",
+    "lat": 33.5354085,
+    "lng": -101.8778685,
     "locationId": "lubbock",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2024-08-23T15:23:44.719Z",
-    "optedOut": false,
-    "customerName": "Cochran, Marcie"
+    "createdAt": "2024-07-29T16:52:59.000Z",
+    "optedOut": false
   },
   {
     "id": "66c8a9801c55cb4b1c89717a",
@@ -147521,17 +147500,14 @@
   {
     "id": "6671d933c2bfdf712fca6345",
     "companycamProjectId": "65138410",
-    "address": "3112 S Poplar St, Pine Bluff, AR 71603, USA",
-    "lat": 34.1974771,
-    "lng": -92.0127131,
+    "address": "3112 S Poplar St, Pine Bluff, AR, 71603",
+    "lat": 34.19738036869421,
+    "lng": -92.01288789510727,
     "locationId": "tyler",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2024-06-18T19:00:03.446Z",
-    "optedOut": false,
-    "customerName": "Dickson, Kenneth"
+    "createdAt": "2024-06-05T00:51:48.000Z",
+    "optedOut": false
   },
   {
     "id": "6671d933c2bfdfe92eca6344",
@@ -336630,6 +336606,102 @@
     "tags": [],
     "photoCount": 2,
     "createdAt": "2025-07-22T21:35:09.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "75986751",
+    "companycamProjectId": "75986751",
+    "address": "28 Sundance Ln, Brownsville, TX, 78526",
+    "lat": 25.9618877,
+    "lng": -97.46224509999999,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-01-06T19:06:07.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "110133515",
+    "companycamProjectId": "110133515",
+    "address": "6504 Blackberry Rd, Edmond, Oklahoma, 73034",
+    "lat": 35.7221046,
+    "lng": -97.3988208,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-18T00:05:23.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "109612313",
+    "companycamProjectId": "109612313",
+    "address": "8309 Timberwood Ln, Oklahoma City, Oklahoma, 73135",
+    "lat": 35.38360100000001,
+    "lng": -97.42542379999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-12T19:46:23.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "58869688",
+    "companycamProjectId": "58869688",
+    "address": "913 Anderson St, Corpus Christi, TX, 78411",
+    "lat": 27.7455332,
+    "lng": -97.38986779999999,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2024-01-12T04:15:03.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "108080934",
+    "companycamProjectId": "108080934",
+    "address": "566 Timber Ridge Dr, Pensacola, FL, 32534",
+    "lat": 30.5632105,
+    "lng": -87.2629793,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-20T22:59:29.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "103968056",
+    "companycamProjectId": "103968056",
+    "address": "9820 Alameda Dr, Norman, Oklahoma, 73026",
+    "lat": 35.2303782,
+    "lng": -97.2958077,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-04-26T20:51:35.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "107375178",
+    "companycamProjectId": "107375178",
+    "address": "1426 N Georgie Ave, Derby, Kansas, 67037",
+    "lat": 37.5604643,
+    "lng": -97.2689345,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-11T00:39:11.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "106262468",
+    "companycamProjectId": "106262468",
+    "address": "2304 Timbers Blvd, Shawnee, OK, 74804",
+    "lat": 35.3587072,
+    "lng": -96.95452560000001,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-05-27T15:17:20.000Z",
     "optedOut": false
   }
 ]
