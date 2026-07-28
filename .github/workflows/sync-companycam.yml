@@ -27,7 +27,7 @@ jobs:
       - name: Run CompanyCam sync
         env:
           COMPANYCAM_API_TOKEN: ${{ secrets.COMPANYCAM_API_TOKEN }}
-        run: npm run sync:companycam
+        run: npm run sync:companycam -- --full
 
       - name: Commit updated data (if anything changed)
         run: |
