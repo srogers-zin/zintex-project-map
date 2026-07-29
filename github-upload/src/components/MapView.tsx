@@ -15,7 +15,7 @@ interface MapViewProps {
 
 // GeoJSON feature properties for each pin. Pins are always rendered
 // individually (no clustering), so there's no cluster/point_count property.
-type PinProps = { pinId: string; hasPhotos: boolean };
+type PinProps = { pinId: string; hasPhotos: boolean; highVolumeUntagged: boolean };
 
 export function MapView({ pins, selectedId, command, onSelect }: MapViewProps) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -60,7 +60,16 @@ export function MapView({ pins, selectedId, command, onSelect }: MapViewProps) {
         type: "circle",
         source: "pins",
         paint: {
-          "circle-color": ["case", ["get", "hasPhotos"], "#003366", "#94a3b8"],
+          // Blue: featured on the map (1+ tagged photo). Red: NOT on the map
+          // yet, but CompanyCam shows 15+ photos for the job — a "go tag
+          // this one" signal for Sales Leadership (see
+          // scripts/flag-companycam-volume.ts). Grey: everything else.
+          "circle-color": [
+            "case",
+            ["get", "hasPhotos"], "#003366",
+            ["get", "highVolumeUntagged"], "#dc2626",
+            "#94a3b8",
+          ],
           "circle-radius": 7,
           "circle-stroke-width": 2,
           "circle-stroke-color": "#ffffff",
@@ -112,7 +121,7 @@ export function MapView({ pins, selectedId, command, onSelect }: MapViewProps) {
       type: "FeatureCollection",
       features: pinsRef.current.map((p) => ({
         type: "Feature" as const,
-        properties: { pinId: p.id, hasPhotos: p.hasPhotos } satisfies PinProps,
+        properties: { pinId: p.id, hasPhotos: p.hasPhotos, highVolumeUntagged: p.highVolumeUntagged } satisfies PinProps,
         geometry: { type: "Point" as const, coordinates: [p.lng, p.lat] },
       })),
     });

@@ -169,13 +169,28 @@ export function AppShell() {
           />
         </div>
 
-        <main className="min-w-0 flex-1">
+        <main className="relative min-w-0 flex-1">
           <MapView
             pins={pins}
             selectedId={selectedId}
             command={command}
             onSelect={selectProject}
           />
+          {/* Pin color key */}
+          <div className="pointer-events-none absolute bottom-4 left-4 z-10 hidden flex-col gap-1 rounded-md bg-white/90 px-3 py-2 text-xs text-slate-600 shadow-sm backdrop-blur-sm md:flex">
+            <div className="flex items-center gap-1.5">
+              <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#003366" }} />
+              Photos on map
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#dc2626" }} />
+              15+ photos in CompanyCam, none tagged yet
+            </div>
+            <div className="flex items-center gap-1.5">
+              <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#94a3b8" }} />
+              No photos yet
+            </div>
+          </div>
         </main>
 
         {/* Mobile list toggle */}
