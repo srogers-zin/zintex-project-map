@@ -35,7 +35,16 @@ CREATE TABLE IF NOT EXISTS projects (
   -- The public API MUST filter opted_out = false. This is the main legal
   -- exposure of the product — real home addresses are published.
   opted_out             BOOLEAN NOT NULL DEFAULT false,
-  updated_at            TIMESTAMPTZ NOT NULL DEFAULT now()
+  updated_at            TIMESTAMPTZ NOT NULL DEFAULT now(),
+  -- Homeowner name (from PMI's project name / survey recipient fields).
+  -- Server-side only — used to fuzzy-match reviews to a project. Never
+  -- selected by getProjectDetail's public query.
+  customer_name         TEXT,
+  -- Set by scripts/flag-companycam-volume.ts: true when this project has no
+  -- tagged photos yet (photo_count = 0) but its CompanyCam project has 15+
+  -- total photos — a "go tag this one" signal for Sales Leadership, rendered
+  -- as a distinct pin color.
+  high_volume_untagged  BOOLEAN NOT NULL DEFAULT false
 );
 
 -- Spatial index powers bounding-box map loads and radius search.
@@ -53,7 +62,8 @@ CREATE TABLE IF NOT EXISTS project_photos (
 );
 CREATE INDEX IF NOT EXISTS project_photos_project_idx ON project_photos (project_id);
 
--- --- Google reviews (synced per location) ----------------------------------
+-- --- Reviews (synced per location from Birdeye, which aggregates Google
+-- among other review sites) ---------------------------------------------
 CREATE TABLE IF NOT EXISTS reviews (
   id               UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
   location_id      TEXT NOT NULL REFERENCES locations(id),
@@ -62,9 +72,14 @@ CREATE TABLE IF NOT EXISTS reviews (
   author_name      TEXT NOT NULL,
   author_photo_url TEXT,
   text             TEXT NOT NULL DEFAULT '',
-  posted_at        TIMESTAMPTZ NOT NULL
+  posted_at        TIMESTAMPTZ NOT NULL,
+  -- Set when scripts/sync-birdeye-reviews.ts fuzzy-matches the reviewer to a
+  -- homeowner on file for a project in the same branch. Nullable — most
+  -- reviews won't confidently match and stay branch-level only.
+  project_id       UUID REFERENCES projects(id)
 );
 CREATE INDEX IF NOT EXISTS reviews_location_idx ON reviews (location_id);
+CREATE INDEX IF NOT EXISTS reviews_project_idx ON reviews (project_id);
 
 -- --- Opt-out suppression list ----------------------------------------------
 CREATE TABLE IF NOT EXISTS opt_outs (
