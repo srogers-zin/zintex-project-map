@@ -55,16 +55,28 @@ const SERVICE_STATE_TOKENS = new Set(
 );
 
 const FLORIDA_TOKENS = new Set(["fl", "florida"]);
-// Zintex covers the FL panhandle only, not the peninsula/southern FL. The
-// panhandle runs roughly from Pensacola to Tallahassee; -84.5 sits just east
-// of Tallahassee, so this keeps the whole panhandle and excludes the rest of
-// the state (e.g. Orlando ~-81.4, Miami ~-80.2 are well east of this line).
-const FLORIDA_PANHANDLE_MAX_LNG = -84.5;
+// Zintex covers the FL panhandle, including Tallahassee, not the peninsula/
+// southern FL. CORRECTED: the previous cutoff of -84.5 was actually ~15mi
+// WEST of downtown Tallahassee (~-84.28), so it was silently excluding real
+// Tallahassee jobs as "outside service area" — confirmed after Tallahassee-
+// tagged CompanyCam photos never appeared on the map despite a clean sync.
+// -83.9 keeps all of the Tallahassee metro while still excluding Live Oak
+// (~-82.99) and Lake City (~-82.64) further east.
+const FLORIDA_PANHANDLE_MAX_LNG = -83.9;
 
-// True if a raw CompanyCam address looks like it's within Zintex's actual
+const KENTUCKY_TOKENS = new Set(["ky", "kentucky"]);
+// Zintex covers southern KY only. Confirmed against every real PMI project
+// tagged Kentucky (scripts/pmi-find-state.ts): the whole existing footprint
+// (Tompkinsville, Franklin, Burkesville, Cadiz, Hickman, etc.) sits between
+// 36.57°N and 37.11°N, hugging the Tennessee border. 37.5 gives a bit of
+// buffer above that cluster while still excluding Louisville (~38.25°N) and
+// Lexington (~38.04°N).
+const KENTUCKY_MAX_LAT = 37.5;
+
+// True if a raw CompanyCam/PMI address looks like it's within Zintex's actual
 // service territory. Missing/unrecognized state -> false (excluded); callers
-// should treat that the same as any other "bad data" skip reason. Florida is
-// special-cased to the panhandle only, using the project's coordinates.
+// should treat that the same as any other "bad data" skip reason. Florida and
+// Kentucky are special-cased to a sub-region using the project's coordinates.
 export function isInServiceArea(
   state: string | undefined | null,
   lat?: number,
@@ -74,6 +86,9 @@ export function isInServiceArea(
   const s = state.trim().toLowerCase();
   if (FLORIDA_TOKENS.has(s)) {
     return typeof lng === "number" && lng <= FLORIDA_PANHANDLE_MAX_LNG;
+  }
+  if (KENTUCKY_TOKENS.has(s)) {
+    return typeof lat === "number" && lat <= KENTUCKY_MAX_LAT;
   }
   return SERVICE_STATE_TOKENS.has(s);
 }
