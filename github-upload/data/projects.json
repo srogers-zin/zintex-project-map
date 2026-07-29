@@ -336856,7 +336856,7 @@
     "lng": -92.0418311,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 4,
     "createdAt": "2026-05-15T21:19:20.000Z",
     "optedOut": false
   },
@@ -336930,6 +336930,18 @@
     "tags": [],
     "photoCount": 2,
     "createdAt": "2026-07-11T02:53:09.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "108056409",
+    "companycamProjectId": "108056409",
+    "address": "1890 Jericho Ln, Chipley, Florida, 32428",
+    "lat": 30.7033067,
+    "lng": -85.60728150000001,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 3,
+    "createdAt": "2026-06-20T00:23:58.000Z",
     "optedOut": false
   }
 ]
