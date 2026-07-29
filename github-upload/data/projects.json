@@ -336895,5 +336895,17 @@
     "photoCount": 1,
     "createdAt": "2026-04-15T00:25:16.000Z",
     "optedOut": false
+  },
+  {
+    "id": "108155311",
+    "companycamProjectId": "108155311",
+    "address": "2859 Fitzpatrick Dr, Tallahassee, FL, 32309",
+    "lat": 30.50843249999999,
+    "lng": -84.2232004,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-22T18:18:46.000Z",
+    "optedOut": false
   }
 ]
