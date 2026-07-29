@@ -10,6 +10,7 @@
     "lint": "next lint",
     "seed": "tsx scripts/generate-fixtures.ts",
     "sync:companycam": "tsx scripts/sync-companycam.ts",
+    "flag:companycam-volume": "tsx scripts/flag-companycam-volume.ts",
     "sync:pmi": "tsx scripts/sync-pmi.ts",
     "pmi-find-state": "tsx scripts/pmi-find-state.ts",
     "pmi-archive-photos": "tsx scripts/pmi-archive-photos.ts",
