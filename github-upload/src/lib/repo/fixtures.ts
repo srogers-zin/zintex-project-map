@@ -100,6 +100,7 @@ export class FixtureRepo implements Repo {
         lat: p.lat,
         lng: p.lng,
         hasPhotos: p.photoCount > 0,
+        highVolumeUntagged: Boolean(p.highVolumeUntagged),
         tags: p.tags,
         locationId: p.locationId,
       }));

@@ -85,7 +85,9 @@ export class PostgresRepo implements Repo {
     const { rows } = await pool.query(
       `SELECT id,
               ST_Y(geom::geometry) AS lat, ST_X(geom::geometry) AS lng,
-              (photo_count > 0) AS "hasPhotos", tags, location_id AS "locationId"
+              (photo_count > 0) AS "hasPhotos",
+              COALESCE(high_volume_untagged, false) AS "highVolumeUntagged",
+              tags, location_id AS "locationId"
        FROM projects WHERE ${where}`,
       params,
     );
@@ -103,7 +105,8 @@ export class PostgresRepo implements Repo {
       `SELECT id, companycam_project_id AS "companycamProjectId", address,
               ST_Y(geom::geometry) AS lat, ST_X(geom::geometry) AS lng,
               location_id AS "locationId", tags, photo_count AS "photoCount",
-              created_at AS "createdAt", opted_out AS "optedOut"
+              created_at AS "createdAt", opted_out AS "optedOut",
+              COALESCE(high_volume_untagged, false) AS "highVolumeUntagged"
        FROM projects WHERE ${where}
        ORDER BY created_at DESC
        LIMIT $${params.length + 1} OFFSET $${params.length + 2}`,
@@ -119,6 +122,7 @@ export class PostgresRepo implements Repo {
               ST_Y(p.geom::geometry) AS lat, ST_X(p.geom::geometry) AS lng,
               p.location_id AS "locationId", p.tags, p.photo_count AS "photoCount",
               p.created_at AS "createdAt", p.opted_out AS "optedOut",
+              COALESCE(p.high_volume_untagged, false) AS "highVolumeUntagged",
               l.name AS "locationName"
        FROM projects p JOIN locations l ON l.id = p.location_id
        WHERE p.id = $1 AND p.opted_out = false`,
