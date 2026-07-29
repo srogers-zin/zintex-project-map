@@ -33,8 +33,12 @@ export interface CompanyCamProject {
 }
 
 // A CompanyCam photo as returned by the photos endpoint (subset we use).
+// `project_id` is only populated by the GLOBAL /photos search (listPhotosByTagIds)
+// — the per-project /projects/:id/photos endpoint doesn't need it since the
+// project is already known from the URL.
 export interface CompanyCamPhoto {
   id: string;
+  project_id?: string;
   uris?: Array<{ type: string; uri: string }>;
 }
 
@@ -46,21 +50,57 @@ export interface CompanyCamTag {
 
 export interface CompanyCamClient {
   // Projects updated since `sinceIso`. Real impl paginates the CompanyCam API.
+  // Only used by the legacy/"all" photo-filter path (see sync-companycam.ts) —
+  // subject to CompanyCam's hard max-offset cap on this endpoint (~10-20k rows
+  // deep, sorted by most-recent-activity), so a project that hasn't had other
+  // CompanyCam activity in a while may never be reachable this way.
   listProjectsUpdatedSince(sinceIso: string | null): AsyncIterable<CompanyCamProject>;
   // Photos for one project (paginated internally). When the client was built
   // with photoTagIds, only photos carrying one of those tags are returned —
   // filtered server-side by CompanyCam, not fetched-then-checked locally.
   listPhotos(projectId: string): Promise<CompanyCamPhoto[]>;
+  // GLOBAL photo search by tag id, across every project — NOT subject to the
+  // /projects max-offset cap and not dependent on a project's activity/sort
+  // order at all, since it queries photos directly. This is the primary path
+  // for "tags" mode (see PHOTO_FILTER_MODE in sync-companycam.ts): instead of
+  // scanning every project hoping to reach the tagged one, ask CompanyCam
+  // directly for every photo that carries one of the target tags, then fetch
+  // just those specific projects by id.
+  listPhotosByTagIds(tagIds: string[]): AsyncIterable<CompanyCamPhoto>;
+  // Fetch a single project directly by id (not the capped list endpoint).
+  // Returns null on 404 (deleted/archived-out-of-reach/bad id).
+  getProject(id: string): Promise<CompanyCamProject | null>;
+  // Cheap "does this project have at least N photos" check — CompanyCam
+  // doesn't expose a photo-count field on the Project object anywhere, so
+  // this is a single GET /projects/:id/photos?per_page=N request (no tag
+  // filter — counts ALL photos, tagged or not) and just checks how many came
+  // back, rather than paginating through the project's full photo history.
+  hasAtLeastPhotos(projectId: string, threshold: number): Promise<boolean>;
 }
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
-// Fetch with retry/backoff on rate limits (429) and transient 5xx. Honors the
-// Retry-After header when present. Essential for a 23k-project backfill.
+// Fetch with retry/backoff on rate limits (429), transient 5xx, AND
+// network-level failures (timeouts, connection resets — fetch() itself
+// throwing rather than resolving with an error status). That last category
+// was originally unhandled: a real backfill run against ~3000 candidates
+// logged a large number of generic "fetch failed" errors that got treated
+// as "no photos found" instead of being retried, which would silently
+// undercount how many photos actually carry the target tags. Honors the
+// Retry-After header when present. Essential for a large backfill.
 async function ccFetch(url: URL | string, token: string, attempt = 0): Promise<Response> {
-  const res = await fetch(url, {
-    headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
-  });
+  let res: Response;
+  try {
+    res = await fetch(url, {
+      headers: { Authorization: `Bearer ${token}`, Accept: "application/json" },
+    });
+  } catch (err) {
+    if (attempt < 6) {
+      await sleep(Math.min(2 ** attempt, 30) * 1000);
+      return ccFetch(url, token, attempt + 1);
+    }
+    throw err;
+  }
   if ((res.status === 429 || res.status >= 500) && attempt < 6) {
     const retryAfter = Number(res.headers.get("Retry-After"));
     const waitSec = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter : Math.min(2 ** attempt, 30);
@@ -278,6 +318,54 @@ export function createLiveClient(
         all.push(...batch);
         page += 1;
       }
+    },
+
+    async *listPhotosByTagIds(tagIds) {
+      if (!tagIds.length) return;
+      // Cursor-based pagination (after/X-Next-Cursor), NOT the page/per_page
+      // offset pagination /projects uses — CompanyCam's docs explicitly say
+      // cursor and offset pagination can't be mixed on this endpoint, and
+      // cursor pagination has no documented max-depth cap the way /projects
+      // does, so this can safely walk every tagged photo the company has.
+      let cursor: string | null = null;
+      for (;;) {
+        const url = new URL(`${base}/photos`);
+        url.searchParams.set("per_page", "100");
+        for (const id of tagIds) url.searchParams.append("tag_ids[]", id);
+        if (cursor) url.searchParams.set("after", cursor);
+
+        const res = await ccFetch(url, token);
+        if (!res.ok) throw new Error(`CompanyCam API ${res.status} on photos (tag search): ${await res.text()}`);
+        const batch = (await res.json()) as CompanyCamPhoto[];
+        if (!batch.length) return; // truly empty page = done
+        for (const p of batch) yield p;
+
+        if (res.headers.get("X-Has-Next") !== "true") return;
+        const next = res.headers.get("X-Next-Cursor");
+        if (!next) return;
+        cursor = next;
+      }
+    },
+
+    async getProject(id) {
+      const url = new URL(`${base}/projects/${id}`);
+      const res = await ccFetch(url, token);
+      if (res.status === 404) return null;
+      if (!res.ok) throw new Error(`CompanyCam API ${res.status} on GET /projects/${id}: ${await res.text()}`);
+      return (await res.json()) as CompanyCamProject;
+    },
+
+    async hasAtLeastPhotos(projectId, threshold) {
+      const url = new URL(`${base}/projects/${projectId}/photos`);
+      url.searchParams.set("per_page", String(threshold));
+      // Deliberately NO tag_ids filter — this counts every photo on the
+      // project regardless of tag, since the point is "has the crew
+      // documented this job well," not "has anyone tagged it yet."
+      const res = await ccFetch(url, token);
+      if (res.status === 404) return false; // project gone
+      if (!res.ok) throw new Error(`CompanyCam API ${res.status} on photos for ${projectId}: ${await res.text()}`);
+      const batch = (await res.json()) as CompanyCamPhoto[];
+      return batch.length >= threshold;
     },
   };
 }

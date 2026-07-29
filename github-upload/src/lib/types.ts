@@ -33,6 +33,16 @@ export interface Project {
   // only server-side to fuzzy-match Google/Birdeye reviews to a project —
   // never sent to the client (see ProjectDetail, which omits it).
   customerName?: string | null;
+  // Set by scripts/flag-companycam-volume.ts: true when this project has NO
+  // tagged photos on the map yet (photoCount === 0) but its CompanyCam
+  // project has 15+ total photos — i.e. well-documented in the field but
+  // nobody has tagged anything for the public map. Renders as a distinct
+  // ("go tag this one") pin color so Sales Leadership can spot it and jump
+  // straight into CompanyCam via the project's deep link. Once a photo on
+  // that project gets one of the real map tags, the normal tag sync picks it
+  // up, photoCount becomes > 0, and this flag stops mattering (hasPhotos
+  // takes priority in the pin color logic).
+  highVolumeUntagged?: boolean;
 }
 
 // A project plus its photos — returned by the detail endpoint. Deliberately
@@ -51,6 +61,7 @@ export interface ProjectPin {
   lat: number;
   lng: number;
   hasPhotos: boolean;
+  highVolumeUntagged: boolean;
   tags: string[];
   locationId: string;
 }
