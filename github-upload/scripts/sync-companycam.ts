@@ -175,7 +175,16 @@ async function writeFixtures(projects: Project[], photos: ProjectPhoto[]) {
   for (const incoming of projects) {
     const existingIdForSameCcProject = idByCompanyCamId.get(incoming.companycamProjectId);
     const targetId = existingIdForSameCcProject ?? incoming.id;
-    pById.set(targetId, { ...incoming, id: targetId });
+    // Spread the EXISTING record first, then incoming — so fields the
+    // CompanyCam transform never sets (e.g. `customerName`, the PMI
+    // homeowner name used for Birdeye review matching) survive the merge
+    // instead of silently disappearing. Previously this was `{ ...incoming,
+    // id: targetId }` with no existing spread at all, which meant every time
+    // a CompanyCam sync touched a project that started life as a PMI record,
+    // it quietly wiped that project's customerName — breaking future review
+    // matching for that homeowner. Fixed here.
+    const existingRecord = pById.get(targetId);
+    pById.set(targetId, { ...existingRecord, ...incoming, id: targetId });
     idByCompanyCamId.set(incoming.companycamProjectId, targetId);
     resolvedIds.push(targetId);
   }
@@ -274,6 +283,16 @@ function fixtureClient(): CompanyCamClient {
     async listPhotos(projectId) {
       return photos[projectId] ?? [];
     },
+    async *listPhotosByTagIds() {
+      // No real tag ids in fixture mode (resolveTagIds needs a live token) —
+      // nothing to yield.
+    },
+    async getProject(id) {
+      return samples.find((s) => s.id === id) ?? null;
+    },
+    async hasAtLeastPhotos(projectId, threshold) {
+      return (photos[projectId]?.length ?? 0) >= threshold;
+    },
   };
 }
 
@@ -306,95 +325,151 @@ async function main() {
     ? createLiveClient(token, process.env.COMPANYCAM_API_BASE, photoTagIds)
     : fixtureClient();
 
-  // CAUTION (confirmed against real data): incremental mode filters
-  // CompanyCam's project list by the PROJECT's own modified_since, but
-  // tagging a PHOTO inside an already-existing project does not appear to
-  // bump that timestamp. In "tags" mode (the default — see PHOTO_FILTER_MODE
-  // above), that means incremental syncs can silently miss newly tagged
-  // photos on projects CompanyCam last touched a while ago — a real run
-  // confirmed this (a project tagged after the prior sync never showed up
-  // in the incremental candidate list). The automated GitHub Actions
-  // workflow (.github/workflows/sync-companycam.yml) therefore always runs
-  // with --full for correctness. Incremental (no --full) is still fine for
-  // a fast manual smoke test, just don't rely on it to catch tag-only
-  // changes to previously-seen projects.
-  const state = await readJson<{ lastSyncIso: string | null }>(STATE_FILE, { lastSyncIso: null });
-  const sinceIso = args.full ? null : state.lastSyncIso;
+  // FIXED (previously a real bug, confirmed against real data): CompanyCam's
+  // /projects list endpoint has a hard max-offset cap (~10-20k rows deep,
+  // sorted by most-recent-activity), and tagging a photo does NOT bump its
+  // parent project's activity timestamp. Together, a project that hadn't had
+  // OTHER CompanyCam activity in a while could get a photo tagged and still
+  // never be reached by a scan of /projects, no matter how the incremental
+  // cursor was set — a live run confirmed this exact failure (a newly-tagged
+  // Montgomery, AL project never appeared even after a --full scan).
+  //
+  // FIX: in "tags" mode (the default — see PHOTO_FILTER_MODE above) we no
+  // longer scan /projects at all. CompanyCam's GLOBAL /photos search endpoint
+  // can filter by tag_ids directly (cursor-paginated, no offset cap, and
+  // completely independent of any project's activity/sort order) — so we ask
+  // it for every photo that carries one of PHOTO_TAG_NAMES, then fetch just
+  // those specific projects by id (GET /projects/:id, a direct lookup with no
+  // cap). This is also cheap enough to always run as a full sweep: there's no
+  // more incremental-vs-full distinction to get wrong, since the only thing
+  // ever scanned is the comparatively small set of currently-tagged photos.
+  //
+  // The old /projects-scan path (listProjectsUpdatedSince + per-project
+  // listPhotos, including its own incremental/--full state-file logic) is
+  // kept below under PHOTO_FILTER_MODE = "all" only — not used currently,
+  // kept for reference in case the tagging convention changes again.
   const startedAt = new Date().toISOString();
 
   console.log(`CompanyCam sync`);
   console.log(`  source:  ${token ? "LIVE" : "FIXTURE (no token — set COMPANYCAM_API_TOKEN)"}`);
   console.log(`  target:  ${target}${target === "fixtures" ? " (data/*.json)" : " (Postgres)"}`);
-  console.log(`  mode:    ${sinceIso ? `incremental since ${sinceIso}` : "full backfill"}`);
+  console.log(`  mode:    ${PHOTO_FILTER_MODE === "tags" ? "global tag search (not a project scan)" : "full project scan"}`);
   if (args.limit) console.log(`  limit:   ${args.limit} (smoke test)`);
 
-  // 1) Pull + transform projects (streamed, paginated).
   const projects: Project[] = [];
-  let scanned = 0;
-  let skipped = 0;
-  const candidates: Project[] = []; // transformed OK, but not yet confirmed to have a tagged photo
-  for await (const raw of client.listProjectsUpdatedSince(sinceIso)) {
-    scanned++;
-    const { project, skippedReason } = transformProject(raw);
-    if (!project) {
-      skipped++;
-      // TODO(geocode): when skippedReason is missing coordinates, geocode
-      // formatAddress(raw.address) via the configured provider and retry.
-      if (skipped <= 10) console.warn(`  skip ${raw.id}: ${skippedReason}`);
-      continue;
-    }
-    candidates.push(project);
-    if (candidates.length % PROGRESS_EVERY === 0) console.log(`  …${candidates.length} candidates`);
-    if (args.limit && candidates.length >= args.limit) break;
-  }
-  console.log(`Candidates: ${candidates.length} geocodable, ${skipped} skipped (of ${scanned} scanned).`);
-
-  // 2) Fetch photos (concurrency-limited, tag-filtered server-side by
-  //    CompanyCam). In "tags" mode (the default — see PHOTO_FILTER_MODE
-  //    above) a candidate only makes it into `projects` (and therefore only
-  //    gets a pin) if this comes back with at least one tagged photo — a
-  //    project with zero qualifying photos is dropped here, not just left
-  //    photo-less. In "all" mode every candidate is kept regardless.
   const photos: ProjectPhoto[] = [];
-  if (args.projectsOnly && PHOTO_FILTER_MODE === "tags") {
-    console.warn(
-      `--projects-only has no effect in "tags" mode: inclusion on the map now depends on having a ` +
-        `tagged photo, so skipping the photo fetch would drop every candidate. Ignoring the flag.`,
-    );
-  }
-  if (token && PHOTO_FILTER_MODE === "tags" && !photoTagIds.length) {
-    console.warn(`Skipping entirely — no photo tags resolved (see warning above). No pins will be added.`);
-  } else if (args.projectsOnly && PHOTO_FILTER_MODE !== "tags") {
-    console.log(`Skipping photo fetch (--projects-only). photo_count still reflects CompanyCam's raw total.`);
-    projects.push(...candidates);
-  } else {
-    const withPhotos = candidates.filter((p) => p.photoCount > 0);
-    console.log(`Fetching photos for ${withPhotos.length} candidates (concurrency ${PHOTO_CONCURRENCY})…`);
-    let done = 0;
-    let droppedNoTaggedPhoto = 0;
-    await mapPool(withPhotos, PHOTO_CONCURRENCY, async (p) => {
-      try {
-        const raw = await client.listPhotos(p.companycamProjectId);
-        const transformed = transformPhotos(p.id, raw);
-        p.photoCount = transformed.length; // correct to the tag-filtered count
-        if (PHOTO_FILTER_MODE === "tags" && transformed.length === 0) {
-          droppedNoTaggedPhoto++;
-          return; // no qualifying tagged photo — this project does not get a pin
-        }
-        projects.push(p);
-        photos.push(...transformed);
-      } catch (e) {
-        console.warn(`  photo fetch failed for ${p.id}: ${(e as Error).message}`);
-      }
-      if (++done % PROGRESS_EVERY === 0) console.log(`  …${done}/${withPhotos.length} photo sets`);
-    });
-    if (PHOTO_FILTER_MODE === "tags") {
-      // Candidates with photoCount === 0 to begin with never had a chance at
-      // a tagged photo either — count them too for an accurate total.
-      droppedNoTaggedPhoto += candidates.length - withPhotos.length;
-      console.log(`Dropped ${droppedNoTaggedPhoto} candidate(s) with no "${PHOTO_TAG_NAMES.join('" / "')}" photo.`);
+
+  if (PHOTO_FILTER_MODE === "tags") {
+    if (args.projectsOnly) {
+      console.warn(
+        `--projects-only has no effect in "tags" mode: inclusion on the map now depends on having a ` +
+          `tagged photo, so there's no separate "projects" step to skip. Ignoring the flag.`,
+      );
     }
-    console.log(`Photos: ${photos.length} total.`);
+    if (!photoTagIds.length) {
+      console.warn(`Skipping entirely — no photo tags resolved (see warning above). No pins will be added.`);
+    } else {
+      // 1) Global photo search by tag id — every photo tagged with any of
+      // PHOTO_TAG_NAMES, across every project, however old or inactive.
+      const photosByProject = new Map<string, CompanyCamPhoto[]>();
+      let totalTaggedPhotos = 0;
+      for await (const photo of client.listPhotosByTagIds(photoTagIds)) {
+        totalTaggedPhotos++;
+        const pid = photo.project_id;
+        if (!pid) continue;
+        const list = photosByProject.get(pid) ?? [];
+        list.push(photo);
+        photosByProject.set(pid, list);
+        if (args.limit && photosByProject.size >= args.limit) break;
+      }
+      console.log(
+        `Found ${totalTaggedPhotos} tagged photo(s) across ${photosByProject.size} project(s) ` +
+          `(global tag search — not subject to the /projects offset cap).`,
+      );
+
+      // 2) Fetch each of those specific projects directly by id (not the
+      // capped list endpoint), and pair it with the tagged photos we already
+      // have from step 1 — no need to re-fetch photos per project.
+      let skipped = 0;
+      let done = 0;
+      const projectIds = [...photosByProject.keys()];
+      await mapPool(projectIds, PHOTO_CONCURRENCY, async (pid) => {
+        try {
+          const raw = await client.getProject(pid);
+          if (!raw) {
+            skipped++;
+            if (skipped <= 10) console.warn(`  skip ${pid}: project not found (404 — deleted or archived)`);
+            return;
+          }
+          const { project, skippedReason } = transformProject(raw);
+          if (!project) {
+            skipped++;
+            if (skipped <= 10) console.warn(`  skip ${pid}: ${skippedReason}`);
+            return;
+          }
+          const transformed = transformPhotos(project.id, photosByProject.get(pid) ?? []);
+          project.photoCount = transformed.length;
+          projects.push(project);
+          photos.push(...transformed);
+        } catch (e) {
+          skipped++;
+          console.warn(`  project fetch failed for ${pid}: ${(e as Error).message}`);
+        }
+        if (++done % PROGRESS_EVERY === 0) console.log(`  …${done}/${projectIds.length} projects`);
+      });
+      console.log(`Skipped ${skipped} project(s) total (first 10 shown above, if any).`);
+      console.log(`Photos: ${photos.length} total.`);
+    }
+  } else {
+    // Legacy "all" mode: full /projects scan + per-project photo fetch.
+    // Subject to the max-offset cap described above — kept for reference.
+    const state = await readJson<{ lastSyncIso: string | null }>(STATE_FILE, { lastSyncIso: null });
+    const sinceIso = args.full ? null : state.lastSyncIso;
+    console.log(`  scan mode: ${sinceIso ? `incremental since ${sinceIso}` : "full backfill"}`);
+
+    let scanned = 0;
+    let skipped = 0;
+    const candidates: Project[] = [];
+    for await (const raw of client.listProjectsUpdatedSince(sinceIso)) {
+      scanned++;
+      const { project, skippedReason } = transformProject(raw);
+      if (!project) {
+        skipped++;
+        if (skipped <= 10) console.warn(`  skip ${raw.id}: ${skippedReason}`);
+        continue;
+      }
+      candidates.push(project);
+      if (candidates.length % PROGRESS_EVERY === 0) console.log(`  …${candidates.length} candidates`);
+      if (args.limit && candidates.length >= args.limit) break;
+    }
+    console.log(`Candidates: ${candidates.length} geocodable, ${skipped} skipped (of ${scanned} scanned).`);
+
+    if (args.projectsOnly) {
+      console.log(`Skipping photo fetch (--projects-only). photo_count still reflects CompanyCam's raw total.`);
+      projects.push(...candidates);
+    } else {
+      const withPhotos = candidates.filter((p) => p.photoCount > 0);
+      console.log(`Fetching photos for ${withPhotos.length} candidates (concurrency ${PHOTO_CONCURRENCY})…`);
+      let done = 0;
+      await mapPool(withPhotos, PHOTO_CONCURRENCY, async (p) => {
+        try {
+          const raw = await client.listPhotos(p.companycamProjectId);
+          const transformed = transformPhotos(p.id, raw);
+          p.photoCount = transformed.length;
+          projects.push(p);
+          photos.push(...transformed);
+        } catch (e) {
+          console.warn(`  photo fetch failed for ${p.id}: ${(e as Error).message}`);
+        }
+        if (++done % PROGRESS_EVERY === 0) console.log(`  …${done}/${withPhotos.length} photo sets`);
+      });
+      console.log(`Photos: ${photos.length} total.`);
+    }
+
+    if (!args.limit) {
+      await fs.writeFile(STATE_FILE, JSON.stringify({ lastSyncIso: startedAt }, null, 2));
+      console.log(`Sync state updated → ${startedAt}`);
+    }
   }
   console.log(`Projects: ${projects.length} will get a pin.`);
 
@@ -413,11 +488,6 @@ async function main() {
     console.log(`Merged ${projects.length} synced projects (+ ${photos.length} photos) into data/*.json.`);
   }
 
-  // 5) Persist sync state (skip on smoke tests so they don't advance the cursor).
-  if (!args.limit) {
-    await fs.writeFile(STATE_FILE, JSON.stringify({ lastSyncIso: startedAt }, null, 2));
-    console.log(`Sync state updated → ${startedAt}`);
-  }
   console.log("Done.");
 }
 
