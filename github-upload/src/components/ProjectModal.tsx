@@ -36,11 +36,18 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
 
   const photos = detail?.photos ?? [];
   const current = photos[photoIdx];
+  // Only a real, numeric CompanyCam project id can be linked to — legacy
+  // PMI-sourced projects fall back to their PMI record id (non-numeric) when
+  // no CompanyCam project was ever matched, and linking to that would 404.
+  const companycamUrl =
+    detail?.companycamProjectId && /^\d+$/.test(detail.companycamProjectId)
+      ? `https://app.companycam.com/projects/${detail.companycamProjectId}`
+      : null;
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4" onClick={onClose}>
       <div
-        className="scroll-thin max-h-[90vh] w-full max-w-md overflow-y-auto rounded-xl bg-white shadow-2xl"
+        className="scroll-thin max-h-[92vh] w-full max-w-3xl overflow-y-auto rounded-xl bg-white shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-start justify-between gap-2 border-b border-slate-100 p-4">
@@ -48,6 +55,21 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
             {loading ? "Loading…" : detail?.address ?? "Project not available"}
           </h2>
           <div className="flex shrink-0 items-center gap-1">
+            {companycamUrl && (
+              <a
+                href={companycamUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="rounded-md p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-600"
+                aria-label="Open in CompanyCam"
+                title="Open this project in CompanyCam"
+              >
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6" />
+                  <path d="M15 3h6v6M10 14L21 3" />
+                </svg>
+              </a>
+            )}
             <button
               onClick={share}
               className="rounded-md p-1.5 text-slate-400 hover:bg-slate-100 hover:text-slate-600"
@@ -76,7 +98,7 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
                 <img
                   src={current.url}
                   alt={detail.address}
-                  className="h-80 w-full rounded-lg bg-slate-100 object-contain"
+                  className="h-[65vh] w-full rounded-lg bg-slate-100 object-contain"
                 />
                 {photos.length > 1 && (
                   <>
@@ -105,23 +127,6 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
                 No photos for this project
               </div>
             )}
-
-            {/* Work details / tags */}
-            <div className="mt-4">
-              <h3 className="text-xs font-semibold uppercase tracking-wide text-slate-400">Work Details</h3>
-              <div className="mt-2 flex flex-wrap gap-1.5">
-                {detail.tags.length ? (
-                  detail.tags.map((t) => (
-                    <span key={t} className="rounded-full bg-brand-50 px-2.5 py-1 text-xs font-medium text-brand-700">
-                      {t}
-                    </span>
-                  ))
-                ) : (
-                  <span className="text-xs text-slate-400">No service tags</span>
-                )}
-              </div>
-              <p className="mt-2 text-xs text-slate-400">Serviced by our {detail.locationName} branch</p>
-            </div>
 
             {/* Reviews from this homeowner, matched by name during the Birdeye sync. */}
             {detail.reviews.length > 0 && (
