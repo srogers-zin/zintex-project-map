@@ -184,7 +184,7 @@ export function AppShell() {
             </div>
             <div className="flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#dc2626" }} />
-              15+ photos in CompanyCam, none tagged yet
+              25+ photos in CompanyCam, none tagged yet
             </div>
             <div className="flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#94a3b8" }} />

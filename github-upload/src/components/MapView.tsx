@@ -61,7 +61,7 @@ export function MapView({ pins, selectedId, command, onSelect }: MapViewProps) {
         source: "pins",
         paint: {
           // Blue: featured on the map (1+ tagged photo). Red: NOT on the map
-          // yet, but CompanyCam shows 15+ photos for the job — a "go tag
+          // yet, but CompanyCam shows 25+ photos for the job — a "go tag
           // this one" signal for Sales Leadership (see
           // scripts/flag-companycam-volume.ts). Grey: everything else.
           "circle-color": [
