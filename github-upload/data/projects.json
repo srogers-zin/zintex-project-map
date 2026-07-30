@@ -150307,19 +150307,6 @@
     "customerName": "Adams, Michael"
   },
   {
-    "id": "663cd1c65f81c0594c8eaeed",
-    "companycamProjectId": "62980858",
-    "address": "1607 briarwood dr, Jonesboro , Arkansas , 72401",
-    "lat": 0,
-    "lng": 0,
-    "locationId": "tyler",
-    "tags": [],
-    "photoCount": 1,
-    "createdAt": "2024-04-23T02:56:38.000Z",
-    "optedOut": false,
-    "customerName": "Mitchell, Stanley"
-  },
-  {
     "id": "663cd1c55f81c085758eaeec",
     "companycamProjectId": "663cd1c55f81c085758eaeec",
     "address": "609 N 20th St, Lamesa, TX 79331, USA",
@@ -341013,7 +341000,7 @@
     "lng": -87.85825207829475,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-06-04T23:16:40.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -347591,7 +347578,7 @@
     "lng": -99.44532930850983,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-19T01:28:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -348592,7 +348579,7 @@
     "lng": -91.4532546,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-05-31T15:22:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -350048,7 +350035,7 @@
     "lng": -99.48280609999999,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-18T01:18:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -354403,7 +354390,7 @@
     "lng": -98.1241824,
     "locationId": "amarillo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-04-14T00:25:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -359031,7 +359018,7 @@
     "lng": -99.47482180000002,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-27T01:18:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -363126,7 +363113,7 @@
     "lng": -99.4884493,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-05-12T20:33:50.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
