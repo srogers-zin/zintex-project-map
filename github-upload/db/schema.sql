@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS projects (
   -- selected by getProjectDetail's public query.
   customer_name         TEXT,
   -- Set by scripts/flag-companycam-volume.ts: true when this project has no
-  -- tagged photos yet (photo_count = 0) but its CompanyCam project has 15+
+  -- tagged photos yet (photo_count = 0) but its CompanyCam project has 25+
   -- total photos — a "go tag this one" signal for Sales Leadership, rendered
   -- as a distinct pin color.
   high_volume_untagged  BOOLEAN NOT NULL DEFAULT false
