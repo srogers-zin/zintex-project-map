@@ -155,7 +155,13 @@ export function transformProject(raw: CompanyCamProject): TransformResult {
   const lat = raw.coordinates?.lat;
   const lng = raw.coordinates?.lon;
 
-  if (lat == null || lng == null) {
+  // (0, 0) — "Null Island", off the coast of West Africa — is CompanyCam's
+  // apparent sentinel for "no GPS fix was captured," not a real location.
+  // Confirmed against real data: a project genuinely addressed in Austin, TX
+  // came back with coordinates: { lat: 0, lon: 0 } and got plotted in the
+  // Gulf of Guinea because `lat == null` is false for 0 — it's a defined
+  // number, just a meaningless one. Treat it the same as missing.
+  if (lat == null || lng == null || (lat === 0 && lng === 0)) {
     return { project: null, photos: [], skippedReason: "missing coordinates (needs geocoding)" };
   }
   if (!address) {
