@@ -370837,5 +370837,83 @@
     "createdAt": "2026-07-29T01:57:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "111025471",
+    "companycamProjectId": "111025471",
+    "address": "1406 N Silent Grove Rd, Springdale, Arkansas, 72762",
+    "lat": 36.1986868,
+    "lng": -94.1609316,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T21:10:24.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111046975",
+    "companycamProjectId": "111046975",
+    "address": "E L'Anguille Ave, Wynne, AR, 72396",
+    "lat": 35.2306286,
+    "lng": -90.7874283,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-30T05:15:46.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111038792",
+    "companycamProjectId": "111038792",
+    "address": "439 Cypress Ave, Clarksdale, MS, 38614",
+    "lat": 34.208451,
+    "lng": -90.5857485,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T23:31:38.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111025473",
+    "companycamProjectId": "111025473",
+    "address": "3008 80th St, Lubbock, Texas, 79423",
+    "lat": 33.5220544,
+    "lng": -101.8801821,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T21:10:25.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110935629",
+    "companycamProjectId": "110935629",
+    "address": "521 11th St, Westwego, Louisiana, 70094",
+    "lat": 29.896164,
+    "lng": -90.14850349999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T00:30:22.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "107977525",
+    "companycamProjectId": "107977525",
+    "address": "458 SCR 87, Mize, Ms, 39116",
+    "lat": 31.8684927,
+    "lng": -89.5559023,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-19T00:47:30.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
