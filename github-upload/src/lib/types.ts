@@ -35,7 +35,7 @@ export interface Project {
   customerName?: string | null;
   // Set by scripts/flag-companycam-volume.ts: true when this project has NO
   // tagged photos on the map yet (photoCount === 0) but its CompanyCam
-  // project has 15+ total photos — i.e. well-documented in the field but
+  // project has 25+ total photos — i.e. well-documented in the field but
   // nobody has tagged anything for the public map. Renders as a distinct
   // ("go tag this one") pin color so Sales Leadership can spot it and jump
   // straight into CompanyCam via the project's deep link. Once a photo on
