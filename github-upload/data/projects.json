@@ -350106,19 +350106,6 @@
     "highVolumeUntagged": true
   },
   {
-    "id": "108603052",
-    "companycamProjectId": "108603052",
-    "address": "6801 Midwood Pkwy, Austin, TX, 78736",
-    "lat": 0,
-    "lng": 0,
-    "locationId": "tyler",
-    "tags": [],
-    "photoCount": 0,
-    "createdAt": "2026-06-27T18:18:02.000Z",
-    "optedOut": false,
-    "highVolumeUntagged": true
-  },
-  {
     "id": "108056631",
     "companycamProjectId": "108056631",
     "address": "7363 Mt Calm Rd, Gepp, Arkansas, 72538",
@@ -370772,5 +370759,96 @@
     "photoCount": 1,
     "createdAt": "2022-06-20T15:30:31.000Z",
     "optedOut": false
+  },
+  {
+    "id": "110935790",
+    "companycamProjectId": "110935790",
+    "address": "107 1st St, Bartlett, Kansas, 67332",
+    "lat": 37.0582992,
+    "lng": -95.2098235,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T00:34:28.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111042179",
+    "companycamProjectId": "111042179",
+    "address": "4205 SE 49th Terrace, Oklahoma City, OK, 73135",
+    "lat": 35.416265,
+    "lng": -97.44222309999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-30T01:02:58.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111038949",
+    "companycamProjectId": "111038949",
+    "address": "13634 Shannon St, Lindale, TX, 75771",
+    "lat": 32.523374512839965,
+    "lng": -95.39254736155272,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T23:35:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111037183",
+    "companycamProjectId": "111037183",
+    "address": "4 Gentian Dr, Pensacola, FL, 32503",
+    "lat": 30.460037871691334,
+    "lng": -87.21857976168394,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T22:58:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111031578",
+    "companycamProjectId": "111031578",
+    "address": "27201 Johnson Ranch Road, Canyon, TX, 79015",
+    "lat": 34.93698850351548,
+    "lng": -102.07015764439579,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T21:56:40.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110937539",
+    "companycamProjectId": "110937539",
+    "address": "1392 FM40, Ralls, Texas, 79357",
+    "lat": 33.5582566,
+    "lng": -101.3347946,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T01:22:43.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110938588",
+    "companycamProjectId": "110938588",
+    "address": "95 Aberdeen Dr, Little Rock, Arkansas, 72223",
+    "lat": 34.8027874,
+    "lng": -92.4764823,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T01:57:27.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
