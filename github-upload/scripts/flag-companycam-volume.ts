@@ -181,16 +181,16 @@ async function main() {
   // set — like `customerName`, used for review matching — survive the merge.
   const pById = new Map(existing.map((p) => [p.id, p]));
 
-  // Self-heal: earlier runs (before transformProject correctly rejected
-  // CompanyCam's (0, 0) "no GPS fix" sentinel as missing coordinates — see
-  // companycam.ts) could have written a highVolumeUntagged record sitting at
-  // literal Null Island. A real address can never legitimately geocode
-  // there, so any leftover bad record like that is safe to drop — if it's
-  // still a genuine candidate, this same run will just re-add it correctly
-  // (or leave it out if CompanyCam still can't geocode it).
+  // Self-heal: earlier runs of EITHER sync script (before transformProject
+  // correctly rejected CompanyCam's (0, 0) "no GPS fix" sentinel as missing
+  // coordinates — see companycam.ts) could have written a project sitting at
+  // literal Null Island, regardless of whether it came from this script or
+  // sync-companycam.ts's tag search. A real address can never legitimately
+  // geocode there, so any leftover bad record like that is safe to drop —
+  // whichever script runs next will just correctly skip it going forward.
   let removedBadCoords = 0;
   for (const [id, p] of pById) {
-    if (p.highVolumeUntagged && p.lat === 0 && p.lng === 0) {
+    if (p.lat === 0 && p.lng === 0) {
       pById.delete(id);
       removedBadCoords++;
     }

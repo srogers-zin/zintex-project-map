@@ -167,8 +167,28 @@ async function writeFixtures(projects: Project[], photos: ProjectPhoto[]) {
   const existingPh = await readJson<ProjectPhoto[]>(path.join(DATA_DIR, "photos.json"), []);
 
   const pById = new Map(existingP.map((p) => [p.id, p]));
+
+  // Self-heal: earlier syncs (before transformProject correctly rejected
+  // CompanyCam's (0, 0) "no GPS fix" sentinel as missing coordinates — see
+  // companycam.ts) could have written a project sitting at literal Null
+  // Island, off the coast of West Africa. A real address can never
+  // legitimately geocode there, so any leftover bad record like that — and
+  // its now-orphaned photos — are safe to drop. If it's still a real,
+  // tagged project, this same sync will just correctly skip it going
+  // forward (CompanyCam genuinely never captured a usable location for it).
+  const removedBadCoordIds = new Set<string>();
+  for (const [id, p] of pById) {
+    if (p.lat === 0 && p.lng === 0) {
+      pById.delete(id);
+      removedBadCoordIds.add(id);
+    }
+  }
+  if (removedBadCoordIds.size) {
+    console.log(`Cleaned up ${removedBadCoordIds.size} bad (0,0) record(s) from a previous sync.`);
+  }
+
   const idByCompanyCamId = new Map(
-    existingP.filter((p) => p.companycamProjectId).map((p) => [p.companycamProjectId, p.id]),
+    [...pById.values()].filter((p) => p.companycamProjectId).map((p) => [p.companycamProjectId, p.id]),
   );
 
   const resolvedIds: string[] = []; // ids actually touched by this sync, for the photo merge below
@@ -195,7 +215,9 @@ async function writeFixtures(projects: Project[], photos: ProjectPhoto[]) {
   const remappedPhotos = photos.map((ph) => ({ ...ph, projectId: idRemap.get(ph.projectId) ?? ph.projectId }));
 
   const syncedIds = new Set(resolvedIds);
-  const mergedPhotos = existingPh.filter((ph) => !syncedIds.has(ph.projectId)).concat(remappedPhotos);
+  const mergedPhotos = existingPh
+    .filter((ph) => !syncedIds.has(ph.projectId) && !removedBadCoordIds.has(ph.projectId))
+    .concat(remappedPhotos);
 
   await fs.writeFile(path.join(DATA_DIR, "projects.json"), JSON.stringify([...pById.values()], null, 2));
   await fs.writeFile(path.join(DATA_DIR, "photos.json"), JSON.stringify(mergedPhotos, null, 2));
