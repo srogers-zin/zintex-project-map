@@ -184,11 +184,11 @@ export function AppShell() {
             </div>
             <div className="flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#dc2626" }} />
-              25+ photos in CompanyCam, none tagged yet
+              Completed Project - pending photo update
             </div>
             <div className="flex items-center gap-1.5">
               <span className="h-2.5 w-2.5 rounded-full" style={{ backgroundColor: "#94a3b8" }} />
-              No photos yet
+              Pending Installation
             </div>
           </div>
         </main>
