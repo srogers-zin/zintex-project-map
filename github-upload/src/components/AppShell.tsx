@@ -11,6 +11,7 @@ import { FiltersPanel } from "@/components/FiltersPanel";
 import { ReviewsPanel } from "@/components/ReviewsPanel";
 import { ProjectModal } from "@/components/ProjectModal";
 import { ContactModal } from "@/components/ContactModal";
+import { LeadershipUnlock } from "@/components/LeadershipUnlock";
 
 const PAGE = 50;
 
@@ -30,6 +31,7 @@ export function AppShell() {
   const [mobileList, setMobileList] = useState(false);
   const [command, setCommand] = useState<MapCommand>(null);
   const [searchInput, setSearchInput] = useState("");
+  const [isLeadership, setIsLeadership] = useState(false);
   const nonce = useRef(0);
 
   // Initial load: locations + open shared project (?project=) if present.
@@ -152,6 +154,7 @@ export function AppShell() {
         >
           Opt-Out
         </Link>
+        <LeadershipUnlock onChange={setIsLeadership} />
       </header>
 
       {/* Body */}
@@ -222,6 +225,7 @@ export function AppShell() {
       {modalId && (
         <ProjectModal
           projectId={modalId}
+          isLeadership={isLeadership}
           onClose={() => {
             setModalId(null);
             setSelectedId(null);

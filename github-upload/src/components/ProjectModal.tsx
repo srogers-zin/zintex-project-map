@@ -5,7 +5,15 @@ import type { ProjectDetail } from "@/lib/types";
 import { fetchProjectDetail } from "@/lib/api-client";
 import { Stars } from "@/components/Stars";
 
-export function ProjectModal({ projectId, onClose }: { projectId: string; onClose: () => void }) {
+export function ProjectModal({
+  projectId,
+  isLeadership,
+  onClose,
+}: {
+  projectId: string;
+  isLeadership: boolean;
+  onClose: () => void;
+}) {
   const [detail, setDetail] = useState<ProjectDetail | null>(null);
   const [loading, setLoading] = useState(true);
   const [photoIdx, setPhotoIdx] = useState(0);
@@ -39,8 +47,10 @@ export function ProjectModal({ projectId, onClose }: { projectId: string; onClos
   // Only a real, numeric CompanyCam project id can be linked to — legacy
   // PMI-sourced projects fall back to their PMI record id (non-numeric) when
   // no CompanyCam project was ever matched, and linking to that would 404.
+  // Also gated behind isLeadership — see LeadershipUnlock.tsx — so sales
+  // reps presenting on shared iPads don't see a path into CompanyCam.
   const companycamUrl =
-    detail?.companycamProjectId && /^\d+$/.test(detail.companycamProjectId)
+    isLeadership && detail?.companycamProjectId && /^\d+$/.test(detail.companycamProjectId)
       ? `https://app.companycam.com/projects/${detail.companycamProjectId}`
       : null;
 
