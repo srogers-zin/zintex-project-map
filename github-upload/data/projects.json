@@ -333216,7 +333216,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-21T00:22:48.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110872345",
@@ -333359,7 +333359,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-09T00:19:31.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110028362",
@@ -335439,7 +335439,7 @@
     "photoCount": 0,
     "createdAt": "2026-05-12T00:57:21.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109733110",
@@ -337389,7 +337389,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-22T21:35:55.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110499193",
@@ -343252,7 +343252,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-10T01:21:57.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109483944",
@@ -344838,7 +344838,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-08T23:08:37.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108503123",
@@ -355199,7 +355199,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-12T00:21:24.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "103934462",
@@ -357864,7 +357864,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-05T23:25:41.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "80239596",
@@ -370810,7 +370810,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-29T21:56:40.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110937539",
@@ -371095,6 +371095,175 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-06-06T00:16:58.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111233056",
+    "companycamProjectId": "111233056",
+    "address": "6863 Hwy 63, Clinton, LA, 70722",
+    "lat": 30.8422355,
+    "lng": -90.975278,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T02:50:31.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111143233",
+    "companycamProjectId": "111143233",
+    "address": "7416 96th St, Lubbock, Texas, 79424",
+    "lat": 33.5063112,
+    "lng": -101.9820336,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T01:44:20.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111232217",
+    "companycamProjectId": "111232217",
+    "address": "1116 W Broadway, Columbia, MO, 65203",
+    "lat": 38.95220167704902,
+    "lng": -92.35557463020086,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T01:56:24.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111229914",
+    "companycamProjectId": "111229914",
+    "address": "153 W Court Street, Slocumb, Al, 36375",
+    "lat": 31.1092503,
+    "lng": -85.59437659999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T00:14:38.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110133520",
+    "companycamProjectId": "110133520",
+    "address": "37113 Sunset Blvd, Shawnee, Oklahoma, 74804",
+    "lat": 35.3943078,
+    "lng": -96.9985366,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-18T00:05:28.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111139127",
+    "companycamProjectId": "111139127",
+    "address": "3006 Bermuda Dr, Jonesboro, Arkansas, 72401",
+    "lat": 35.8082802,
+    "lng": -90.70528449999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T00:12:56.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111219681",
+    "companycamProjectId": "111219681",
+    "address": "2456 AR-53, Rosston, AR, 71858",
+    "lat": 33.5582226,
+    "lng": -93.4077629,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T20:44:44.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109986021",
+    "companycamProjectId": "109986021",
+    "address": "1913 8th Ave NW, Ardmore, Oklahoma, 73401",
+    "lat": 34.1841058,
+    "lng": -97.15396589999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-16T17:05:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111193297",
+    "companycamProjectId": "111193297",
+    "address": "1097 Huval St., Breaux Bridge, LA, 70517",
+    "lat": 30.314875541639275,
+    "lng": -91.79837806150317,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T17:50:22.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "104940287",
+    "companycamProjectId": "104940287",
+    "address": "1215 N 12th St, Frederick, OK, 73542",
+    "lat": 34.401827708955935,
+    "lng": -99.01414543390274,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-05-08T02:40:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "99783162",
+    "companycamProjectId": "99783162",
+    "address": "2817 W Mt Dr, Corpus Christi, TX, 78414",
+    "lat": 27.6699907,
+    "lng": -97.3486387,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-02-27T03:00:51.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111175206",
+    "companycamProjectId": "111175206",
+    "address": "4600 Purdue Dr, Metairie, LA, 70003",
+    "lat": 30.020160929218605,
+    "lng": -90.21202644333243,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T15:39:44.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "101296860",
+    "companycamProjectId": "101296860",
+    "address": "13193 Tyler Cir, Gulfport, MS, 39503",
+    "lat": 30.475721341817078,
+    "lng": -89.13200329989195,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-03-20T21:02:21.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
