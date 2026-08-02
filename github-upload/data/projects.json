@@ -349154,7 +349154,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-27T02:30:47.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "99586775",
@@ -371264,6 +371264,84 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-03-20T21:02:21.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "104827070",
+    "companycamProjectId": "104827070",
+    "address": "93 Sedona Sands Ln, Nixon, TX, 78140",
+    "lat": 29.39315892916383,
+    "lng": -97.82064456492662,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-05-06T20:30:05.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111251384",
+    "companycamProjectId": "111251384",
+    "address": "5401 Hollytree Dr, Tyler, TX, 75703",
+    "lat": 32.2908167,
+    "lng": -95.3197009,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T22:48:14.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111251617",
+    "companycamProjectId": "111251617",
+    "address": "12817 Oxley Dr, Baton Rouge , LA , 70816",
+    "lat": 30.273463140738574,
+    "lng": -91.9033003527294,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T23:09:02.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111230524",
+    "companycamProjectId": "111230524",
+    "address": "310 E Locust St, Nocona, Texas, 76255",
+    "lat": 33.7942513,
+    "lng": -97.72607599999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T00:41:33.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111240292",
+    "companycamProjectId": "111240292",
+    "address": "203 S Liberty Loop, San Juan, Texas, 78589",
+    "lat": 26.2409317,
+    "lng": -98.1450218,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-01T15:17:27.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "68803901",
+    "companycamProjectId": "68803901",
+    "address": "18950 E Sorghum Mill Rd, Luther, OK, 73054",
+    "lat": 35.70960482808897,
+    "lng": -97.19562917947769,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2024-08-09T22:27:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
