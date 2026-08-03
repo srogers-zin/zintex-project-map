@@ -371344,5 +371344,18 @@
     "createdAt": "2024-08-09T22:27:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "97457945",
+    "companycamProjectId": "97457945",
+    "address": "23024 Queens Rd, Parsons, KS, 67357",
+    "lat": 37.329826442334564,
+    "lng": -95.23198764771224,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-01-19T18:59:24.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
