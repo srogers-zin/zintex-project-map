@@ -334282,7 +334282,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-24T00:35:43.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110718914",
@@ -336427,7 +336427,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-19T22:46:59.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109994589",
@@ -337376,7 +337376,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-21T00:22:51.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110484479",
@@ -337597,7 +337597,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-22T03:06:34.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110285536",
@@ -337766,7 +337766,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-22T01:34:27.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110401557",
@@ -348608,7 +348608,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-01T00:52:59.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "106059357",
@@ -353301,7 +353301,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-18T15:51:52.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "105036309",
@@ -353327,7 +353327,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-16T15:45:53.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "107978411",
@@ -353509,7 +353509,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-17T15:58:40.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "102853333",
@@ -353574,7 +353574,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-18T20:54:40.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "107584518",
@@ -353873,7 +353873,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-14T18:15:36.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "104609588",
@@ -354913,7 +354913,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-14T16:32:21.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "102650120",
@@ -370901,7 +370901,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-29T00:30:22.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "107977525",
@@ -371355,6 +371355,253 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-01-19T18:59:24.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111396521",
+    "companycamProjectId": "111396521",
+    "address": "109 Pleasant St, Lake Arthur, LA, 70549",
+    "lat": 30.071182,
+    "lng": -92.68426699999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T04:06:35.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111280982",
+    "companycamProjectId": "111280982",
+    "address": "911 W Main St, New Iberia, Louisiana, 70560",
+    "lat": 30.0148629,
+    "lng": -91.82721269999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-03T13:18:49.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "83780378",
+    "companycamProjectId": "83780378",
+    "address": "2916 Lawrence St, Irving, TX, 75061",
+    "lat": 32.8247161,
+    "lng": -96.9854943,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-05-26T12:07:32.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "103412229",
+    "companycamProjectId": "103412229",
+    "address": "201 Greenhaven Dr, Lafayette, LA, 70508",
+    "lat": 30.1443357,
+    "lng": -92.0206709,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-04-18T19:54:53.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111258638",
+    "companycamProjectId": "111258638",
+    "address": "1508 Ward Rd, Ardmore, Oklahoma, 73401",
+    "lat": 34.1978199,
+    "lng": -97.1481742,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-02T17:11:17.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "101566769",
+    "companycamProjectId": "101566769",
+    "address": "915 4th Street, Elmer, Oklahoma, 73539",
+    "lat": 34.481312,
+    "lng": -99.34952500000001,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-03-25T00:07:57.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "106703113",
+    "companycamProjectId": "106703113",
+    "address": "709 Snapdragon Ln, DeSoto, TX, 75115",
+    "lat": 32.57211325362658,
+    "lng": -96.84337701648474,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-02T16:48:59.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109022458",
+    "companycamProjectId": "109022458",
+    "address": "14036 Wetherly Dr, Baton Rouge, LA, 70810",
+    "lat": 30.3266814848185,
+    "lng": -91.12572144716977,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-03T16:41:55.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109170019",
+    "companycamProjectId": "109170019",
+    "address": "803 N 1st St, Nolanville, Texas, 76559",
+    "lat": 31.085549,
+    "lng": -97.60575809999999,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-07T01:56:47.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110941530",
+    "companycamProjectId": "110941530",
+    "address": "11 Evergreen Dr, Searcy, AR, 72143",
+    "lat": 35.2570039,
+    "lng": -91.72519249999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-29T08:22:13.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "81167292",
+    "companycamProjectId": "81167292",
+    "address": "205 Zachary Way, Sterlington, LA, 71280",
+    "lat": 32.67363564336782,
+    "lng": -92.03517872840166,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-04-12T00:21:46.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "69387894",
+    "companycamProjectId": "69387894",
+    "address": "11108 E 85th Pl, Tulsa, Oklahoma, 74133",
+    "lat": 36.0392926,
+    "lng": -95.8522294,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2024-08-22T00:22:14.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "107535668",
+    "companycamProjectId": "107535668",
+    "address": "660 Fredericksburg Drive, Gallatin, tn, 37066",
+    "lat": 36.3385822,
+    "lng": -86.4714791,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-12T19:20:28.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109573811",
+    "companycamProjectId": "109573811",
+    "address": "12002 mathews ln., fortsmith, ar, 72916",
+    "lat": 35.2728499,
+    "lng": -94.4193087,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-10T21:50:18.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "81167333",
+    "companycamProjectId": "81167333",
+    "address": "205 Zachary Way, Sterlington, LA, 71280",
+    "lat": 32.67337204781708,
+    "lng": -92.03496549278498,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-04-12T00:25:06.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "93513233",
+    "companycamProjectId": "93513233",
+    "address": "11 Sur De Curso Way, Hot Springs, AR, 71909",
+    "lat": 34.6878643,
+    "lng": -92.9917715,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-10-31T14:21:13.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110493763",
+    "companycamProjectId": "110493763",
+    "address": "4187 Highway 8 W, Mena, AR, 71953",
+    "lat": 34.592850767819215,
+    "lng": -94.30933825671671,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-23T00:04:16.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "94613780",
+    "companycamProjectId": "94613780",
+    "address": "2405 Lago Trail, Killeen, TX, 76543",
+    "lat": 31.1268744,
+    "lng": -97.6759635,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-11-18T22:37:05.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "57923027",
+    "companycamProjectId": "57923027",
+    "address": "103 Cattail Cir, Harker Heights, TX, 76548",
+    "lat": 31.054563231742495,
+    "lng": -97.66697444021702,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2023-12-07T19:55:33.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
