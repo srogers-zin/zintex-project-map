@@ -333333,7 +333333,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-27T17:05:03.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110833473",
@@ -333593,7 +333593,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-28T18:26:51.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "107067649",
@@ -337285,7 +337285,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-22T14:07:33.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "107246894",
@@ -337441,7 +337441,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-23T01:07:26.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "104388554",
@@ -345683,7 +345683,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-08T02:02:21.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "104527185",
@@ -345878,7 +345878,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-24T00:41:13.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108651110",
@@ -346411,7 +346411,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-05T21:56:40.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109061250",
@@ -346606,7 +346606,7 @@
     "photoCount": 0,
     "createdAt": "2025-11-22T01:40:52.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109000791",
@@ -347035,7 +347035,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-03T01:10:34.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "100710181",
@@ -349011,7 +349011,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-29T11:43:28.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "105270159",
@@ -354653,7 +354653,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-14T20:29:45.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "103915805",
@@ -371602,6 +371602,266 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2023-12-07T19:55:33.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111394675",
+    "companycamProjectId": "111394675",
+    "address": "2573 McRay Ave, Springdale, Arkansas, 72762",
+    "lat": 36.1816994,
+    "lng": -94.1586277,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T02:05:42.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109580392",
+    "companycamProjectId": "109580392",
+    "address": "201 Broadway St, Indianola, Oklahoma, 74442",
+    "lat": 35.1667131,
+    "lng": -95.7764093,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-11T00:53:19.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111394648",
+    "companycamProjectId": "111394648",
+    "address": "108677 S 4678 Rd, Sallisaw, Oklahoma, 74955",
+    "lat": 35.4387638,
+    "lng": -94.69414490000001,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T02:05:12.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111393652",
+    "companycamProjectId": "111393652",
+    "address": "2129 Meadowview Dr, Corpus Christi, Texas, 78414",
+    "lat": 27.6870048,
+    "lng": -97.3575352,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T01:37:23.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108057351",
+    "companycamProjectId": "108057351",
+    "address": "110 Dillon Dr, Victoria, Texas, 77905",
+    "lat": 28.7298689,
+    "lng": -96.9351781,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-20T01:18:11.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109934968",
+    "companycamProjectId": "109934968",
+    "address": "2126 N Beard Ave, Shawnee, Oklahoma, 74804",
+    "lat": 35.3562633,
+    "lng": -96.92577709999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-16T00:25:15.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110398043",
+    "companycamProjectId": "110398043",
+    "address": "4187 Highway 8 W, Mena, Arkansas, 71953",
+    "lat": 34.5924523,
+    "lng": -94.3092387,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-22T01:34:14.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111393338",
+    "companycamProjectId": "111393338",
+    "address": "2234 Theo Rd, Jennings, Louisiana, 70546",
+    "lat": 30.3649177,
+    "lng": -92.6485976,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T01:27:10.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111393580",
+    "companycamProjectId": "111393580",
+    "address": "401 NW Oak Ave, Cache, Oklahoma, 73527",
+    "lat": 34.6384601,
+    "lng": -98.6279694,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T01:35:28.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111257451",
+    "companycamProjectId": "111257451",
+    "address": "1003 Blumentritt Rd, San Angelo, Texas, 76905",
+    "lat": 31.4067914,
+    "lng": -100.390742,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-02T15:58:46.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110302749",
+    "companycamProjectId": "110302749",
+    "address": "1414 N Mill St, Beloit, Kansas, 67420",
+    "lat": 39.4724408,
+    "lng": -98.11005039999999,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-21T13:34:58.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109001039",
+    "companycamProjectId": "109001039",
+    "address": "4561 Paradise Rd, Mississippi, 39039",
+    "lat": 32.7175619,
+    "lng": -90.2832786,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-03T01:12:58.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110303784",
+    "companycamProjectId": "110303784",
+    "address": "706 Edgemont St, Shreveport, Louisiana, 71106",
+    "lat": 32.4558193,
+    "lng": -93.7442063,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-21T13:43:03.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109611034",
+    "companycamProjectId": "109611034",
+    "address": "5716 Ranch Rd 33, Big Spring, Texas, 79720",
+    "lat": 32.1746456,
+    "lng": -101.4769045,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-12T18:27:18.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110498692",
+    "companycamProjectId": "110498692",
+    "address": "14355 Ephraim Ln, Westmoreland, KS, 66549",
+    "lat": 39.391483923183266,
+    "lng": -96.38526007533073,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-23T02:20:51.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111459109",
+    "companycamProjectId": "111459109",
+    "address": "512 S Chestnut St, Olathe, KS, 66061",
+    "lat": 38.874603146090436,
+    "lng": -94.81802137568593,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T18:31:18.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111457732",
+    "companycamProjectId": "111457732",
+    "address": "407 Hathaway Drive, Clinton, MS, 39056",
+    "lat": 32.3299407,
+    "lng": -90.3023467,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T18:22:59.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111448610",
+    "companycamProjectId": "111448610",
+    "address": "120 Birchwood Ln, Holly Lake Ranch, TX, 75765",
+    "lat": 32.71825095664556,
+    "lng": -95.17163258045913,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T17:26:37.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110464576",
+    "companycamProjectId": "110464576",
+    "address": "5521 Santa Claus Ln, Valdosta, Georgia, 31601",
+    "lat": 30.688731,
+    "lng": -83.31237399999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-22T18:51:32.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111135492",
+    "companycamProjectId": "111135492",
+    "address": "6863 Franklin Delano Roosevelt Dr, Jackson, MS, 39213",
+    "lat": 32.374378,
+    "lng": -90.2619622,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-30T22:58:34.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
