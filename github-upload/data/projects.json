@@ -332121,7 +332121,7 @@
     "lng": -97.6083792373538,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-17T17:28:08.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -337035,7 +337035,7 @@
     "lng": -97.3718828,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-21T17:24:23.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -339362,7 +339362,7 @@
     "lng": -97.13696379999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-02T00:19:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371223,7 +371223,7 @@
     "lng": -99.01414543390274,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-08T02:40:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371864,5 +371864,65 @@
     "createdAt": "2026-07-30T22:58:34.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "104843192",
+    "companycamProjectId": "104843192",
+    "address": "1215 N 12th St, Frederick, Oklahoma, 73542",
+    "lat": 34.4018546,
+    "lng": -99.01473879999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-05-07T00:43:24.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "110494266",
+    "companycamProjectId": "110494266",
+    "address": "1226 Cedar Creek Ct, Guthrie, Oklahoma, 73044",
+    "lat": 35.8901921,
+    "lng": -97.4057383,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-23T00:17:20.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "76887937",
+    "companycamProjectId": "76887937",
+    "address": "10313 Bacardy Pl, Oklahoma City, OK, 73162",
+    "lat": 35.57498077,
+    "lng": -97.64141703,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-01-25T18:20:08.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "56263586",
+    "companycamProjectId": "56263586",
+    "address": "7001 Basswood Canyon Rd, Oklahoma City, OK, 73162",
+    "lat": 35.57048928336177,
+    "lng": -97.63706881552935,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2023-10-17T17:50:13.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "56265744",
+    "companycamProjectId": "56265744",
+    "address": "7001 Basswood Canyon Rd, Oklahoma City, OK, 73162",
+    "lat": 35.57062127671412,
+    "lng": -97.63701315969229,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2023-10-17T18:15:55.000Z",
+    "optedOut": false
   }
 ]
