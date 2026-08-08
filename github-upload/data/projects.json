@@ -334591,7 +334591,7 @@
     "lng": -91.1997892,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-27T00:08:49.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -337542,7 +337542,7 @@
     "lng": -89.3634692,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-20T22:46:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -339245,7 +339245,7 @@
     "lng": -89.982072,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-10T00:43:52.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -339258,7 +339258,7 @@
     "lng": -90.293515,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-12T16:34:32.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -343054,7 +343054,7 @@
     "lng": -101.9314121,
     "locationId": "lubbock",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-10T01:08:26.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371457,7 +371457,7 @@
     "lng": -91.12572144716977,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-03T16:41:55.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372493,6 +372493,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-04-01T00:23:22.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "105370400",
+    "companycamProjectId": "105370400",
+    "address": "6601 Starstreak Dr, Austin, TX, 78745",
+    "lat": 30.1941863,
+    "lng": -97.7794608,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-05-13T23:43:15.000Z",
     "optedOut": false
   }
 ]
