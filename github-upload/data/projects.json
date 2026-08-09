@@ -332189,7 +332189,7 @@
     "photoCount": 0,
     "createdAt": "2026-05-19T00:16:53.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110400117",
@@ -332527,7 +332527,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-28T17:21:39.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110878335",
@@ -334464,7 +334464,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-25T00:01:46.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110721985",
@@ -343070,7 +343070,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-03T00:55:55.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "105103400",
@@ -346554,7 +346554,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-05T14:59:14.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "96886248",
@@ -372726,5 +372726,122 @@
     "photoCount": 1,
     "createdAt": "2026-07-18T02:20:25.000Z",
     "optedOut": false
+  },
+  {
+    "id": "111821695",
+    "companycamProjectId": "111821695",
+    "address": "340 Sparkleberry Blvd, Quincy, FL, 32351",
+    "lat": 30.5621238,
+    "lng": -84.5341631,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-09T05:02:51.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111795956",
+    "companycamProjectId": "111795956",
+    "address": "5202 Buckingham Pl, Bryant, Arkansas, 72022",
+    "lat": 34.6410697,
+    "lng": -92.4669885,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-08T01:31:53.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111795959",
+    "companycamProjectId": "111795959",
+    "address": "3008 SE Weatherstone St, Grimes, Iowa, 50111",
+    "lat": 41.663242,
+    "lng": -93.7602045,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-08T01:31:55.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111809061",
+    "companycamProjectId": "111809061",
+    "address": "217 Thornton Rd, Huntington, TX, 75949",
+    "lat": 31.2623685,
+    "lng": -94.5425305,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-08T17:48:32.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111795976",
+    "companycamProjectId": "111795976",
+    "address": "105 Robert Rhodes Rd, Poplarville, Mississippi, 39470",
+    "lat": 30.7426306,
+    "lng": -89.5679608,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-08T01:32:07.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108615989",
+    "companycamProjectId": "108615989",
+    "address": "8763 Chimneyrock Blvd., Memphis, Tennessee, 38016",
+    "lat": 35.1766966,
+    "lng": -89.77121749999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-28T18:26:07.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "105735581",
+    "companycamProjectId": "105735581",
+    "address": "7511 E Norfolk Cir, Wichita, KS, 67206",
+    "lat": 37.690367429433735,
+    "lng": -97.24880531430244,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-05-19T17:40:44.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "99947491",
+    "companycamProjectId": "99947491",
+    "address": "1326 Langbrae Dr, Goodlettsville, TN, 37072",
+    "lat": 36.39549936099058,
+    "lng": -86.73361156135796,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-03-02T19:09:31.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "102858064",
+    "companycamProjectId": "102858064",
+    "address": "300 Gretchen St, New Roads, LA, 70760",
+    "lat": 30.6925184,
+    "lng": -91.4500898,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-04-13T01:44:21.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
