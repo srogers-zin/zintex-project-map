@@ -372855,5 +372855,29 @@
     "photoCount": 1,
     "createdAt": "2026-07-28T00:06:21.000Z",
     "optedOut": false
+  },
+  {
+    "id": "108187621",
+    "companycamProjectId": "108187621",
+    "address": "18609 Hwy 87 , Lubbock, Tx, 79423",
+    "lat": 32.32298539361325,
+    "lng": -102.56412745334308,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-22T22:52:48.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111392774",
+    "companycamProjectId": "111392774",
+    "address": "2512 Schley Ave, Albany, Georgia, 31707",
+    "lat": 31.6203557,
+    "lng": -84.2020292,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-04T01:11:38.000Z",
+    "optedOut": false
   }
 ]
