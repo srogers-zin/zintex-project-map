@@ -332186,7 +332186,7 @@
     "lng": -97.2489222,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-19T00:16:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -346421,7 +346421,7 @@
     "lng": -98.2058851,
     "locationId": "amarillo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-05T20:53:36.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372050,7 +372050,7 @@
     "lng": -97.6061821,
     "locationId": "amarillo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-23T00:17:17.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372453,7 +372453,7 @@
     "lng": -100.8876876,
     "locationId": "amarillo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-09T00:09:14.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372813,7 +372813,7 @@
     "lng": -97.24880531430244,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-19T17:40:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372843,5 +372843,17 @@
     "createdAt": "2026-04-13T01:44:21.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "110834558",
+    "companycamProjectId": "110834558",
+    "address": "1405 E Hurley St, Haysville, Kansas, 67060",
+    "lat": 37.5546282,
+    "lng": -97.3356324,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-28T00:06:21.000Z",
+    "optedOut": false
   }
 ]
