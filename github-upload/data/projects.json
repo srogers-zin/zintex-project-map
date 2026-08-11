@@ -362502,7 +362502,7 @@
     "lng": -91.2955619,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-25T20:24:31.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373216,5 +373216,17 @@
     "createdAt": "2026-06-30T07:24:04.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "109939600",
+    "companycamProjectId": "109939600",
+    "address": "135 Willa St, Ozark, Al, 36360",
+    "lat": 31.4643413,
+    "lng": -85.65597249999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 2,
+    "createdAt": "2026-07-16T04:16:54.000Z",
+    "optedOut": false
   }
 ]
