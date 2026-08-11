@@ -101,7 +101,7 @@ export function AppShell() {
         <img src="/logo.png" alt="Zintex Remodeling Group" className="h-8 w-auto shrink-0 object-contain" />
 
         <div className="flex items-center gap-2">
-          <span className="text-sm font-semibold text-slate-800">Zintex Project Map</span>
+          <span className="text-sm font-semibold text-slate-800">ZINTEX Project Map</span>
         </div>
 
         <div className="ml-auto flex items-center gap-1">
