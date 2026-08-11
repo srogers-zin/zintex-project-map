@@ -333047,7 +333047,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-27T23:43:32.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110721974",
@@ -333138,7 +333138,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-28T01:04:43.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "110919446",
@@ -335933,7 +335933,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-02T14:28:46.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108602226",
@@ -338351,7 +338351,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-19T17:39:06.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108816795",
@@ -341055,7 +341055,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-16T01:44:01.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108145209",
@@ -342446,7 +342446,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-12T22:43:45.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109819028",
@@ -351858,7 +351858,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-22T19:59:42.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "106442746",
@@ -352053,7 +352053,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-20T00:23:59.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108082909",
@@ -372891,5 +372891,330 @@
     "photoCount": 1,
     "createdAt": "2026-08-03T15:12:41.000Z",
     "optedOut": false
+  },
+  {
+    "id": "111829272",
+    "companycamProjectId": "111829272",
+    "address": "46027 McCamish Ln, Heavener, Oklahoma, 74937",
+    "lat": 34.853917,
+    "lng": -94.536962,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-09T19:04:24.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111832254",
+    "companycamProjectId": "111832254",
+    "address": "9111 LA-941, Gonzales, Louisiana, 70737",
+    "lat": 30.2001678,
+    "lng": -90.8868916,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-09T22:16:54.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111862665",
+    "companycamProjectId": "111862665",
+    "address": "410 NE Brass Field Rd, Muldrow, Oklahoma, 74948",
+    "lat": 35.4197355,
+    "lng": -94.59243459999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-10T14:41:42.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111942623",
+    "companycamProjectId": "111942623",
+    "address": "1633 Old Turnpike Rd, Rives, TN, 38253",
+    "lat": 36.294507,
+    "lng": -89.1281109,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-11T01:31:22.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "96982206",
+    "companycamProjectId": "96982206",
+    "address": "405 E Jefferson Ave, Carter, Oklahoma, 73627",
+    "lat": 35.2202567,
+    "lng": -99.50156439999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-01-11T20:52:01.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "104650995",
+    "companycamProjectId": "104650995",
+    "address": "502 Lincoln Ave, San Ygnacio, Texas, 78067",
+    "lat": 27.0429853,
+    "lng": -99.4420308,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-05-05T01:18:21.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111863721",
+    "companycamProjectId": "111863721",
+    "address": "1121 Gill St, Columbia, Mississippi, 39429",
+    "lat": 31.2548763,
+    "lng": -89.8176922,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-10T14:47:50.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108409003",
+    "companycamProjectId": "108409003",
+    "address": "3308 Wasatch Range Loop Pensacola, Pensacola, Fl, 32526",
+    "lat": 30.602518208469075,
+    "lng": -87.3349193590611,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-25T05:22:25.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "106113427",
+    "companycamProjectId": "106113427",
+    "address": "30 Co Rd 261, Iuka, Mississippi, 38852",
+    "lat": 34.8493941,
+    "lng": -88.16183269999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-05-25T20:20:05.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111392775",
+    "companycamProjectId": "111392775",
+    "address": "2908 Firefly Ln, Albany, Georgia, 31721",
+    "lat": 31.5893926,
+    "lng": -84.2280129,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T01:11:38.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108195109",
+    "companycamProjectId": "108195109",
+    "address": "10417 Maddie Rd, Dardanelle, Arkansas, 72834",
+    "lat": 35.2038041,
+    "lng": -93.21205189999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-23T01:45:49.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109104295",
+    "companycamProjectId": "109104295",
+    "address": "500 Westbrook Rd, Benton, AR, 72015",
+    "lat": 34.4952425,
+    "lng": -92.655836,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-06T15:52:54.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111858894",
+    "companycamProjectId": "111858894",
+    "address": "101 Johnson St, Baldwin, Louisiana, 70514",
+    "lat": 29.84501089999999,
+    "lng": -91.5412032,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-10T14:19:44.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111394668",
+    "companycamProjectId": "111394668",
+    "address": "16 Linda Ln, Long Beach, Mississippi, 39560",
+    "lat": 30.3615036,
+    "lng": -89.154878,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-04T02:05:33.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111221716",
+    "companycamProjectId": "111221716",
+    "address": "1901 Breaux Ln, Round Rock, TX, 78664",
+    "lat": 30.47795061003499,
+    "lng": -97.65661474317312,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T21:11:16.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111359172",
+    "companycamProjectId": "111359172",
+    "address": "9359 Farm to Market 855, Bullard, TX, 75757",
+    "lat": 32.06258077142502,
+    "lng": -95.32117797061801,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-03T20:26:04.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111829263",
+    "companycamProjectId": "111829263",
+    "address": "737 Nell Burnett Rd, Mississippi, 39354",
+    "lat": 32.8691067,
+    "lng": -88.8100722,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-09T19:04:18.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108076318",
+    "companycamProjectId": "108076318",
+    "address": "7904 Birch St, New Orleans, LA, 70118",
+    "lat": 29.9487417,
+    "lng": -90.1254101,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-20T18:50:16.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "78722343",
+    "companycamProjectId": "78722343",
+    "address": "5357 North Farm To Market 493, Donna, TX, 78537",
+    "lat": 26.2088476,
+    "lng": -98.03749309999999,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-03-04T02:16:45.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111829262",
+    "companycamProjectId": "111829262",
+    "address": "2339 Sage Crest Ave, Jackson, Mississippi, 39204",
+    "lat": 32.2741604,
+    "lng": -90.21391969999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-09T19:04:17.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111824421",
+    "companycamProjectId": "111824421",
+    "address": "2611 N Ridge Rd, Lubbock, Texas, 79403",
+    "lat": 33.6271654,
+    "lng": -101.8419743,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-09T13:22:39.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "84417917",
+    "companycamProjectId": "84417917",
+    "address": "5407 Boxwood Ln, Amarillo, TX, 79109",
+    "lat": 35.14993000593056,
+    "lng": -101.90506350249052,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-06-05T00:32:37.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109571403",
+    "companycamProjectId": "109571403",
+    "address": "2913 Lafourche Ave, Ruston, LA, 71270",
+    "lat": 32.5107962268025,
+    "lng": -92.67430420964956,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-10T21:16:44.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "107793138",
+    "companycamProjectId": "107793138",
+    "address": "1945 Sawyer Ln, Aransas Pass, Texas, 78336",
+    "lat": 27.9591182,
+    "lng": -97.13275519999999,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-17T01:15:19.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108727129",
+    "companycamProjectId": "108727129",
+    "address": "440 S Wheatley St, Ridgeland, MS, 39157",
+    "lat": 32.4169041,
+    "lng": -90.13162589999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-30T07:24:04.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
