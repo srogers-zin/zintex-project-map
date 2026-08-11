@@ -372879,5 +372879,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-04T01:11:38.000Z",
     "optedOut": false
+  },
+  {
+    "id": "111299734",
+    "companycamProjectId": "111299734",
+    "address": "208 Childress St, Sardis, Mississippi, 38666",
+    "lat": 34.4393464,
+    "lng": -89.9117942,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-03T15:12:41.000Z",
+    "optedOut": false
   }
 ]
