@@ -104,7 +104,12 @@ export function AppShell() {
           <span className="text-sm font-semibold text-slate-800">Zintex Project Map</span>
         </div>
 
-        <div className="flex min-w-0 flex-1 items-center gap-1">
+        <div className="ml-auto flex items-center gap-1">
+          <LeadershipUnlock onChange={setIsLeadership} />
+        </div>
+
+        {/* Search bar: own row on mobile, inline with header on larger screens */}
+        <div className="flex min-w-0 basis-full items-center gap-1 sm:basis-auto sm:flex-1">
           <input
             value={searchInput}
             onChange={(e) => setSearchInput(e.target.value)}
@@ -114,13 +119,13 @@ export function AppShell() {
           />
           <button
             onClick={runSearch}
-            className="rounded-md bg-brand-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-brand-700"
+            className="shrink-0 rounded-md bg-brand-600 px-3 py-1.5 text-xs font-medium text-white hover:bg-brand-700"
           >
             Search
           </button>
           <button
             onClick={useMyLocation}
-            className="rounded-md border border-slate-200 p-1.5 text-slate-500 hover:bg-slate-50"
+            className="shrink-0 rounded-md border border-slate-200 p-1.5 text-slate-500 hover:bg-slate-50"
             aria-label="Use my location"
             title="Use my current location"
           >
@@ -130,31 +135,33 @@ export function AppShell() {
           </button>
         </div>
 
-        <button
-          onClick={() => setFilters((f) => ({ ...f, hasPhotos: !f.hasPhotos }))}
-          aria-pressed={filters.hasPhotos}
-          title="Only show pins with photos"
-          className={`rounded-md border px-3 py-1.5 text-xs font-medium ${
-            filters.hasPhotos
-              ? "border-[#003366] bg-[#003366] text-white hover:bg-[#002a52]"
-              : "border-slate-200 text-slate-600 hover:bg-slate-50"
-          }`}
-        >
-          Photos only
-        </button>
-        <button
-          onClick={() => setReviewsOpen(true)}
-          className="rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
-        >
-          Reviews
-        </button>
-        <Link
-          href="/opt-out"
-          className="rounded-md px-2 py-1.5 text-xs font-medium text-slate-400 underline-offset-2 hover:text-slate-600 hover:underline"
-        >
-          Opt-Out
-        </Link>
-        <LeadershipUnlock onChange={setIsLeadership} />
+        {/* Action buttons: own row on mobile (scrolls if tight), inline on larger screens */}
+        <div className="flex basis-full items-center gap-2 overflow-x-auto sm:basis-auto sm:overflow-visible">
+          <button
+            onClick={() => setFilters((f) => ({ ...f, hasPhotos: !f.hasPhotos }))}
+            aria-pressed={filters.hasPhotos}
+            title="Only show pins with photos"
+            className={`shrink-0 rounded-md border px-3 py-1.5 text-xs font-medium ${
+              filters.hasPhotos
+                ? "border-[#003366] bg-[#003366] text-white hover:bg-[#002a52]"
+                : "border-slate-200 text-slate-600 hover:bg-slate-50"
+            }`}
+          >
+            Photos only
+          </button>
+          <button
+            onClick={() => setReviewsOpen(true)}
+            className="shrink-0 rounded-md border border-slate-200 px-3 py-1.5 text-xs font-medium text-slate-600 hover:bg-slate-50"
+          >
+            Reviews
+          </button>
+          <Link
+            href="/opt-out"
+            className="shrink-0 rounded-md px-2 py-1.5 text-xs font-medium text-slate-400 underline-offset-2 hover:text-slate-600 hover:underline"
+          >
+            Opt-Out
+          </Link>
+        </div>
       </header>
 
       {/* Body */}
