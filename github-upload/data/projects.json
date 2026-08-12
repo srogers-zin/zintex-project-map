@@ -373250,5 +373250,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-02T14:24:16.000Z",
     "optedOut": false
+  },
+  {
+    "id": "109527723",
+    "companycamProjectId": "109527723",
+    "address": "3200 North 27th Street, McAllen, Texas, 78501",
+    "lat": 26.2348785,
+    "lng": -98.24511869999999,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 2,
+    "createdAt": "2026-07-10T15:35:34.000Z",
+    "optedOut": false
   }
 ]
