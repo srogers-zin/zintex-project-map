@@ -149531,15 +149531,13 @@
   {
     "id": "663cd1d55f81c055298eaf2c",
     "companycamProjectId": "63244348",
-    "address": "504 SE 44th St, Oklahoma City, OK 73129, USA",
-    "lat": 35.4206056,
-    "lng": -97.5010944,
+    "address": "504 SE 44th St, Oklahoma City, OK, 73129",
+    "lat": 35.42063057206145,
+    "lng": -97.50108618289232,
     "locationId": "wichita-falls",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2024-05-09T13:38:29.028Z",
+    "createdAt": "2024-04-27T21:22:17.000Z",
     "optedOut": false,
     "customerName": "Berryman, Mike"
   },
@@ -332862,7 +332860,7 @@
     "lng": -97.5506929680705,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-10T02:30:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -333655,7 +333653,7 @@
     "lng": -97.44850147515535,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-02T12:09:07.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -333811,7 +333809,7 @@
     "lng": -97.7269565,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-31T15:37:55.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -336593,7 +336591,7 @@
     "lng": -97.5727141,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-23T00:07:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -337100,7 +337098,7 @@
     "lng": -97.396784,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-12T00:21:14.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -339375,7 +339373,7 @@
     "lng": -97.41156649999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-02T00:19:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -340558,7 +340556,7 @@
     "lng": -97.7055161,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-13T00:20:26.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -340610,7 +340608,7 @@
     "lng": -99.32370999999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-05-17T19:48:35.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -343418,7 +343416,7 @@
     "lng": -97.37659160000001,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-23T00:05:05.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -343665,7 +343663,7 @@
     "lng": -97.79205959290266,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2024-06-08T20:58:55.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -344211,7 +344209,7 @@
     "lng": -96.6775569,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-24T00:31:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -345238,7 +345236,7 @@
     "lng": -98.45841955393553,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-19T23:17:34.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -347019,7 +347017,7 @@
     "lng": -97.68024634569883,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-19T00:59:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -347071,7 +347069,7 @@
     "lng": -97.61038610000001,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-18T01:03:55.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -347851,7 +347849,7 @@
     "lng": -99.3206881,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-12T15:04:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -347864,7 +347862,7 @@
     "lng": -98.35655,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-17T00:21:14.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -351647,7 +351645,7 @@
     "lng": -97.26626759999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-04T17:48:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -351660,7 +351658,7 @@
     "lng": -96.71751689999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-06T20:47:40.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -351972,7 +351970,7 @@
     "lng": -97.49871499999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-16T00:37:42.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -353701,7 +353699,7 @@
     "lng": -99.0160064,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-15T00:13:34.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -354351,7 +354349,7 @@
     "lng": -96.6908914,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-04T23:36:37.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371197,7 +371195,7 @@
     "lng": -97.15396589999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-16T17:05:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371340,7 +371338,7 @@
     "lng": -97.19562917947769,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2024-08-09T22:27:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371678,7 +371676,7 @@
     "lng": -96.92577709999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-16T00:25:15.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372401,7 +372399,7 @@
     "lng": -97.9832969,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-04-27T13:18:47.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372414,7 +372412,7 @@
     "lng": -98.40816249999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2025-09-10T00:08:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372710,7 +372708,7 @@
     "lng": -97.56815209999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2024-08-13T17:01:59.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373237,7 +373235,7 @@
     "lng": -97.4124081,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 2,
     "createdAt": "2026-08-02T17:11:05.000Z",
     "optedOut": false
   }
