@@ -373238,5 +373238,17 @@
     "photoCount": 2,
     "createdAt": "2026-08-02T17:11:05.000Z",
     "optedOut": false
+  },
+  {
+    "id": "111255794",
+    "companycamProjectId": "111255794",
+    "address": "2309 Audley Bolton Dr, Searcy, Arkansas, 72143",
+    "lat": 35.2524536,
+    "lng": -91.7679436,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-02T14:24:16.000Z",
+    "optedOut": false
   }
 ]
