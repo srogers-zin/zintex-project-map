@@ -339492,7 +339492,7 @@
     "lng": -88.8425353,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-18T17:38:01.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -362489,7 +362489,7 @@
     "lng": -99.48636341840027,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-27T02:15:42.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373227,6 +373227,18 @@
     "tags": [],
     "photoCount": 2,
     "createdAt": "2026-07-16T04:16:54.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111258625",
+    "companycamProjectId": "111258625",
+    "address": "1924 Oakhurst Cir, Norman, Oklahoma, 73071",
+    "lat": 35.200921,
+    "lng": -97.4124081,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-02T17:11:05.000Z",
     "optedOut": false
   }
 ]
