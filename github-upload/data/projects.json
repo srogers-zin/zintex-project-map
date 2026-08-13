@@ -351801,7 +351801,7 @@
     "lng": -89.2510763,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-21T20:16:43.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -373119,7 +373119,7 @@
     "lng": -90.1254101,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-20T18:50:16.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373261,6 +373261,18 @@
     "tags": [],
     "photoCount": 2,
     "createdAt": "2026-07-10T15:35:34.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111552116",
+    "companycamProjectId": "111552116",
+    "address": "3405 Cedar Creek Dr, Shreveport, LA, 71118",
+    "lat": 32.4075872,
+    "lng": -93.82533719999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-05T16:40:00.000Z",
     "optedOut": false
   }
 ]
