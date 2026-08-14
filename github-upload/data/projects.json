@@ -373950,5 +373950,17 @@
     "createdAt": "2026-08-11T12:28:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "108183108",
+    "companycamProjectId": "108183108",
+    "address": "2203 Luten Rd, Quincy, FL, 32352",
+    "lat": 30.6081836,
+    "lng": -84.6199121,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-22T21:50:30.000Z",
+    "optedOut": false
   }
 ]
