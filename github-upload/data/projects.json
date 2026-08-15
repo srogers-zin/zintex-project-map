@@ -373974,5 +373974,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-01T01:38:48.000Z",
     "optedOut": false
+  },
+  {
+    "id": "111495920",
+    "companycamProjectId": "111495920",
+    "address": "423 N Grant St, Forrest City, Arkansas, 72335",
+    "lat": 35.0118873,
+    "lng": -90.7890989,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-05T00:12:13.000Z",
+    "optedOut": false
   }
 ]
