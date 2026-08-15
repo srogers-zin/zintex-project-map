@@ -371325,7 +371325,7 @@
     "lng": -98.1450218,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-01T15:17:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373961,6 +373961,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-06-22T21:50:30.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111231997",
+    "companycamProjectId": "111231997",
+    "address": "6509 88th St, Lubbock, Texas, 79424",
+    "lat": 33.5138825,
+    "lng": -101.9580235,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-01T01:38:48.000Z",
     "optedOut": false
   }
 ]
