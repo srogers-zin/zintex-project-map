@@ -373647,7 +373647,7 @@
     "lng": -92.2201316,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-29T01:57:29.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373985,6 +373985,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-08-05T00:12:13.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111499210",
+    "companycamProjectId": "111499210",
+    "address": "802 cr 390, Mountain Home, Arkansas, 72653",
+    "lat": 36.3540254,
+    "lng": -92.32954559999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-05T01:27:26.000Z",
     "optedOut": false
   }
 ]
