@@ -342727,7 +342727,7 @@
     "lng": -94.5197534,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-10T00:51:39.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -374009,6 +374009,18 @@
     "tags": [],
     "photoCount": 2,
     "createdAt": "2026-08-06T01:38:29.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111608554",
+    "companycamProjectId": "111608554",
+    "address": "2824 Bb Ave, Burdick, KS, 66838",
+    "lat": 38.5665717,
+    "lng": -96.86105130000001,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-06T02:17:44.000Z",
     "optedOut": false
   }
 ]
