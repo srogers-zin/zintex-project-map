@@ -373998,5 +373998,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-05T01:27:26.000Z",
     "optedOut": false
+  },
+  {
+    "id": "111607486",
+    "companycamProjectId": "111607486",
+    "address": "101 Bellemeade Trce, Clinton, Mississippi, 39056",
+    "lat": 32.3370574,
+    "lng": -90.3516436,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 2,
+    "createdAt": "2026-08-06T01:38:29.000Z",
+    "optedOut": false
   }
 ]
