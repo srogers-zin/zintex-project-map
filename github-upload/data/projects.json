@@ -374046,5 +374046,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-06T12:28:08.000Z",
     "optedOut": false
+  },
+  {
+    "id": "110591951",
+    "companycamProjectId": "110591951",
+    "address": "108 Callaway St, Newton, AL, 36352",
+    "lat": 31.3342751,
+    "lng": -85.6053811,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-24T01:47:39.000Z",
+    "optedOut": false
   }
 ]
