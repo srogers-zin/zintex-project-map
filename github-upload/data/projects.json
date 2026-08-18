@@ -340426,7 +340426,7 @@
     "lng": -89.08085779999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-17T18:34:39.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -374021,6 +374021,30 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-08-06T02:17:44.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "108989246",
+    "companycamProjectId": "108989246",
+    "address": "301 Whetherbine Way E, Tallahassee, FL, 32301",
+    "lat": 30.446187,
+    "lng": -84.2310147,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-02T20:52:06.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111616418",
+    "companycamProjectId": "111616418",
+    "address": "300 9th St, Franklin, Louisiana, 70538",
+    "lat": 29.78240809999999,
+    "lng": -91.5083688,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-06T12:28:08.000Z",
     "optedOut": false
   }
 ]
