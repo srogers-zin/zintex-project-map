@@ -374058,5 +374058,29 @@
     "photoCount": 1,
     "createdAt": "2026-07-24T01:47:39.000Z",
     "optedOut": false
+  },
+  {
+    "id": "108823761",
+    "companycamProjectId": "108823761",
+    "address": "126 Coffee Mill Creek Rd, Georgetown, Texas, 78633",
+    "lat": 30.7259708,
+    "lng": -97.7563102,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-01T01:09:54.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "110031877",
+    "companycamProjectId": "110031877",
+    "address": "357 S. Laurel St, Centreville, MS, 39631",
+    "lat": 31.084375,
+    "lng": -91.06531299999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-17T02:23:31.000Z",
+    "optedOut": false
   }
 ]
