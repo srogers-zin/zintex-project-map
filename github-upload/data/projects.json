@@ -374106,5 +374106,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-15T17:18:29.000Z",
     "optedOut": false
+  },
+  {
+    "id": "110181530",
+    "companycamProjectId": "110181530",
+    "address": "4449 Basswood Rd, Greenwood, Florida, 32443",
+    "lat": 30.888996,
+    "lng": -85.1531886,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-19T23:05:20.000Z",
+    "optedOut": false
   }
 ]
