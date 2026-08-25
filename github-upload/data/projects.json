@@ -374166,5 +374166,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-04T02:36:20.000Z",
     "optedOut": false
+  },
+  {
+    "id": "97154229",
+    "companycamProjectId": "97154229",
+    "address": "416 E Commercial St, Inola, Oklahoma, 74036",
+    "lat": 36.15400899999999,
+    "lng": -95.5033251,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-01-14T01:24:01.000Z",
+    "optedOut": false
   }
 ]
