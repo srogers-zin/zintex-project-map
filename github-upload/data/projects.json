@@ -338697,7 +338697,7 @@
     "lng": -102.3995123,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-13T18:20:46.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -339152,7 +339152,7 @@
     "lng": -102.39591177552938,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-10T17:37:49.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -340270,7 +340270,7 @@
     "lng": -102.1006528660655,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-22T21:38:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -343572,7 +343572,7 @@
     "lng": -102.3453774,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-19T02:11:35.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -343962,7 +343962,7 @@
     "lng": -102.068132,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-28T18:51:26.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -346367,7 +346367,7 @@
     "lng": -101.96342686191201,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-20T16:43:25.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -346796,7 +346796,7 @@
     "lng": -102.0983085,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-15T18:24:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -348070,7 +348070,7 @@
     "lng": -102.3168323,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-16T02:24:06.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -351086,7 +351086,7 @@
     "lng": -103.08514963835478,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-24T21:15:35.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -352295,7 +352295,7 @@
     "lng": -102.4076675,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-18T16:50:42.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -371780,7 +371780,7 @@
     "lng": -101.4769045,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-12T18:27:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373413,7 +373413,7 @@
     "lng": -101.9210519,
     "locationId": "lubbock",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-05-15T02:30:03.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374153,6 +374153,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2025-11-08T01:11:25.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111395344",
+    "companycamProjectId": "111395344",
+    "address": "13 Justin Ln, Canyon, TX, 79015",
+    "lat": 34.9782653,
+    "lng": -101.8685788,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-04T02:36:20.000Z",
     "optedOut": false
   }
 ]
