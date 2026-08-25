@@ -337254,7 +337254,7 @@
     "lng": -85.2630088,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-14T14:40:13.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -337787,7 +337787,7 @@
     "lng": -89.0973168,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-18T01:14:11.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -374141,6 +374141,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-08-12T00:19:05.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "93996331",
+    "companycamProjectId": "93996331",
+    "address": "3209 N 28 1/2 St, McAllen, Texas, 78501",
+    "lat": 26.2364786,
+    "lng": -98.24812250000001,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-11-08T01:11:25.000Z",
     "optedOut": false
   }
 ]
