@@ -350787,7 +350787,7 @@
     "lng": -85.56564379999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-06-23T00:59:11.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -373184,7 +373184,7 @@
     "lng": -92.67430420964956,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-10T21:16:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374177,6 +374177,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-01-14T01:24:01.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "109478700",
+    "companycamProjectId": "109478700",
+    "address": "2913 Lafourche Ave, Ruston, Louisiana, 71270",
+    "lat": 32.5107968,
+    "lng": -92.6742493,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-10T00:35:08.000Z",
     "optedOut": false
   }
 ]
