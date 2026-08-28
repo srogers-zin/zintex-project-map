@@ -336451,7 +336451,7 @@
     "photoCount": 0,
     "createdAt": "2025-08-27T00:46:40.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "107022777",
@@ -336971,7 +336971,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-22T00:27:58.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "103425302",
@@ -339701,7 +339701,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-18T03:57:51.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109061242",
@@ -343237,7 +343237,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-10T00:51:41.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109480474",
@@ -345798,7 +345798,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-07T00:56:41.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108296599",
@@ -353078,7 +353078,7 @@
     "photoCount": 0,
     "createdAt": "2026-06-16T00:49:04.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108050453",
@@ -370795,7 +370795,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-29T22:58:09.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "111031578",
@@ -376995,6 +376995,214 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2024-07-23T21:18:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "102341408",
+    "companycamProjectId": "102341408",
+    "address": "2816 Circle Dr, Muskogee, Oklahoma, 74403",
+    "lat": 35.7366875,
+    "lng": -95.33304,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-04-05T17:17:48.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112680264",
+    "companycamProjectId": "112680264",
+    "address": "4969 Cottage Ln, Memphis, Tennessee, 38125",
+    "lat": 35.0127642,
+    "lng": -89.8280169,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-20T00:09:41.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112361084",
+    "companycamProjectId": "112361084",
+    "address": "701 Ridgeland Dr, New Albany, Mississippi, 38652",
+    "lat": 34.4720832,
+    "lng": -89.0072189,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-16T19:32:14.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111609330",
+    "companycamProjectId": "111609330",
+    "address": "251 Blue Rd, Quebeck, TN, 38579",
+    "lat": 35.82952927471819,
+    "lng": -85.49960028380156,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-06T02:56:39.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113306625",
+    "companycamProjectId": "113306625",
+    "address": "98 Edwards St, Lexington, Mississippi, 39095",
+    "lat": 33.1038085,
+    "lng": -90.0596786,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-28T00:59:29.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "104923625",
+    "companycamProjectId": "104923625",
+    "address": "1419 Blankenship Dr, DeRidder, Louisiana, 70634",
+    "lat": 30.8409196,
+    "lng": -93.3110508,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-05-07T20:53:39.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112112466",
+    "companycamProjectId": "112112466",
+    "address": "5821 Mark Ave, Kingston, Oklahoma, 73439",
+    "lat": 33.9354713,
+    "lng": -96.6363976,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-12T18:31:53.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112346185",
+    "companycamProjectId": "112346185",
+    "address": "3828 Oakhurst Ave, Millington, TN, 38053",
+    "lat": 35.306207031137944,
+    "lng": -89.93566453456879,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-15T18:28:28.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113260490",
+    "companycamProjectId": "113260490",
+    "address": "112 Edison Cir, Smyrna, Tennessee, 37167",
+    "lat": 36.0243858,
+    "lng": -86.4883119,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-27T17:00:03.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111795975",
+    "companycamProjectId": "111795975",
+    "address": "1208 Hillside Dr, Winfield, Kansas, 67156",
+    "lat": 37.2362862,
+    "lng": -97.0220418,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-08T01:32:05.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112731111",
+    "companycamProjectId": "112731111",
+    "address": "411 Pitts Rd, Hattiesburg, Mississippi, 39402",
+    "lat": 31.3844117,
+    "lng": -89.4131038,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-20T16:56:04.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113209989",
+    "companycamProjectId": "113209989",
+    "address": "149 Summer Terrace Ln, Clarksville, Tennessee, 37040",
+    "lat": 36.6154618,
+    "lng": -87.2843094,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-27T00:18:55.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112332338",
+    "companycamProjectId": "112332338",
+    "address": "5782 Carriage Barn Ln, Montgomery, AL, 36116",
+    "lat": 32.3335032,
+    "lng": -86.2212491,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-15T02:54:12.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "84936573",
+    "companycamProjectId": "84936573",
+    "address": "2738 Penn Meade Dr, Nashville, TN, 37214",
+    "lat": 36.23820563729774,
+    "lng": -86.70389235019684,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-06-12T21:10:53.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "59258045",
+    "companycamProjectId": "59258045",
+    "address": "117 Cooley Ave, Ponca City, OK, 74601",
+    "lat": 36.71207805481091,
+    "lng": -97.0699291303754,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2024-01-24T17:30:59.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110028368",
+    "companycamProjectId": "110028368",
+    "address": "12205 Cypress Ln, Oklahoma City, Oklahoma, 73162",
+    "lat": 35.5937732,
+    "lng": -97.6083776,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-17T00:16:08.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
