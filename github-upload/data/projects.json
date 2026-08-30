@@ -333487,7 +333487,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-26T21:53:44.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "108080902",
@@ -377398,6 +377398,84 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-08-28T18:25:01.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "109278885",
+    "companycamProjectId": "109278885",
+    "address": "3975 Highway 18, Brandon, Mississippi, 39042",
+    "lat": 32.1995477,
+    "lng": -89.92887929999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-08T03:28:22.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113391539",
+    "companycamProjectId": "113391539",
+    "address": "1720 Wilshire Dr, Duncan, Oklahoma, 73533",
+    "lat": 34.5265823,
+    "lng": -97.97159339999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-29T00:40:06.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112329387",
+    "companycamProjectId": "112329387",
+    "address": "5919 W 78th Terrace, Prairie Village, Kansas, 66208",
+    "lat": 38.9868664,
+    "lng": -94.6549198,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-15T00:27:35.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112328928",
+    "companycamProjectId": "112328928",
+    "address": "804 Gann St, Iuka, Mississippi, 38852",
+    "lat": 34.8048467,
+    "lng": -88.198062,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-15T00:08:10.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "82565779",
+    "companycamProjectId": "82565779",
+    "address": "1330 Hwy 49, Flora, ms, 39071",
+    "lat": 32.5711174,
+    "lng": -90.3301426,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-05-06T02:12:01.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113391096",
+    "companycamProjectId": "113391096",
+    "address": "2262 Kim Dr, Clarksville, Tennessee, 37043",
+    "lat": 36.5681029,
+    "lng": -87.27475659999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-29T00:22:23.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
