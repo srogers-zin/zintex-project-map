@@ -332330,7 +332330,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-28T01:11:01.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "57587159",
@@ -342288,7 +342288,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-10T17:55:14.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109577885",
@@ -377476,6 +377476,71 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-08-29T00:22:23.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "108303206",
+    "companycamProjectId": "108303206",
+    "address": "46 Hartura Way, Hot Springs Village, AR, 71909",
+    "lat": 34.6344875,
+    "lng": -92.9124214,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-06-24T11:00:52.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110542208",
+    "companycamProjectId": "110542208",
+    "address": "7707 Poplar Springs Dr, Meridian, Mississippi, 39305",
+    "lat": 32.44682520000001,
+    "lng": -88.6868581,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-23T16:52:07.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111143078",
+    "companycamProjectId": "111143078",
+    "address": "8522 Fig St, New Orleans, Louisiana, 70118",
+    "lat": 29.963256,
+    "lng": -90.1199929,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T01:38:43.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112444001",
+    "companycamProjectId": "112444001",
+    "address": "1528 Viking Dr, Shreveport, LA, 71101",
+    "lat": 32.4970754,
+    "lng": -93.7206266,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-17T19:10:39.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111154732",
+    "companycamProjectId": "111154732",
+    "address": "3030 Little Rock Rd, Rose Bud, AR, 72137",
+    "lat": 35.38881629999999,
+    "lng": -92.07114539999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T13:05:57.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
