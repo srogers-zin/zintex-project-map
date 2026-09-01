@@ -377539,9 +377539,21 @@
     "lng": -92.07114539999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-31T13:05:57.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "113036929",
+    "companycamProjectId": "113036929",
+    "address": "424 Belinda Dr, Alamo, Texas, 78516",
+    "lat": 26.1948905,
+    "lng": -98.1069284,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-25T14:40:35.000Z",
+    "optedOut": false
   }
 ]
