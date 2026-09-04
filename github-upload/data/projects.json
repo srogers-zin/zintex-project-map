@@ -378412,5 +378412,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-18T01:24:07.000Z",
     "optedOut": false
+  },
+  {
+    "id": "113243560",
+    "companycamProjectId": "113243560",
+    "address": "824 Snow Lake Dr, Ashland, Mississippi, 38603",
+    "lat": 34.824657,
+    "lng": -89.23331689999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-27T15:18:55.000Z",
+    "optedOut": false
   }
 ]
