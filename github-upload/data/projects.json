@@ -378400,5 +378400,17 @@
     "createdAt": "2026-08-26T01:36:08.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "112477590",
+    "companycamProjectId": "112477590",
+    "address": "7234 Ford St, Mission, Texas, 78572",
+    "lat": 26.2452267,
+    "lng": -98.4047455,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-18T01:24:07.000Z",
+    "optedOut": false
   }
 ]
