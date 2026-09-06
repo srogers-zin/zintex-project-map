@@ -378424,5 +378424,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-27T15:18:55.000Z",
     "optedOut": false
+  },
+  {
+    "id": "112893668",
+    "companycamProjectId": "112893668",
+    "address": "319 Marlow Ln, Albany, Georgia, 31721",
+    "lat": 31.6260393,
+    "lng": -84.2592799,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-23T18:25:50.000Z",
+    "optedOut": false
   }
 ]
