@@ -336919,7 +336919,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-20T19:40:16.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "101858013",
@@ -379331,6 +379331,58 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-07-29T01:22:37.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "98476472",
+    "companycamProjectId": "98476472",
+    "address": "401 E Cloud St, Salina, Kansas, 67401",
+    "lat": 38.8128351,
+    "lng": -97.6026814,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-02-06T01:30:40.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "87516737",
+    "companycamProjectId": "87516737",
+    "address": "112 W Washington St, Bennington, KS, 67422",
+    "lat": 39.0316936436946,
+    "lng": -97.59460324421525,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-07-24T21:29:13.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "91853292",
+    "companycamProjectId": "91853292",
+    "address": "4213 NW 33rd St, Oklahoma City, Oklahoma, 73112",
+    "lat": 35.5049,
+    "lng": -97.59557530000001,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-10-04T00:33:19.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113535513",
+    "companycamProjectId": "113535513",
+    "address": "165 E Pine Hill Rd, El Dorado, AR, 71730",
+    "lat": 33.2200118,
+    "lng": -92.5734926,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-01T02:55:54.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
