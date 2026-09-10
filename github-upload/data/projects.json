@@ -379761,5 +379761,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-04T18:26:15.000Z",
     "optedOut": false
+  },
+  {
+    "id": "108089355",
+    "companycamProjectId": "108089355",
+    "address": "120 Hawkridge Dr, Madison, Mississippi, 39110",
+    "lat": 32.4571943,
+    "lng": -90.10092279999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-21T20:16:40.000Z",
+    "optedOut": false
   }
 ]
