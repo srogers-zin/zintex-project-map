@@ -379749,5 +379749,17 @@
     "createdAt": "2024-03-25T00:49:40.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "111458250",
+    "companycamProjectId": "111458250",
+    "address": "701 Williams st , Rankin, Tx, 79778",
+    "lat": 31.981605152632632,
+    "lng": -102.11962065898464,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-04T18:26:15.000Z",
+    "optedOut": false
   }
 ]
