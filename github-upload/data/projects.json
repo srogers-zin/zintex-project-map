@@ -337072,7 +337072,7 @@
     "lng": -97.9119169,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-22T00:28:04.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371806,7 +371806,7 @@
     "lng": -94.81802137568593,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-04T18:31:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -379706,7 +379706,7 @@
     "lng": -89.8710253,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-19T17:39:29.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -380287,7 +380287,7 @@
     "lng": -98.5779743,
     "locationId": "amarillo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-31T14:42:35.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -380629,5 +380629,29 @@
     "createdAt": "2025-12-27T01:42:00.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "112330757",
+    "companycamProjectId": "112330757",
+    "address": "823 E Minneapolis Ave, Salina, KS, 67401",
+    "lat": 38.8181723,
+    "lng": -97.5976743,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-15T01:17:50.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111440886",
+    "companycamProjectId": "111440886",
+    "address": "127 lincolm Pinch Way, Cordele, Ga, 31015",
+    "lat": 31.92975909639084,
+    "lng": -83.91637535367192,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-04T16:40:22.000Z",
+    "optedOut": false
   }
 ]
