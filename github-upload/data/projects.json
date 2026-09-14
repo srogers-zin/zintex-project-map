@@ -381134,5 +381134,44 @@
     "createdAt": "2026-09-02T20:23:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "114079985",
+    "companycamProjectId": "114079985",
+    "address": "512 Russell Ave E, Helena-West Helena, Arkansas, 72390",
+    "lat": 34.5381525,
+    "lng": -90.63966719999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-09T00:35:01.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112045075",
+    "companycamProjectId": "112045075",
+    "address": "2129 Griffith Terrace, Manhattan, Kansas, 66502",
+    "lat": 39.2060743,
+    "lng": -96.5591579,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-12T00:18:52.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113929043",
+    "companycamProjectId": "113929043",
+    "address": "1706 N 2nd St, Atchison, KS, 66002",
+    "lat": 39.58485954700228,
+    "lng": -95.11491760611534,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-05T17:30:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
