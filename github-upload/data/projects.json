@@ -381173,5 +381173,17 @@
     "createdAt": "2026-09-05T17:30:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "111040538",
+    "companycamProjectId": "111040538",
+    "address": "982 Omega-Eldorado Rd, Omega, GA, 31775",
+    "lat": 31.3420457,
+    "lng": -83.54725619999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-30T00:17:48.000Z",
+    "optedOut": false
   }
 ]
