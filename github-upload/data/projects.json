@@ -381337,7 +381337,7 @@
     "lng": -102.6431018,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-07T00:42:24.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -381562,5 +381562,29 @@
     "createdAt": "2026-08-15T00:08:20.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "111943909",
+    "companycamProjectId": "111943909",
+    "address": "19559 Highway OO, Milan, MO, 63556",
+    "lat": 40.2469507,
+    "lng": -93.143062,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-11T02:12:48.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111808842",
+    "companycamProjectId": "111808842",
+    "address": "214 Fairway Dr, Havana, FL, 32333",
+    "lat": 30.626782,
+    "lng": -84.41616239999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-08T17:40:53.000Z",
+    "optedOut": false
   }
 ]
