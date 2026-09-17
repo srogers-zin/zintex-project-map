@@ -341531,7 +341531,7 @@
     "lng": -87.20203029999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-07-14T03:50:47.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -347667,7 +347667,7 @@
     "lng": -91.81225446984172,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-02T23:12:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371000,7 +371000,7 @@
     "lng": -85.25145705789328,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 3,
     "createdAt": "2026-07-30T22:20:52.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -376642,7 +376642,7 @@
     "lng": -86.084334,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-28T02:52:03.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -377045,7 +377045,7 @@
     "lng": -85.49960028380156,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-06T02:56:39.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -379873,7 +379873,7 @@
     "lng": -85.52633340000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-17T18:31:24.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -379964,7 +379964,7 @@
     "lng": -86.71969639999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-30T01:01:23.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -381907,7 +381907,7 @@
     "lng": -90.1331027,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-31T23:58:42.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -382184,5 +382184,17 @@
     "createdAt": "2026-08-20T14:09:07.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "111794800",
+    "companycamProjectId": "111794800",
+    "address": "140 Viking Way, Tifton, Georgia, 31794",
+    "lat": 31.4675149,
+    "lng": -83.4850913,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-08T00:51:34.000Z",
+    "optedOut": false
   }
 ]
