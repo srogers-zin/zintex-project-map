@@ -380612,7 +380612,7 @@
     "lng": -98.93289478495717,
     "locationId": "abilene",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-10T23:20:01.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -381467,7 +381467,7 @@
     "lng": -97.54205323755741,
     "locationId": "dfw",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-16T21:54:51.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -382011,7 +382011,7 @@
     "lng": -84.5878587,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-14T00:36:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -382195,6 +382195,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-08-08T00:51:34.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "111980429",
+    "companycamProjectId": "111980429",
+    "address": "409 Flower Drive, Blakely, Georgia, 39823",
+    "lat": 31.3694743,
+    "lng": -84.9473429,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-11T15:44:47.000Z",
     "optedOut": false
   }
 ]
