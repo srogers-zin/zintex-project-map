@@ -382611,5 +382611,17 @@
     "createdAt": "2025-12-13T02:07:12.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "113711319",
+    "companycamProjectId": "113711319",
+    "address": "104 Halcyon Way, Thomasville, Georgia, 31792",
+    "lat": 30.81447769999999,
+    "lng": -83.9942854,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-02T19:43:57.000Z",
+    "optedOut": false
   }
 ]
