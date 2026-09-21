@@ -337244,7 +337244,7 @@
     "photoCount": 0,
     "createdAt": "2026-07-23T01:25:12.000Z",
     "optedOut": false,
-    "highVolumeUntagged": false
+    "highVolumeUntagged": true
   },
   {
     "id": "109758257",
@@ -382856,7 +382856,7 @@
     "photoCount": 0,
     "createdAt": "2026-09-09T19:06:32.000Z",
     "optedOut": false,
-    "highVolumeUntagged": true
+    "highVolumeUntagged": false
   },
   {
     "id": "114515074",
@@ -383011,6 +383011,58 @@
     "tags": [],
     "photoCount": 0,
     "createdAt": "2026-09-03T01:24:55.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "113378949",
+    "companycamProjectId": "113378949",
+    "address": "732 Browns Loop NE, Brookhaven, MS, 39601",
+    "lat": 31.61019717602968,
+    "lng": -90.4337752237916,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-28T20:32:53.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "112893519",
+    "companycamProjectId": "112893519",
+    "address": "513 E Brownie St, Rose Hill, Kansas, 67133",
+    "lat": 37.5565665,
+    "lng": -97.1265818,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-23T18:18:12.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "78254107",
+    "companycamProjectId": "78254107",
+    "address": "1041 Balboa Point, Boyce, LA, 71409",
+    "lat": 31.3127423,
+    "lng": -92.726964,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-02-23T02:21:23.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "114922340",
+    "companycamProjectId": "114922340",
+    "address": "4450 Co Rd 320, Blanket, TX, 76432",
+    "lat": 31.7667148,
+    "lng": -98.8891319,
+    "locationId": "abilene",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-20T15:25:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
   }
