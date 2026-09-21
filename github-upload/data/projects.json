@@ -383022,7 +383022,7 @@
     "lng": -90.4337752237916,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-28T20:32:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -383065,5 +383065,17 @@
     "createdAt": "2026-09-20T15:25:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "114482010",
+    "companycamProjectId": "114482010",
+    "address": "159 St Clair Dr, Leesburg, GA, 31763",
+    "lat": 31.6473003,
+    "lng": -84.102363,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-14T18:41:11.000Z",
+    "optedOut": false
   }
 ]
