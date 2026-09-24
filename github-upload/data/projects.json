@@ -383164,7 +383164,7 @@
     "lng": -93.5232316,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-13T16:13:15.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -383942,7 +383942,7 @@
     "lng": -97.32198299999999,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-11T00:14:24.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -384284,5 +384284,17 @@
     "createdAt": "2025-12-23T02:42:39.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "112865534",
+    "companycamProjectId": "112865534",
+    "address": "5327 Bienville Rd, Youngsville, Louisiana, 70592",
+    "lat": 30.0350898,
+    "lng": -92.06486,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-22T01:45:43.000Z",
+    "optedOut": false
   }
 ]
