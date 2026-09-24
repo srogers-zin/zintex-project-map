@@ -383896,5 +383896,17 @@
     "createdAt": "2026-08-04T01:37:21.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "112477570",
+    "companycamProjectId": "112477570",
+    "address": "2704 20th St, Lubbock, Texas, 79410",
+    "lat": 33.576746,
+    "lng": -101.8755463,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-18T01:23:52.000Z",
+    "optedOut": false
   }
 ]
