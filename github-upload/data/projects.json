@@ -382970,7 +382970,7 @@
     "lng": -95.6467966362834,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-05T22:24:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -383879,7 +383879,7 @@
     "lng": -90.428731,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-14T13:44:50.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -383907,6 +383907,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-08-18T01:23:52.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114246960",
+    "companycamProjectId": "114246960",
+    "address": "811 Emerald Dr, Lindsborg, KS, 67456",
+    "lat": 38.585036095332114,
+    "lng": -97.66049589961767,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-10T18:08:53.000Z",
     "optedOut": false
   }
 ]
