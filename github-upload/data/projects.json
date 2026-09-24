@@ -332977,7 +332977,7 @@
     "lng": -100.8299713,
     "locationId": "lubbock",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-26T17:43:35.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -337241,7 +337241,7 @@
     "lng": -102.39009104669094,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-23T01:25:12.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -381337,7 +381337,7 @@
     "lng": -102.6431018,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 2,
     "createdAt": "2026-08-07T00:42:24.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -381389,7 +381389,7 @@
     "lng": -101.4888387,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-08T01:53:47.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -381803,7 +381803,7 @@
     "lng": -102.0761013,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-20T01:18:01.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -382050,7 +382050,7 @@
     "lng": -101.4888387,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-08T01:59:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -382658,7 +382658,7 @@
     "lng": -103.4971698,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-04T02:04:23.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -383905,7 +383905,7 @@
     "lng": -101.8755463,
     "locationId": "lubbock",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 2,
     "createdAt": "2026-08-18T01:23:52.000Z",
     "optedOut": false
   },
@@ -384098,7 +384098,7 @@
     "lng": -88.79683800000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-19T20:01:12.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -384111,7 +384111,7 @@
     "lng": -83.4159519,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-10T20:36:12.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
