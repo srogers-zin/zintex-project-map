@@ -383736,7 +383736,7 @@
     "lng": -88.88540955260396,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-18T00:47:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -384295,6 +384295,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-08-22T01:45:43.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114617398",
+    "companycamProjectId": "114617398",
+    "address": "1307 Glenwood Cove, Round Rock, Texas, 78681",
+    "lat": 30.5182193,
+    "lng": -97.6962353,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 2,
+    "createdAt": "2026-09-16T00:06:25.000Z",
     "optedOut": false
   }
 ]
