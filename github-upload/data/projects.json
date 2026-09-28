@@ -385309,5 +385309,44 @@
     "createdAt": "2026-09-25T00:45:16.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "114813346",
+    "companycamProjectId": "114813346",
+    "address": "2801 W Highland Dr, Rogers, Arkansas, 72756",
+    "lat": 36.336749,
+    "lng": -94.1555964,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-18T00:11:01.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110587939",
+    "companycamProjectId": "110587939",
+    "address": "5420 Williams Dr, Temple, Texas, 76502",
+    "lat": 31.1176264,
+    "lng": -97.397641,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-24T00:07:29.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111223147",
+    "companycamProjectId": "111223147",
+    "address": "85341 Willie Garett Rd, Folsom, LA, 70437",
+    "lat": 30.672738275882445,
+    "lng": -90.20935781300068,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-31T21:31:56.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
