@@ -385348,5 +385348,17 @@
     "createdAt": "2026-07-31T21:31:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "112127184",
+    "companycamProjectId": "112127184",
+    "address": "43205 US Hwy 190 E, Slidell, Louisiana, 70461",
+    "lat": 30.228886,
+    "lng": -89.681358,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-12T20:18:08.000Z",
+    "optedOut": false
   }
 ]
