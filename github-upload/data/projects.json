@@ -339282,7 +339282,7 @@
     "lng": -102.133873,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-17T21:12:20.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -385863,9 +385863,21 @@
     "lng": -89.07317739999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-18T00:10:57.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "110937556",
+    "companycamProjectId": "110937556",
+    "address": "1111 E Owen St, Lubbock, Texas, 79403",
+    "lat": 33.6406427,
+    "lng": -101.8240838,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-29T01:22:56.000Z",
+    "optedOut": false
   }
 ]
