@@ -385879,5 +385879,17 @@
     "photoCount": 1,
     "createdAt": "2026-07-29T01:22:56.000Z",
     "optedOut": false
+  },
+  {
+    "id": "110834577",
+    "companycamProjectId": "110834577",
+    "address": "3032 South Saint Paul Street, Wichita, Kansas, 67217",
+    "lat": 37.6395486,
+    "lng": -97.3755808,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-28T00:06:33.000Z",
+    "optedOut": false
   }
 ]
