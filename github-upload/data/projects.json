@@ -386030,7 +386030,7 @@
     "lng": -90.14057640000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-25T00:50:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -386307,5 +386307,17 @@
     "createdAt": "2026-08-16T16:08:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115359429",
+    "companycamProjectId": "115359429",
+    "address": "2824 2nd Pl, Lubbock, TX, 79415",
+    "lat": 33.5952537,
+    "lng": -101.8789219,
+    "locationId": "lubbock",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-25T14:52:22.000Z",
+    "optedOut": false
   }
 ]
