@@ -384837,7 +384837,7 @@
     "lng": -94.71765328198673,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-25T21:36:21.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -386978,7 +386978,7 @@
     "lng": -88.5426871,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2025-12-11T01:28:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -387476,5 +387476,17 @@
     "createdAt": "2026-09-27T18:24:32.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "113735433",
+    "companycamProjectId": "113735433",
+    "address": "309 S Sunset Ave, Chanute, KS, 66720",
+    "lat": 37.6787506,
+    "lng": -95.4822228,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-03T01:00:55.000Z",
+    "optedOut": false
   }
 ]
