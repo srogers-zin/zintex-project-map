@@ -388593,5 +388593,17 @@
     "createdAt": "2026-10-05T02:28:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "114374926",
+    "companycamProjectId": "114374926",
+    "address": "124 Candace St, Newton, Mississippi, 39345",
+    "lat": 32.3147011,
+    "lng": -89.1688616,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-12T00:07:33.000Z",
+    "optedOut": false
   }
 ]
