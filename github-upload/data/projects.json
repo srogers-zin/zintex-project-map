@@ -385227,7 +385227,7 @@
     "lng": -98.281555,
     "locationId": "amarillo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-02T00:33:33.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -388069,7 +388069,7 @@
     "lng": -97.00292352586983,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-29T17:13:12.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -388420,7 +388420,7 @@
     "lng": -97.38844639999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-03T23:14:55.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -388604,6 +388604,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-09-12T00:07:33.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "113831456",
+    "companycamProjectId": "113831456",
+    "address": "409 W Truesdell St, Lyons, Kansas, 67554",
+    "lat": 38.3397116,
+    "lng": -98.20794819999999,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-04T00:47:53.000Z",
     "optedOut": false
   }
 ]
