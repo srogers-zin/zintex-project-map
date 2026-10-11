@@ -388929,5 +388929,57 @@
     "createdAt": "2026-01-10T01:58:41.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "116484294",
+    "companycamProjectId": "116484294",
+    "address": "1209 Gardenia Ln, Crowley, TX, 76036",
+    "lat": 32.5647893,
+    "lng": -97.3765409,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-11T00:04:29.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "87705935",
+    "companycamProjectId": "87705935",
+    "address": "87 Hollimon Rd, Ovett, MS, 39464",
+    "lat": 31.42293199005875,
+    "lng": -89.06108954921365,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-07-29T00:48:57.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "116379411",
+    "companycamProjectId": "116379411",
+    "address": "4341 Victoria Dr, Nesbit, Mississippi, 38651",
+    "lat": 34.8940338,
+    "lng": -89.91279770000001,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-09T00:11:49.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "115743655",
+    "companycamProjectId": "115743655",
+    "address": "9060 170th St, Valley Falls, KS, 66088",
+    "lat": 39.35962723364684,
+    "lng": -95.44557094573973,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-30T23:22:23.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
