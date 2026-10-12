@@ -203113,13 +203113,13 @@
   {
     "id": "6453149b525c4b262cdc4f61",
     "companycamProjectId": "47240012",
-    "address": "1839 N Kickapoo Ave, Shawnee, OK 74804, USA",
-    "lat": 35.3524853,
-    "lng": -96.9295915,
+    "address": "1839 N Kickapoo Ave, Shawnee, OK, 74804",
+    "lat": 35.35236548750513,
+    "lng": -96.92971950396895,
     "locationId": "wichita-falls",
     "tags": [],
     "photoCount": 1,
-    "createdAt": "2023-05-04T02:12:43.122Z",
+    "createdAt": "2023-02-22T18:22:47.000Z",
     "optedOut": false,
     "customerName": "Karcher"
   },
@@ -203447,15 +203447,13 @@
   {
     "id": "6435b9aeae61f9a5ab1f3665",
     "companycamProjectId": "47898593",
-    "address": "2404 Whispering Pine Blvd, Shawnee, OK 74804, USA",
-    "lat": 35.360329,
-    "lng": -96.9561849,
+    "address": "2404 Whispering Pine Blvd, Shawnee, OK, 74804",
+    "lat": 35.36040915814798,
+    "lng": -96.9562017917633,
     "locationId": "wichita-falls",
-    "tags": [
-      "Baths"
-    ],
+    "tags": [],
     "photoCount": 1,
-    "createdAt": "2023-04-11T19:49:02.700Z",
+    "createdAt": "2023-03-14T01:48:52.000Z",
     "optedOut": false,
     "customerName": "Reese, Gloria J"
   },
@@ -345886,7 +345884,7 @@
     "lng": -96.6908881,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-06-29T14:54:40.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -386614,7 +386612,7 @@
     "lng": -93.2143634,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-28T15:56:57.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -389085,5 +389083,53 @@
     "createdAt": "2026-09-18T18:59:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "79340531",
+    "companycamProjectId": "79340531",
+    "address": "34606 Independence St, Shawnee, OK, 74804",
+    "lat": 35.35037101868245,
+    "lng": -97.04361833631992,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-03-13T16:49:37.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "78423018",
+    "companycamProjectId": "78423018",
+    "address": "4 E Franklin Cir, Shawnee, OK, 74804",
+    "lat": 35.356259,
+    "lng": -96.9202531,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-02-26T03:52:40.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "66448887",
+    "companycamProjectId": "66448887",
+    "address": "2304 Timbers Blvd, Shawnee, OK, 74804",
+    "lat": 35.35866070086081,
+    "lng": -96.95456396788359,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 3,
+    "createdAt": "2024-07-01T16:38:34.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "53402260",
+    "companycamProjectId": "53402260",
+    "address": "11 Birdie Ln, Shawnee, OK, 74804",
+    "lat": 35.37351576649115,
+    "lng": -96.9809515401721,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2023-08-03T23:26:44.000Z",
+    "optedOut": false
   }
 ]
