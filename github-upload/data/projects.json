@@ -388988,7 +388988,7 @@
     "lng": -89.30748899999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2025-07-19T00:22:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -389130,6 +389130,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2023-08-03T23:26:44.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "91773794",
+    "companycamProjectId": "91773794",
+    "address": "1212 St George Ave, Moore, Oklahoma, 73160",
+    "lat": 35.3484379,
+    "lng": -97.50784619999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-10-03T00:52:26.000Z",
     "optedOut": false
   }
 ]
