@@ -389467,5 +389467,17 @@
     "photoCount": 1,
     "createdAt": "2026-08-15T00:29:34.000Z",
     "optedOut": false
+  },
+  {
+    "id": "114183795",
+    "companycamProjectId": "114183795",
+    "address": "11 Shiloh Rd, Laurel, Mississippi, 39443",
+    "lat": 31.7132793,
+    "lng": -89.03979969999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-10T00:07:15.000Z",
+    "optedOut": false
   }
 ]
