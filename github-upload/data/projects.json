@@ -388197,7 +388197,7 @@
     "lng": -89.0501002,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-01T00:56:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -389230,7 +389230,7 @@
     "lng": -95.44540766626596,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-30T21:48:11.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -389455,5 +389455,17 @@
     "createdAt": "2026-10-04T16:09:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "112329473",
+    "companycamProjectId": "112329473",
+    "address": "260 Monroe Breland Rd, Poplarville, Mississippi, 39470",
+    "lat": 30.7337098,
+    "lng": -89.5439146,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-15T00:29:34.000Z",
+    "optedOut": false
   }
 ]
