@@ -348679,7 +348679,7 @@
     "lng": -97.6288898,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2024-08-07T19:57:44.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -364619,7 +364619,7 @@
     "lng": -97.6301248,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 2,
     "createdAt": "2025-12-04T01:56:21.000Z",
     "optedOut": false
   },
@@ -389478,6 +389478,54 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-09-10T00:07:15.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "94693971",
+    "companycamProjectId": "94693971",
+    "address": "6705 Newman Dr, Oklahoma City, Oklahoma, 73162",
+    "lat": 35.5709465,
+    "lng": -97.6328619,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-11-20T01:42:00.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "77910588",
+    "companycamProjectId": "77910588",
+    "address": "6725 NW 121st Street, Oklahoma City, OK, 73162",
+    "lat": 35.5942872,
+    "lng": -97.6336426,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-02-15T21:39:01.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "75723024",
+    "companycamProjectId": "75723024",
+    "address": "13117 Timbercrest, Oklahoma City, Ok , 73142",
+    "lat": 35.6028557,
+    "lng": -97.6355964,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2024-12-27T23:45:45.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "76557292",
+    "companycamProjectId": "76557292",
+    "address": "5830 Hefner Village Cir, Oklahoma City, OK, 73162",
+    "lat": 35.5711492,
+    "lng": -97.6202016,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-01-17T22:48:37.000Z",
     "optedOut": false
   }
 ]
