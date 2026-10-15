@@ -381348,7 +381348,7 @@
     "lng": -82.9163181,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-09-12T00:23:32.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -389575,7 +389575,7 @@
     "lng": -89.1857866,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-15T00:15:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -389718,7 +389718,7 @@
     "lng": -89.4172555,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-02T00:26:14.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -390099,5 +390099,17 @@
     "createdAt": "2026-10-02T00:03:07.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115992066",
+    "companycamProjectId": "115992066",
+    "address": "101 Tomahawk Trail, Gulfport, Mississippi, 39503",
+    "lat": 30.4623973,
+    "lng": -89.06344840000001,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-05T14:38:07.000Z",
+    "optedOut": false
   }
 ]
