@@ -390735,5 +390735,29 @@
     "createdAt": "2025-04-01T22:36:57.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "85571682",
+    "companycamProjectId": "85571682",
+    "address": "9301 Broughton Ct, Oklahoma City, OK, 73132",
+    "lat": 35.56291485383573,
+    "lng": -97.6255770586431,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-06-24T02:52:03.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "73181428",
+    "companycamProjectId": "73181428",
+    "address": "6113 Norwich Ct, Oklahoma City, Oklahoma, 73132",
+    "lat": 35.5605707,
+    "lng": -97.62533549999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2024-10-31T22:07:10.000Z",
+    "optedOut": false
   }
 ]
