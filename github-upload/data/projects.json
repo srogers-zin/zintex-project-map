@@ -390759,5 +390759,70 @@
     "photoCount": 1,
     "createdAt": "2024-10-31T22:07:10.000Z",
     "optedOut": false
+  },
+  {
+    "id": "117002511",
+    "companycamProjectId": "117002511",
+    "address": "1011 Vards Lane, Sweetwater, Texas, 79556",
+    "lat": 32.27004893323196,
+    "lng": -100.01178474505384,
+    "locationId": "abilene",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-18T09:48:56.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "115745356",
+    "companycamProjectId": "115745356",
+    "address": "2326 N Roberta Rd, Durant, Oklahoma, 74701",
+    "lat": 33.958661,
+    "lng": -96.3028173,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-01T00:05:11.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "115796244",
+    "companycamProjectId": "115796244",
+    "address": "6199 Clearview Rd, Salina, Kansas, 67401",
+    "lat": 38.9501199,
+    "lng": -97.6131332,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-01T16:32:34.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "88915849",
+    "companycamProjectId": "88915849",
+    "address": "115 Stafford Dr, Clinton, Mississippi, 39056",
+    "lat": 32.3742914,
+    "lng": -90.339992,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2025-08-16T00:24:07.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "110493956",
+    "companycamProjectId": "110493956",
+    "address": "8608 Old Oak Dr, Irving, TX, 75063",
+    "lat": 32.92271843725037,
+    "lng": -96.94816622883081,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-07-23T00:09:08.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
