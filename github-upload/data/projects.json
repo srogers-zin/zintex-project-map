@@ -390824,5 +390824,70 @@
     "createdAt": "2026-07-23T00:09:08.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "46767005",
+    "companycamProjectId": "46767005",
+    "address": "153 E Sturdivant Rd, Mineral Wells, TX, 76067",
+    "lat": 32.765959,
+    "lng": -98.0754259,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2023-02-07T01:40:11.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "116289245",
+    "companycamProjectId": "116289245",
+    "address": "406 N 5th St, Nolanville, Texas, 76559",
+    "lat": 31.0812984,
+    "lng": -97.6075383,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-08T00:58:27.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "114286248",
+    "companycamProjectId": "114286248",
+    "address": "1884 Co Rd 2790, Lamar, AR, 72846",
+    "lat": 35.465982,
+    "lng": -93.30668550000001,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-11T03:29:49.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "115022274",
+    "companycamProjectId": "115022274",
+    "address": "113 E Francis St, Sturgeon, Missouri, 65284",
+    "lat": 39.2399928,
+    "lng": -92.2788985,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-09-21T21:05:23.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "111699155",
+    "companycamProjectId": "111699155",
+    "address": "1107 S Leon Ave, Monahans, TX, 79756",
+    "lat": 31.5875355,
+    "lng": -102.8772313,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-08-07T00:45:18.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
