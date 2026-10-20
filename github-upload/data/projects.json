@@ -378612,7 +378612,7 @@
     "lng": -88.4793521,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-05T00:50:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": false
@@ -385264,7 +385264,7 @@
     "lng": -89.4335612,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-26T17:18:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -390872,7 +390872,7 @@
     "lng": -92.2788985,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-21T21:05:23.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -390889,5 +390889,77 @@
     "createdAt": "2026-08-07T00:45:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "113480640",
+    "companycamProjectId": "113480640",
+    "address": "3913 Deerwood Cir, Pace, Florida, 32571",
+    "lat": 30.6137981,
+    "lng": -87.160063,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-31T17:03:09.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "95621621",
+    "companycamProjectId": "95621621",
+    "address": "4612 Eastman Dr, Oklahoma City, Oklahoma, 73122",
+    "lat": 35.5360528,
+    "lng": -97.6037885,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-12-10T15:39:41.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "90849656",
+    "companycamProjectId": "90849656",
+    "address": "4125 N Nicklas Ave, Oklahoma City, Oklahoma, 73122",
+    "lat": 35.5138813,
+    "lng": -97.60419429999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-09-17T18:52:17.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "77978269",
+    "companycamProjectId": "77978269",
+    "address": "6125 N Harvard Ave, OKC, OK, 73122",
+    "lat": 35.5338598,
+    "lng": -97.6031337,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-02-17T22:08:32.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "77989037",
+    "companycamProjectId": "77989037",
+    "address": "4609 NW44TH St, Warr Acres, OK, 73122",
+    "lat": 35.5170647,
+    "lng": -97.6030579,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2025-02-18T03:58:41.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "73089175",
+    "companycamProjectId": "73089175",
+    "address": "5016 N Brunson St, Oklahoma City, OK, 73112",
+    "lat": 35.5220483,
+    "lng": -97.59365629999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2024-10-30T17:11:11.000Z",
+    "optedOut": false
   }
 ]
