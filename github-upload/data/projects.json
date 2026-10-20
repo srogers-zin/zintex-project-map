@@ -389536,7 +389536,7 @@
     "lng": -92.0640576980368,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-15T03:32:52.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -390781,7 +390781,7 @@
     "lng": -96.3028173,
     "locationId": "dfw",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-01T00:05:11.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -390859,7 +390859,7 @@
     "lng": -93.30668550000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-11T03:29:49.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -391351,5 +391351,17 @@
     "createdAt": "2026-10-15T17:33:00.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "116056425",
+    "companycamProjectId": "116056425",
+    "address": "1137 Hidden Meadow Dr, Montgomery, AL, 36117",
+    "lat": 32.4059941,
+    "lng": -86.2002645,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-05T21:12:12.000Z",
+    "optedOut": false
   }
 ]
