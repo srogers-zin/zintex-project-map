@@ -391387,5 +391387,29 @@
     "photoCount": 1,
     "createdAt": "2026-08-27T14:40:11.000Z",
     "optedOut": false
+  },
+  {
+    "id": "115437273",
+    "companycamProjectId": "115437273",
+    "address": "211 Lantern Ln, Havana, FL, 32333",
+    "lat": 30.576883257629518,
+    "lng": -84.40132319927216,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-26T23:21:23.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "116490705",
+    "companycamProjectId": "116490705",
+    "address": "15706 Gaddy Rd, Shawnee, Oklahoma, 74801",
+    "lat": 35.3365069,
+    "lng": -97.0010696,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-11T16:58:45.000Z",
+    "optedOut": false
   }
 ]
