@@ -377666,7 +377666,7 @@
     "lng": -94.2427946,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-01T00:21:06.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -391362,6 +391362,30 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-10-05T21:12:12.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114716380",
+    "companycamProjectId": "114716380",
+    "address": "1607 N Pleasant St, Hutchinson, KS, 67501",
+    "lat": 38.0712678,
+    "lng": -97.906142,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-17T01:35:45.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "113237584",
+    "companycamProjectId": "113237584",
+    "address": "1404 S Patton Rd, Great Bend, Kansas, 67530",
+    "lat": 38.3656534,
+    "lng": -98.81109149999999,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-08-27T14:40:11.000Z",
     "optedOut": false
   }
 ]
