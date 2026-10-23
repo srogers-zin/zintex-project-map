@@ -374703,7 +374703,7 @@
     "lng": -92.3305267,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-25T00:50:13.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -391927,7 +391927,7 @@
     "lng": -91.00120369999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-13T02:24:34.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -392097,6 +392097,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-09-10T17:56:45.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "115442862",
+    "companycamProjectId": "115442862",
+    "address": "1713 S Chaparral St, Derby, Kansas, 67037",
+    "lat": 37.5207888,
+    "lng": -97.2679907,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-27T17:15:24.000Z",
     "optedOut": false
   }
 ]
