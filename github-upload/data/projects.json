@@ -375249,7 +375249,7 @@
     "lng": -94.0697048,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-23T18:57:46.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -392074,5 +392074,17 @@
     "createdAt": "2026-10-15T16:48:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115523060",
+    "companycamProjectId": "115523060",
+    "address": "2517 Steven Rd, Odessa, TX, 79764",
+    "lat": 31.9144033,
+    "lng": -102.4266839,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-28T19:00:34.000Z",
+    "optedOut": false
   }
 ]
