@@ -392086,5 +392086,17 @@
     "photoCount": 1,
     "createdAt": "2026-09-28T19:00:34.000Z",
     "optedOut": false
+  },
+  {
+    "id": "114245145",
+    "companycamProjectId": "114245145",
+    "address": "346 Springhill Rd, Monroe, LA, 71203",
+    "lat": 32.6038845,
+    "lng": -91.968454,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-10T17:56:45.000Z",
+    "optedOut": false
   }
 ]
