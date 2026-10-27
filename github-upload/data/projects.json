@@ -392405,7 +392405,7 @@
     "lng": -92.4958666,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-19T17:56:08.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -392769,7 +392769,7 @@
     "lng": -102.9015501,
     "locationId": "midland-odessa",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-03T00:51:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -392912,7 +392912,7 @@
     "lng": -90.0010305,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-22T18:52:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -392938,7 +392938,7 @@
     "lng": -84.4820113,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-29T20:36:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -392951,7 +392951,7 @@
     "lng": -85.4738855,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-20T19:59:59.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -393007,5 +393007,17 @@
     "createdAt": "2026-09-04T23:13:11.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115420561",
+    "companycamProjectId": "115420561",
+    "address": "20326 Long Lake Dr, Hammond, LA, 70403",
+    "lat": 30.4890776,
+    "lng": -90.38763229999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-26T03:16:48.000Z",
+    "optedOut": false
   }
 ]
