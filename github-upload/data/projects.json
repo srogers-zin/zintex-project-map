@@ -393019,5 +393019,17 @@
     "photoCount": 1,
     "createdAt": "2026-09-26T03:16:48.000Z",
     "optedOut": false
+  },
+  {
+    "id": "114275939",
+    "companycamProjectId": "114275939",
+    "address": "18423 NE Shadow Ln, Altha, FL, 32421",
+    "lat": 30.5708533,
+    "lng": -85.08264659999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-10T22:15:08.000Z",
+    "optedOut": false
   }
 ]
