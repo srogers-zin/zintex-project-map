@@ -393589,5 +393589,17 @@
     "createdAt": "2026-01-23T18:29:50.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115449749",
+    "companycamProjectId": "115449749",
+    "address": "1066 Elmodel Hwy, Leary, Georgia, 39862",
+    "lat": 31.37678039999999,
+    "lng": -84.4820113,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-27T23:28:32.000Z",
+    "optedOut": false
   }
 ]
