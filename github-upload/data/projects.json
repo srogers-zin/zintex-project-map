@@ -393274,7 +393274,7 @@
     "lng": -92.38664039999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-25T14:56:11.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -393304,5 +393304,17 @@
     "createdAt": "2026-10-21T00:25:10.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "117056054",
+    "companycamProjectId": "117056054",
+    "address": "501 S County Line Rd, Albany, Georgia, 31705",
+    "lat": 31.5384287,
+    "lng": -83.9981559,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-19T16:01:03.000Z",
+    "optedOut": false
   }
 ]
