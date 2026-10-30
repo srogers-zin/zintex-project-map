@@ -393040,7 +393040,7 @@
     "lng": -88.839395,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-18T18:45:04.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -393600,6 +393600,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-09-27T23:28:32.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "117623325",
+    "companycamProjectId": "117623325",
+    "address": "2643 Bob White Cir, Navarre, FL, 32566",
+    "lat": 30.4280673,
+    "lng": -86.8322587,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-27T00:24:35.000Z",
     "optedOut": false
   }
 ]
