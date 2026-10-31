@@ -392210,7 +392210,7 @@
     "lng": -96.67514299999999,
     "locationId": "dfw",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-23T17:17:29.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -393442,7 +393442,7 @@
     "lng": -97.2870786,
     "locationId": "dfw",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-08T20:39:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -394172,5 +394172,17 @@
     "createdAt": "2023-11-25T20:42:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "117491038",
+    "companycamProjectId": "117491038",
+    "address": "4211 Woodhill Ct, Tallahassee, Florida, 32303",
+    "lat": 30.4980751,
+    "lng": -84.3458544,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-24T00:43:44.000Z",
+    "optedOut": false
   }
 ]
