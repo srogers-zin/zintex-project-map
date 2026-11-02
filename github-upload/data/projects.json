@@ -394249,5 +394249,18 @@
     "createdAt": "2026-09-15T00:18:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "117867179",
+    "companycamProjectId": "117867179",
+    "address": "2402 Greenbriar Dr, Abilene, TX, 79605",
+    "lat": 32.4206804,
+    "lng": -99.7749164,
+    "locationId": "abilene",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-29T18:58:48.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
