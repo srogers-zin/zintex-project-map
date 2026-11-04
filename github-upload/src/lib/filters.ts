@@ -6,7 +6,7 @@ export interface Filters {
   hasPhotos: boolean; // "Photos only" toggle
 }
 
-export const EMPTY_FILTERS: Filters = { tags: [], locationIds: [], search: "", hasPhotos: false };
+export const EMPTY_FILTERS: Filters = { tags: [], locationIds: [], search: "", hasPhotos: true };
 
 // Map command bus — AppShell issues these, MapView consumes them via effect.
 export type MapCommand =
