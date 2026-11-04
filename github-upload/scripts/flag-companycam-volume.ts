@@ -21,7 +21,7 @@ import type { Project } from "../src/lib/types";
 import { matchesOptOut } from "../src/lib/opt-out-match";
 
 // ===========================================================================
-// Flags CompanyCam projects that are well-documented (25+ total photos) but
+// Flags CompanyCam projects that are well-documented (30+ total photos) but
 // have NOTHING tagged for the public map yet, so Sales Leadership can spot
 // them and go tag a few — see src/lib/types.ts `Project.highVolumeUntagged`
 // for how this is used (a distinct pin color; see MapView.tsx) and the
@@ -37,7 +37,7 @@ import { matchesOptOut } from "../src/lib/opt-out-match";
 //
 //   This script has no such shortcut. CompanyCam doesn't expose a photo
 //   count anywhere on the Project object, so finding "which UNTAGGED
-//   projects have 25+ photos" means (a) scanning /projects — which DOES have
+//   projects have 30+ photos" means (a) scanning /projects — which DOES have
 //   a hard max-offset cap and is sorted by most-recent-activity, so some
 //   older/inactive projects may never be reached — and (b) one extra photos
 //   request per candidate project to check its count. That's materially
@@ -49,7 +49,7 @@ import { matchesOptOut } from "../src/lib/opt-out-match";
 //   COMPANYCAM_API_TOKEN=xxx npm run flag:companycam-volume -- --threshold 20  # override 15
 // ===========================================================================
 
-const THRESHOLD_DEFAULT = 25;
+const THRESHOLD_DEFAULT = 30;
 const CONCURRENCY = 6;
 const PROGRESS_EVERY = 500;
 const DATA_DIR = path.join(process.cwd(), "data");
