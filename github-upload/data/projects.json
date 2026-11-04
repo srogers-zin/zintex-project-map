@@ -394491,7 +394491,7 @@
     "lng": -89.2804936,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-01T20:08:29.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -394612,5 +394612,17 @@
     "createdAt": "2026-11-02T17:38:10.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115823386",
+    "companycamProjectId": "115823386",
+    "address": "703 Country Cottage Blvd, Montz, LA, 70068",
+    "lat": 30.02706036446554,
+    "lng": -90.4628537222743,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-01T19:24:49.000Z",
+    "optedOut": false
   }
 ]
