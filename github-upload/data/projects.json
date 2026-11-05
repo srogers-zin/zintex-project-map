@@ -348535,5 +348535,29 @@
     "photoCount": 1,
     "createdAt": "2022-06-20T15:30:31.000Z",
     "optedOut": false
+  },
+  {
+    "id": "117831495",
+    "companycamProjectId": "117831495",
+    "address": "35 Lunsford Ln, Bella Vista, Arkansas, 72714",
+    "lat": 36.455566,
+    "lng": -94.19464359999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-29T14:49:49.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114479226",
+    "companycamProjectId": "114479226",
+    "address": "334 Sycamore Ln, McKenzie, TN, 38201",
+    "lat": 36.1297717,
+    "lng": -88.4793521,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-14T18:24:18.000Z",
+    "optedOut": false
   }
 ]
