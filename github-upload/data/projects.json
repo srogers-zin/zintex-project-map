@@ -348789,7 +348789,7 @@
     "lng": -92.095984,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-18T19:19:39.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -370256,5 +370256,17 @@
     "createdAt": "2025-11-15T02:51:04.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "117803657",
+    "companycamProjectId": "117803657",
+    "address": "918 Maria Dr, Sulphur, Louisiana, 70663",
+    "lat": 30.2262822,
+    "lng": -93.36697799999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-28T23:39:46.000Z",
+    "optedOut": false
   }
 ]
