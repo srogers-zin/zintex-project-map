@@ -371097,5 +371097,29 @@
     "createdAt": "2026-09-29T18:15:37.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "106655236",
+    "companycamProjectId": "106655236",
+    "address": "1410 E Fremont St, Laredo, Texas, 78040",
+    "lat": 27.5141265,
+    "lng": -99.48185869999999,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-06-02T01:33:24.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114923006",
+    "companycamProjectId": "114923006",
+    "address": "15875 Snodgrass Rd, Wamego, Kansas, 66547",
+    "lat": 39.2144214,
+    "lng": -96.3468097,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-20T16:19:45.000Z",
+    "optedOut": false
   }
 ]
