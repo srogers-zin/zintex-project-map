@@ -349491,7 +349491,7 @@
     "lng": -91.2616461,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 3,
     "createdAt": "2026-09-01T03:33:35.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371221,7 +371221,7 @@
     "lng": -88.8775146,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-04T02:24:04.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371533,6 +371533,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-09-11T16:54:31.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114816380",
+    "companycamProjectId": "114816380",
+    "address": "8771 N Kelliann Way, Manhattan, Kansas, 66502",
+    "lat": 39.2181747,
+    "lng": -96.51189939999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-18T02:03:04.000Z",
     "optedOut": false
   }
 ]
