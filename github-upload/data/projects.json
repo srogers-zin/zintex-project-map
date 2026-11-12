@@ -371455,7 +371455,7 @@
     "lng": -87.2007027,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-05T17:57:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372139,5 +372139,29 @@
     "createdAt": "2026-10-31T01:41:37.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "113932186",
+    "companycamProjectId": "113932186",
+    "address": "205 Laurel Hl St, Crestview, FL, 32539",
+    "lat": 30.731192945485247,
+    "lng": -86.53362203389408,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-05T19:20:38.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "117970830",
+    "companycamProjectId": "117970830",
+    "address": "256 Ford Rd, Vicksburg, MS, 39183",
+    "lat": 32.3873071,
+    "lng": -90.864696,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-31T01:33:01.000Z",
+    "optedOut": false
   }
 ]
