@@ -371763,5 +371763,17 @@
     "photoCount": 1,
     "createdAt": "2026-10-24T21:00:23.000Z",
     "optedOut": false
+  },
+  {
+    "id": "114922088",
+    "companycamProjectId": "114922088",
+    "address": "6215 Hoda Rd, Kiln, Mississippi, 39556",
+    "lat": 30.520445,
+    "lng": -89.43094699999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-20T15:06:53.000Z",
+    "optedOut": false
   }
 ]
