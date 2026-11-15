@@ -352897,7 +352897,7 @@
     "lng": -97.45976399999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-24T00:28:05.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -361165,7 +361165,7 @@
     "lng": -99.76630829999999,
     "locationId": "abilene",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-25T11:00:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371208,7 +371208,7 @@
     "lng": -102.4854743,
     "locationId": "lubbock",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-31T03:51:47.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372276,7 +372276,7 @@
     "lng": -90.5559675,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-08-23T18:20:07.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372354,7 +372354,7 @@
     "lng": -89.3450896,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-29T00:06:56.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372380,7 +372380,7 @@
     "lng": -89.9503986,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-29T00:18:59.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372627,7 +372627,7 @@
     "lng": -92.2363175,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-07T01:34:43.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372863,5 +372863,41 @@
     "createdAt": "2026-11-14T15:27:13.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "118476001",
+    "companycamProjectId": "118476001",
+    "address": "1501 Santa Fe Trail, Carrollton, TX, 75007",
+    "lat": 32.9993071215459,
+    "lng": -96.92562393844128,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-06T20:31:24.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118487641",
+    "companycamProjectId": "118487641",
+    "address": "8315 Pershing Road, Raytown, MO, 64138",
+    "lat": 38.969981,
+    "lng": -94.4479966,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-06T22:29:05.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118408573",
+    "companycamProjectId": "118408573",
+    "address": "2201 Kokomo St, Plainview , Tx, 79072",
+    "lat": 31.981631001555648,
+    "lng": -102.11968179704103,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-06T02:01:26.000Z",
+    "optedOut": false
   }
 ]
