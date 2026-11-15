@@ -372747,5 +372747,17 @@
     "photoCount": 1,
     "createdAt": "2026-10-15T02:23:16.000Z",
     "optedOut": false
+  },
+  {
+    "id": "118407269",
+    "companycamProjectId": "118407269",
+    "address": "17575 W 255th St, Paola, Kansas, 66071",
+    "lat": 38.664811,
+    "lng": -94.7882427,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-06T01:25:10.000Z",
+    "optedOut": false
   }
 ]
