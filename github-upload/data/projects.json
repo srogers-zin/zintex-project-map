@@ -359605,7 +359605,7 @@
     "lng": -94.1482217,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-07-23T16:52:06.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -370872,7 +370872,7 @@
     "lng": -86.1238082,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-02T01:09:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371672,7 +371672,7 @@
     "lng": -92.5715606,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 2,
     "createdAt": "2026-10-08T00:17:17.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -371784,7 +371784,7 @@
     "lng": -92.3358988,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-07T00:40:46.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372328,7 +372328,7 @@
     "lng": -97.81867349999999,
     "locationId": "dfw",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-09-14T16:41:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372735,5 +372735,17 @@
     "createdAt": "2026-11-13T01:19:08.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "116806439",
+    "companycamProjectId": "116806439",
+    "address": "10752 S Rd 140w, Grinnell, KS, 67738",
+    "lat": 39.20972482859328,
+    "lng": -100.7023586332798,
+    "locationId": "amarillo",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-15T02:23:16.000Z",
+    "optedOut": false
   }
 ]
