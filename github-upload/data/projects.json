@@ -372432,7 +372432,7 @@
     "lng": -88.96728759999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-27T00:34:32.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373040,6 +373040,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-11-12T01:21:27.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118627361",
+    "companycamProjectId": "118627361",
+    "address": "21 Lampton Heights Ln, Columbia, Mississippi, 39429",
+    "lat": 31.22048909999999,
+    "lng": -89.8033604,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-10T01:47:58.000Z",
     "optedOut": false
   }
 ]
