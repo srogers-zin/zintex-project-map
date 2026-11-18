@@ -371953,7 +371953,7 @@
     "lng": -97.1835861,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-30T00:13:30.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372057,7 +372057,7 @@
     "lng": -86.6627079,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-04T16:09:15.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372224,7 +372224,7 @@
     "lng": -90.18539899999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-29T00:38:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373322,7 +373322,7 @@
     "lng": -84.1538595,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-09T20:50:30.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373348,7 +373348,7 @@
     "lng": -91.2440968,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-07T21:15:25.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373404,5 +373404,29 @@
     "createdAt": "2026-11-14T01:24:39.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "116287124",
+    "companycamProjectId": "116287124",
+    "address": "117 Emerald Ln, Hahira, Georgia, 31632",
+    "lat": 31.0304944,
+    "lng": -83.36948029999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-08T00:00:53.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "117007746",
+    "companycamProjectId": "117007746",
+    "address": "1844 Old Pearl Rd, Florence, Mississippi, 39073",
+    "lat": 32.049145,
+    "lng": -90.15746449999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-18T18:22:56.000Z",
+    "optedOut": false
   }
 ]
