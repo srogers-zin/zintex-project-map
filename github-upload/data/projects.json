@@ -372172,7 +372172,7 @@
     "lng": -91.39520019999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-23T03:04:14.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372947,7 +372947,7 @@
     "lng": -92.21534299999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-16T00:15:31.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373800,7 +373800,7 @@
     "lng": -88.3854731,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-13T01:19:27.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374279,7 +374279,7 @@
     "lng": -97.9727815,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-07T21:33:16.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374582,5 +374582,17 @@
     "createdAt": "2026-06-23T01:45:54.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "115036010",
+    "companycamProjectId": "115036010",
+    "address": "1031 Lower Woodville Rd, Natchez, Mississippi, 39120",
+    "lat": 31.42278689999999,
+    "lng": -91.39520019999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-22T00:18:30.000Z",
+    "optedOut": false
   }
 ]
