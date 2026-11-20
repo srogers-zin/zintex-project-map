@@ -352338,7 +352338,7 @@
     "lng": -97.5206307,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-05T01:16:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -366105,7 +366105,7 @@
     "lng": -97.5206307,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-04T20:20:32.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372705,7 +372705,7 @@
     "lng": -94.0170701,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-05T01:10:12.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373387,7 +373387,7 @@
     "lng": -91.0273852,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-27T14:04:37.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373787,7 +373787,7 @@
     "lng": -90.2431879,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-20T22:17:21.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374086,7 +374086,7 @@
     "lng": -97.5263974,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-19T16:53:47.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374164,7 +374164,7 @@
     "lng": -97.5263974,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-18T17:42:01.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374205,6 +374205,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-11-10T17:25:48.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118999335",
+    "companycamProjectId": "118999335",
+    "address": "3820 Wildwood Rd, Moss Point, Mississippi, 39562",
+    "lat": 30.5039261,
+    "lng": -88.5459491,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-15T23:27:31.000Z",
     "optedOut": false
   }
 ]
