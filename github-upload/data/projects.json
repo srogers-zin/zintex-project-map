@@ -374292,7 +374292,7 @@
     "lng": -93.1574648,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-12T15:11:45.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374593,6 +374593,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-09-22T00:18:30.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "117404138",
+    "companycamProjectId": "117404138",
+    "address": "204 Little Bayou Ln, Kenner, Louisiana, 70065",
+    "lat": 30.037198,
+    "lng": -90.27099009999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-23T00:14:21.000Z",
     "optedOut": false
   }
 ]
