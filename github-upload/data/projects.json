@@ -362101,7 +362101,7 @@
     "lng": -92.4342765,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-22T00:18:01.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -372666,7 +372666,7 @@
     "lng": -92.5944664,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-09T01:12:59.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373723,7 +373723,7 @@
     "lng": -89.28909349999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-04T16:08:48.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -373852,7 +373852,7 @@
     "lng": -92.89218574762343,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-26T16:46:26.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374240,7 +374240,7 @@
     "lng": -89.39223539999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-29T00:18:37.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374878,5 +374878,17 @@
     "createdAt": "2026-11-09T01:23:02.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "110401557",
+    "companycamProjectId": "110401557",
+    "address": "647 Scr 78, Taylorsville, MS, 39168",
+    "lat": 31.923065,
+    "lng": -89.40146600000001,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-22T07:57:09.000Z",
+    "optedOut": false
   }
 ]
