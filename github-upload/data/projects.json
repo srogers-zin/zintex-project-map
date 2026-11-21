@@ -374357,7 +374357,7 @@
     "lng": -93.98423419999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-05T01:01:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374605,6 +374605,18 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-10-23T00:14:21.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118529189",
+    "companycamProjectId": "118529189",
+    "address": "2330 S Beech Ct, Broken Arrow, Oklahoma, 74012",
+    "lat": 36.029583,
+    "lng": -95.8186302,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-09T01:21:10.000Z",
     "optedOut": false
   }
 ]
