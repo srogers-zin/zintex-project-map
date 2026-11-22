@@ -374890,5 +374890,44 @@
     "photoCount": 1,
     "createdAt": "2026-07-22T07:57:09.000Z",
     "optedOut": false
+  },
+  {
+    "id": "116427271",
+    "companycamProjectId": "116427271",
+    "address": "224 W Meadowsweet Ct, Andover, KS, 67002",
+    "lat": 37.73014536135568,
+    "lng": -97.1374056302011,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-09T17:16:34.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "118529172",
+    "companycamProjectId": "118529172",
+    "address": "34840 W Hwy 66, Bristow, Oklahoma, 74010",
+    "lat": 35.884352,
+    "lng": -96.38186929999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-11-09T01:21:00.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "103392389",
+    "companycamProjectId": "103392389",
+    "address": "234 Amistad Rd, San Angelo, Texas, 76901",
+    "lat": 31.4427752,
+    "lng": -100.4915724,
+    "locationId": "san-angelo",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-04-18T00:24:09.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
