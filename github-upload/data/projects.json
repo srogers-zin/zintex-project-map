@@ -374227,7 +374227,7 @@
     "lng": -86.24610539999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-11-14T03:58:43.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374912,7 +374912,7 @@
     "lng": -96.38186929999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-09T01:21:00.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374929,5 +374929,17 @@
     "createdAt": "2026-04-18T00:24:09.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "110823427",
+    "companycamProjectId": "110823427",
+    "address": "2901 Timber Creek Trail, Fort Worth, TX, 76118",
+    "lat": 32.79926863975088,
+    "lng": -97.18599200248718,
+    "locationId": "dfw",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-07-27T21:20:33.000Z",
+    "optedOut": false
   }
 ]
