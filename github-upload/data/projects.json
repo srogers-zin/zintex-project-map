@@ -374809,7 +374809,7 @@
     "lng": -86.48617600000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-29T22:14:18.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374835,7 +374835,7 @@
     "lng": -97.9388398,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-09-26T00:03:14.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374989,7 +374989,7 @@
     "lng": -90.10808480903506,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-27T20:27:53.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375097,5 +375097,29 @@
     "createdAt": "2025-11-16T15:54:19.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "116383151",
+    "companycamProjectId": "116383151",
+    "address": "18709 St Andrews Ct W, Prairieville, LA, 70769",
+    "lat": 30.3357043,
+    "lng": -91.0009111,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-09T02:38:36.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118885608",
+    "companycamProjectId": "118885608",
+    "address": "5264 Bears Paw Cir, Memphis, Tennessee, 38120",
+    "lat": 35.1447593,
+    "lng": -89.8843151,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-13T01:19:17.000Z",
+    "optedOut": false
   }
 ]
