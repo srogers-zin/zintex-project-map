@@ -352091,7 +352091,7 @@
     "lng": -93.1678092,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-27T00:53:03.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -374253,7 +374253,7 @@
     "lng": -97.55870209999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-16T21:58:54.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375002,7 +375002,7 @@
     "lng": -88.4660129,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-20T00:25:17.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375041,7 +375041,7 @@
     "lng": -94.9320429,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-24T19:40:33.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375377,7 +375377,7 @@
     "lng": -97.96539659999999,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-21T18:13:47.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375550,5 +375550,17 @@
     "createdAt": "2025-08-21T00:18:42.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "118982923",
+    "companycamProjectId": "118982923",
+    "address": "210 Austin St, Balmorhea, TX, 79718",
+    "lat": 31.98161795031088,
+    "lng": -102.1196456485091,
+    "locationId": "midland-odessa",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-14T21:58:55.000Z",
+    "optedOut": false
   }
 ]
