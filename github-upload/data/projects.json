@@ -374822,7 +374822,7 @@
     "lng": -85.59504179999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-19T00:47:43.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375028,7 +375028,7 @@
     "lng": -92.20486670000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-20T01:14:38.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375156,7 +375156,7 @@
     "lng": -85.98567556589842,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 2,
     "createdAt": "2026-11-05T00:33:34.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375234,7 +375234,7 @@
     "lng": -89.07444799999999,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-14T01:38:13.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375299,7 +375299,7 @@
     "lng": -84.12767470000001,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-08T14:28:17.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375403,7 +375403,7 @@
     "lng": -90.3042616,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-18T02:01:31.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375561,6 +375561,30 @@
     "tags": [],
     "photoCount": 1,
     "createdAt": "2026-11-14T21:58:55.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "114929938",
+    "companycamProjectId": "114929938",
+    "address": "4100 Bridle Ridge Dr, Valdosta, Georgia, 31605",
+    "lat": 30.9220649,
+    "lng": -83.2292069,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-09-21T00:27:09.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "117622888",
+    "companycamProjectId": "117622888",
+    "address": "3317 Brookhollow Ct, Oklahoma City, Oklahoma, 73120",
+    "lat": 35.582526,
+    "lng": -97.57689599999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-27T00:13:11.000Z",
     "optedOut": false
   }
 ]
