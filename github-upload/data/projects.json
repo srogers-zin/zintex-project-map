@@ -375586,5 +375586,17 @@
     "photoCount": 1,
     "createdAt": "2026-10-27T00:13:11.000Z",
     "optedOut": false
+  },
+  {
+    "id": "118804296",
+    "companycamProjectId": "118804296",
+    "address": "9197 Baker Rd, Marietta, Oklahoma, 73448",
+    "lat": 33.945174,
+    "lng": -97.09527299999999,
+    "locationId": "wichita-falls",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-12T01:35:16.000Z",
+    "optedOut": false
   }
 ]
