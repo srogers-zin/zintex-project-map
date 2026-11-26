@@ -374190,7 +374190,7 @@
     "lng": -86.8322587,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-27T01:15:50.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375143,7 +375143,7 @@
     "lng": -98.12421739999999,
     "locationId": "san-angelo",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-09-30T16:41:32.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375195,7 +375195,7 @@
     "lng": -89.8435338,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-10-21T00:33:52.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375208,7 +375208,7 @@
     "lng": -85.8344015,
     "locationId": "tyler",
     "tags": [],
-    "photoCount": 1,
+    "photoCount": 2,
     "createdAt": "2026-10-13T17:46:31.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375763,7 +375763,7 @@
     "lng": -97.940789,
     "locationId": "wichita-falls",
     "tags": [],
-    "photoCount": 0,
+    "photoCount": 1,
     "createdAt": "2026-11-14T00:50:37.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
@@ -375884,5 +375884,29 @@
     "createdAt": "2026-10-31T18:47:13.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "116595596",
+    "companycamProjectId": "116595596",
+    "address": "373 Anderson County Rd, Palestine, TX, 75801",
+    "lat": 31.7861929,
+    "lng": -95.4852478,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-10-12T22:47:43.000Z",
+    "optedOut": false
+  },
+  {
+    "id": "118216477",
+    "companycamProjectId": "118216477",
+    "address": "3362 AR-58, Cave City, Arkansas, 72521",
+    "lat": 36.0353081,
+    "lng": -91.491974,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 1,
+    "createdAt": "2026-11-04T02:24:25.000Z",
+    "optedOut": false
   }
 ]
