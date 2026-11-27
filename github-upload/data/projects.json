@@ -376077,5 +376077,70 @@
     "createdAt": "2026-05-30T21:41:05.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "117896891",
+    "companycamProjectId": "117896891",
+    "address": "1046 Devonshire Dr, Jackson, MS, 39206",
+    "lat": 32.3865063,
+    "lng": -90.185831,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-30T06:00:49.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "118885614",
+    "companycamProjectId": "118885614",
+    "address": "6559 Grawood Dr, Keithville, Louisiana, 71047",
+    "lat": 32.3591862,
+    "lng": -93.8803319,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-11-13T01:19:21.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "116892781",
+    "companycamProjectId": "116892781",
+    "address": "7700 Springdale Rd, Alexander, Arkansas, 72002",
+    "lat": 34.6670185,
+    "lng": -92.5249111,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-16T00:15:22.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "117623677",
+    "companycamProjectId": "117623677",
+    "address": "2866 Dearing Cove, Memphis, Tennessee, 38118",
+    "lat": 35.0706613,
+    "lng": -89.9166182,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-10-27T00:34:48.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
+  },
+  {
+    "id": "118007042",
+    "companycamProjectId": "118007042",
+    "address": "8 Rowlett Ln, Conway, Arkansas, 72032",
+    "lat": 35.0687398,
+    "lng": -92.39771239999999,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 0,
+    "createdAt": "2026-11-02T01:54:23.000Z",
+    "optedOut": false,
+    "highVolumeUntagged": true
   }
 ]
