@@ -376142,5 +376142,17 @@
     "createdAt": "2026-11-02T01:54:23.000Z",
     "optedOut": false,
     "highVolumeUntagged": true
+  },
+  {
+    "id": "119368388",
+    "companycamProjectId": "119368388",
+    "address": "10257 Killen Rd, Meridian, Mississippi, 39307",
+    "lat": 32.416647,
+    "lng": -88.7842857,
+    "locationId": "tyler",
+    "tags": [],
+    "photoCount": 2,
+    "createdAt": "2026-11-20T02:42:40.000Z",
+    "optedOut": false
   }
 ]
